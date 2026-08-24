@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Frame } from "./site-chrome";
 import { recentPapers } from "./site-data";
@@ -29,12 +28,13 @@ export default function Home() {
         </header>
 
         <figure className="about-portrait">
-          <Image
+          {/* Vinext's image optimizer returns 400 on this Cloudflare deployment. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src="/murali.jpg"
             alt="Balakrishnan (Murali) Narayanaswamy"
             width={431}
             height={386}
-            priority
           />
         </figure>
 

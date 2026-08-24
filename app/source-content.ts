@@ -453,73 +453,73 @@ export const sourcePatents = [
     "number": "WO2023097270A1"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:LjlpjdlvIbIC\" target=\"_blank\" rel=\"noreferrer\">Scaling query processing resources for efficient utilization and performance</a> G Saxena, B Narayanaswamy, I Pandis, N Chainani, MR Rahman, ...",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:LjlpjdlvIbIC\" target=\"_blank\" rel=\"noreferrer\">Scaling query processing resources for efficient utilization and performance</a>",
+    "body": "G Saxena, B Narayanaswamy, I Pandis, N Chainani, MR Rahman, ...",
     "number": "US Patent App. 17/547,831"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:eq2jaN3J8jMC\" target=\"_blank\" rel=\"noreferrer\">Dynamic compilation of machine learning models based on hardware configurations</a> B Narayanaswamy, G Soundararajan, J Chen, Y Papakonstantinou, ...",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:eq2jaN3J8jMC\" target=\"_blank\" rel=\"noreferrer\">Dynamic compilation of machine learning models based on hardware configurations</a>",
+    "body": "B Narayanaswamy, G Soundararajan, J Chen, Y Papakonstantinou, ...",
     "number": "US Patent 11,657,069"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:SdhP9T11ey4C\" target=\"_blank\" rel=\"noreferrer\">Integrating query optimization with machine learning model prediction</a> B Narayanaswamy, G Soundararajan, J Chen, Y Papakonstantinou, ...",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:SdhP9T11ey4C\" target=\"_blank\" rel=\"noreferrer\">Integrating query optimization with machine learning model prediction</a>",
+    "body": "B Narayanaswamy, G Soundararajan, J Chen, Y Papakonstantinou, ...",
     "number": "US Patent 11,636,124"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:9vf0nzSNQJEC\" target=\"_blank\" rel=\"noreferrer\">Automatically refreshing materialized views according to performance benefit</a> Y Papakonstantinou, V Ercegovac, G Saxena, B Narayanaswamy, ...",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:9vf0nzSNQJEC\" target=\"_blank\" rel=\"noreferrer\">Automatically refreshing materialized views according to performance benefit</a>",
+    "body": "Y Papakonstantinou, V Ercegovac, G Saxena, B Narayanaswamy, ...",
     "number": "US Patent 11,609,910"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:JoZmwDi-zQgC\" target=\"_blank\" rel=\"noreferrer\">Dynamic generation of match rules for rewriting queries to use materialized views</a> A Hernich, V Ercegovac, G Saxena, P Parchas, Y Papakonstantinou, ...",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:JoZmwDi-zQgC\" target=\"_blank\" rel=\"noreferrer\">Dynamic generation of match rules for rewriting queries to use materialized views</a>",
+    "body": "A Hernich, V Ercegovac, G Saxena, P Parchas, Y Papakonstantinou, ...",
     "number": "US Patent 11,550,787"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:eflP2zaiRacC\" target=\"_blank\" rel=\"noreferrer\">Goal-oriented dialog systems and method s</a> R Gangadharaiah, C Elkan, B Narayanaswamy",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:eflP2zaiRacC\" target=\"_blank\" rel=\"noreferrer\">Goal-oriented dialog systems and method s</a>",
+    "body": "R Gangadharaiah, C Elkan, B Narayanaswamy",
     "number": "US Patent 10,963,819"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:LPZeul_q3PIC\" target=\"_blank\" rel=\"noreferrer\">Task-oriented dialog systems utilizing combined supervised and reinforcement learning</a> R Gangadharaiah, B Narayanaswamy, C Elkan",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:LPZeul_q3PIC\" target=\"_blank\" rel=\"noreferrer\">Task-oriented dialog systems utilizing combined supervised and reinforcement learning</a>",
+    "body": "R Gangadharaiah, B Narayanaswamy, C Elkan",
     "number": "US Patent 10,860,629"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:geHnlv5EZngC\" target=\"_blank\" rel=\"noreferrer\">Demand forecasting via direct quantile loss optimization</a> KEJ Torkkola, R He, WY Hua, AM Lamb, B Narayanaswamy, Z Cen",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:geHnlv5EZngC\" target=\"_blank\" rel=\"noreferrer\">Demand forecasting via direct quantile loss optimization</a>",
+    "body": "KEJ Torkkola, R He, WY Hua, AM Lamb, B Narayanaswamy, Z Cen",
     "number": "US Patent 10,783,442"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:maZDTaKrznsC\" target=\"_blank\" rel=\"noreferrer\">Non-technical loss detection and localization</a> V Arya, K Das, J Hazra, S Kalyanaraman, B Narayanaswamy, ...",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:maZDTaKrznsC\" target=\"_blank\" rel=\"noreferrer\">Non-technical loss detection and localization</a>",
+    "body": "V Arya, K Das, J Hazra, S Kalyanaraman, B Narayanaswamy, ...",
     "number": "US Patent 9,536,198"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:ULOm3_A8WrAC\" target=\"_blank\" rel=\"noreferrer\">Power factor</a> J Hazra, B Narayanaswamy, DP Seetharamakrishnan, LC De Silva",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:ULOm3_A8WrAC\" target=\"_blank\" rel=\"noreferrer\">Power factor</a>",
+    "body": "J Hazra, B Narayanaswamy, DP Seetharamakrishnan, LC De Silva",
     "number": "US Patent 9,343,904"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:RHpTSmoSYBkC\" target=\"_blank\" rel=\"noreferrer\">Condition-based management of power transformers</a> K Das, J Hazra, N Jespersen, B Narayanaswamy, ...",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:RHpTSmoSYBkC\" target=\"_blank\" rel=\"noreferrer\">Condition-based management of power transformers</a>",
+    "body": "K Das, J Hazra, N Jespersen, B Narayanaswamy, ...",
     "number": "US Patent 9,312,695"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:_Qo2XoVZTnwC\" target=\"_blank\" rel=\"noreferrer\">Enforcing fine-grained demand management in smart grids</a> J Hazra, SA Husain, S Kalyanaraman, B Narayanaswamy",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:_Qo2XoVZTnwC\" target=\"_blank\" rel=\"noreferrer\">Enforcing fine-grained demand management in smart grids</a>",
+    "body": "J Hazra, SA Husain, S Kalyanaraman, B Narayanaswamy",
     "number": "US Patent 9,188,967"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:4TOpqqG69KYC\" target=\"_blank\" rel=\"noreferrer\">Estimating loss rates of links in smart grids</a> V Arya, B Narayanaswamy",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:4TOpqqG69KYC\" target=\"_blank\" rel=\"noreferrer\">Estimating loss rates of links in smart grids</a>",
+    "body": "V Arya, B Narayanaswamy",
     "number": "US Patent 9,048,664"
   },
   {
-    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:P5F9QuxV20EC\" target=\"_blank\" rel=\"noreferrer\">Estimating loss rates of links in smart grids</a> V Arya, B Narayanaswamy",
-    "body": "",
+    "title": "<a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mKzKZfUAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=mKzKZfUAAAAJ:P5F9QuxV20EC\" target=\"_blank\" rel=\"noreferrer\">Estimating loss rates of links in smart grids</a>",
+    "body": "V Arya, B Narayanaswamy",
     "number": "US Patent 9,043,174"
   }
 ] as const;
