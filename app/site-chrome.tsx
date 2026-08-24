@@ -5,14 +5,14 @@ export function Frame({ children }: { children: React.ReactNode }) {
     <div className="site-frame">
       <aside className="sidebar">
         <Link href="/" className="identity">
-          <span className="monogram">MB</span>
+          <span className="monogram portrait-mark" aria-hidden="true" />
           <span><strong>Balakrishnan</strong><br />(Murali) Narayanaswamy</span>
         </Link>
         <nav aria-label="Primary navigation">
           <Link href="/">About Me</Link>
           <Link href="/research">Research Publications</Link>
           <Link href="/patents">Patents</Link>
-          <a href="https://sites.google.com/site/muralibalki/cv" target="_blank" rel="noreferrer">CV ↗</a>
+          <Link href="/cv">CV</Link>
         </nav>
         <div className="sidebar-elsewhere">
           <p>Elsewhere</p>
@@ -23,8 +23,8 @@ export function Frame({ children }: { children: React.ReactNode }) {
       </aside>
       <div className="main-column">
         <header className="mobile-header">
-          <Link href="/" className="identity"><span className="monogram">MB</span><strong>Murali Balki</strong></Link>
-          <nav><Link href="/research">Research</Link><Link href="/patents">Patents</Link></nav>
+          <Link href="/" className="identity"><span className="monogram portrait-mark" aria-hidden="true" /><strong>Murali Balki</strong></Link>
+          <nav><Link href="/research">Research</Link><Link href="/patents">Patents</Link><Link href="/cv">CV</Link></nav>
         </header>
         <main>{children}</main>
         <footer>

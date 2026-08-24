@@ -11,6 +11,7 @@ a:hover { color: var(--accent); }
 .sidebar { position: sticky; top: 0; height: 100vh; padding: 38px 32px; border-right: 1px solid var(--line); display: flex; flex-direction: column; background: #eeece4; }
 .identity { display: flex; align-items: center; gap: 13px; font-size: 13px; line-height: 1.35; }
 .monogram { width: 42px; height: 42px; background: var(--ink); color: var(--acid); display: grid; place-items: center; font-weight: 800; letter-spacing: -.04em; flex: none; }
+.portrait-mark { background: url("/murali.jpg") center 28% / cover no-repeat; }
 .sidebar nav { display: flex; flex-direction: column; gap: 7px; margin-top: 66px; }
 .sidebar nav a { padding: 8px 0; border-bottom: 1px solid transparent; font-weight: 650; font-size: 14px; }
 .sidebar nav a:hover { border-color: var(--ink); }
@@ -66,6 +67,10 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
 .patent-source-row h2 { margin: 0; font: 600 20px/1.35 Georgia, serif; }
 .patent-source-row p { margin: 7px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .patent-source-row .patent-number { color: var(--accent); font-weight: 750; }
+.cv-actions { display: flex; gap: 12px; margin: -20px 0 24px; }
+.cv-actions a { padding: 10px 14px; border: 1px solid var(--ink); color: var(--accent); font-size: 13px; font-weight: 750; }
+.cv-actions a:hover { background: var(--ink); color: var(--acid); }
+.cv-viewer { display: block; width: 100%; height: min(80vh, 980px); min-height: 640px; border: 1px solid var(--ink); background: white; }
 .main-column > footer { width: min(100%, 1030px); padding: 34px 76px 44px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 30px; color: var(--muted); font-size: 11px; line-height: 1.5; }
 .main-column > footer p { max-width: 460px; margin: 0; }
 
