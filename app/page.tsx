@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { blogPosts } from "./blog-data";
 import { Frame } from "./site-chrome";
 import { recentPapers } from "./site-data";
 import { sourceAbout } from "./source-content";
@@ -47,6 +48,22 @@ export default function Home() {
               key={html}
             />
           ))}
+        </section>
+
+        <section className="dense-section">
+          <div className="section-title-row">
+            <h2>Latest writing</h2>
+            <Link href="/blog">All posts</Link>
+          </div>
+          <div className="home-blog-list">
+            {blogPosts.map((post, index) => (
+              <Link href={`/blog/${post.slug}`} className="home-blog-row" key={post.slug}>
+                <span className="mono">{String(index + 1).padStart(2, "0")}</span>
+                <strong>{post.title}</strong>
+                <span aria-hidden="true">→</span>
+              </Link>
+            ))}
+          </div>
         </section>
 
         <section className="dense-section">

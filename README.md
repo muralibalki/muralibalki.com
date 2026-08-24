@@ -29,6 +29,10 @@ npm run dev
 npm run build
 ```
 
+## Adding blog posts
+
+Add Markdown files to `content/blog`. The filename becomes the post title and URL slug unless optional `title`, `description`, or `date` front matter is provided.
+
 ## Deploy to Cloudflare Workers
 
 Connect this repository in the Cloudflare dashboard, or deploy from the command line after authenticating Wrangler:
