@@ -10,7 +10,6 @@ export function Frame({ children }: { children: React.ReactNode }) {
         </Link>
         <nav aria-label="Primary navigation">
           <Link href="/">About Me</Link>
-          <Link href="/writing" className="nav-new">Writing <i>new</i></Link>
           <Link href="/research">Research Publications</Link>
           <Link href="/patents">Patents</Link>
           <a href="https://sites.google.com/site/muralibalki/cv" target="_blank" rel="noreferrer">CV ↗</a>
@@ -25,7 +24,7 @@ export function Frame({ children }: { children: React.ReactNode }) {
       <div className="main-column">
         <header className="mobile-header">
           <Link href="/" className="identity"><span className="monogram">MB</span><strong>Murali Balki</strong></Link>
-          <nav><Link href="/writing">Writing</Link><Link href="/research">Research</Link></nav>
+          <nav><Link href="/research">Research</Link><Link href="/patents">Patents</Link></nav>
         </header>
         <main>{children}</main>
         <footer>

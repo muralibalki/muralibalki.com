@@ -2,12 +2,12 @@
 
 Personal research site and technical blog for Balakrishnan (Murali) Narayanaswamy.
 
-The site preserves the dense, slightly irreverent tone of the original Google Site while adding a dedicated seven-part writing series on AI agents as information-processing systems.
+The site preserves the dense, slightly irreverent tone and full archive of the original Google Site.
 
 ## What is included
 
 - About and professional trajectory
-- Writing index and seven article templates
+- Complete original biographical text and links
 - Recent research publications
 - Patent archive
 - Responsive editorial layout
@@ -39,10 +39,6 @@ npx wrangler deploy
 ```
 
 The site is built with React, Next-compatible routes, Vinext, Vite, and Cloudflare Workers.
-
-## Editing the blog
-
-The series metadata lives in `app/site-data.ts`. Article templates live at `app/writing/[slug]/page.tsx`; replace the placeholder body with each completed essay or split posts into individual content modules as the series grows.
 
 ## Disclaimer
 

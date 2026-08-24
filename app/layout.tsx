@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     default: "Balakrishnan (Murali) Narayanaswamy",
     template: "%s · Murali Balki",
   },
-  description: "Research and writing on AI, machine learning, optimization, and production data systems.",
+  description: "Research on AI, machine learning, optimization, and production data systems.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

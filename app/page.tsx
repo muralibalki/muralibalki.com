@@ -1,25 +1,22 @@
-// Internal workspace sites can read the authenticated OpenAI user from the
-// forwarded request headers:
-//
-// import { headers } from "next/headers";
-//
-// export default async function Home() {
-//   const requestHeaders = await headers();
-//   const email = requestHeaders.get("oai-authenticated-user-email");
-//   const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
-//   const fullName =
-//     encodedFullName &&
-//     requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
-//       "percent-encoded-utf-8"
-//       ? decodeURIComponent(encodedFullName)
-//       : null;
-//   const displayName = fullName ?? email;
-//   // ...
-// }
-
 import Link from "next/link";
 import { Frame } from "./site-chrome";
-import { posts, recentPapers } from "./site-data";
+import { recentPapers } from "./site-data";
+import { sourceAbout } from "./source-content";
+
+function SourceParagraph({
+  html,
+  className,
+}: {
+  html: string;
+  className?: string;
+}) {
+  return (
+    <p
+      className={className}
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
+}
 
 export default function Home() {
   return (
@@ -30,58 +27,15 @@ export default function Home() {
           <h1>Defined by my work?</h1>
         </header>
 
-        <section className="prose-section">
+        <section className="prose-section source-copy">
           <h2>Current :</h2>
-          <p className="lead">
-            I am a Normal Senior Principal Machine Learning Scientist working on
-            Statistics, Machine Learning, Artificial Intelligence, Big Data,
-            Reinforcement Learning, GenAI—add other buzz words here—making history
-            at the one and only Amazon.
-          </p>
-          <p>
-            I lead a team in the Learned Systems Group, within the Data and AI Org
-            in AWS, working on products such as Amazon Bedrock, Amazon SageMaker
-            Unified Studio, Amazon Redshift and Amazon RDS. Some services I
-            pretend to, used to, will or sometimes even do help with—with high
-            variance and low mean levels of usefulness—include Amazon Personalize,
-            Forecast, Redshift and RDS.
-          </p>
-          <p>
-            My research interests lie at the intersection of AI, optimization,
-            learning and inference, particularly using them to understand, model
-            and combat noise and uncertainty in real-world applications. My goal
-            is to develop novel, somewhat theoretically well-motivated
-            optimization algorithms that <code>work</code>.
-          </p>
-        </section>
-
-        <aside className="note-block">
-          <span>NEW</span>
-          <div>
-            <h2>Notes on agents as information-processing systems</h2>
-            <p>
-              A seven-part series about models, harnesses, watchmen, feedback,
-              and what production data systems can teach us about AI agents.
-            </p>
-            <Link href="/writing">Start with the overview →</Link>
-          </div>
-        </aside>
-
-        <section className="dense-section">
-          <div className="section-title-row">
-            <h2>Recent writing</h2>
-            <Link href="/writing">All writing</Link>
-          </div>
-          <div className="compact-list">
-            {posts.slice(0, 4).map((post) => (
-              <Link href={`/writing/${post.slug}`} className="compact-row" key={post.slug}>
-                <span className="mono">{String(post.part).padStart(2, "0")}</span>
-                <strong>{post.title}</strong>
-                <span className="muted">{post.status}</span>
-                <span aria-hidden="true">↗</span>
-              </Link>
-            ))}
-          </div>
+          {sourceAbout.current.map((html, index) => (
+            <SourceParagraph
+              html={html}
+              className={index === 0 ? "lead" : undefined}
+              key={html}
+            />
+          ))}
         </section>
 
         <section className="dense-section">
@@ -100,29 +54,31 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="prose-section trajectory">
+        <section className="prose-section trajectory source-copy">
           <h2>Trajectory :</h2>
-          <p>
-            From 2014–2015 I was a post-doc at UC San Diego in the Machine
-            Learning Group and MESL. Before that I was a Research Staff Member
-            at IBM Research, India Research Lab, working across high-performance
-            computing and smarter energy systems.
-          </p>
-          <p>
-            Before IBM (note the obfuscation of a start date), I was a doctoral
-            student in Electrical and Computer Engineering at Carnegie Mellon
-            University. My PhD work studied theoretical and algorithmic limits
-            for large-scale detection using ideas from information and coding
-            theory.
-          </p>
+          {sourceAbout.trajectory.map((html) => (
+            <SourceParagraph html={html} key={html} />
+          ))}
         </section>
 
-        <section className="education-grid">
+        <section className="prose-section source-copy">
+          <h2>Service :</h2>
+          <ul className="source-list">
+            {sourceAbout.service.map((html) => (
+              <li dangerouslySetInnerHTML={{ __html: html }} key={html} />
+            ))}
+          </ul>
+        </section>
+
+        <section className="education-grid source-copy">
           <h2>Education : <small>(kinda)</small></h2>
           <dl>
-            <div><dt>B.E.</dt><dd>Electronics &amp; Communication Engineering · M.S.R.I.T., Bangalore · 2003</dd></div>
-            <div><dt>M.S.</dt><dd>Electrical &amp; Computer Engineering · Carnegie Mellon · 2005</dd></div>
-            <div><dt>Ph.D.</dt><dd>Electrical &amp; Computer Engineering · Carnegie Mellon · 2011</dd></div>
+            {sourceAbout.education.slice(0, 3).map((html, index) => (
+              <div key={html}>
+                <dt>{["B.E.", "M.S.", "Ph.D."][index]}</dt>
+                <dd dangerouslySetInnerHTML={{ __html: html }} />
+              </div>
+            ))}
           </dl>
         </section>
       </article>

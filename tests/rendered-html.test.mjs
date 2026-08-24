@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 const descriptionMeta =
-  /<meta(?=[^>]*\bname=["']description["'])(?=[^>]*\bcontent=["']Research and writing on AI, machine learning, optimization, and production data systems\.["'])[^>]*>/i;
+  /<meta(?=[^>]*\bname=["']description["'])(?=[^>]*\bcontent=["']Research on AI, machine learning, optimization, and production data systems\.["'])[^>]*>/i;
 
 test("renders production metadata", async () => {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
