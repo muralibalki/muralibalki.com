@@ -6,7 +6,7 @@ export function Frame({ children }: { children: React.ReactNode }) {
       <aside className="sidebar">
         <Link href="/" className="identity">
           <span className="monogram portrait-mark" aria-hidden="true" />
-          <span><strong>Balakrishnan</strong><br />(Murali) Narayanaswamy</span>
+          <span><strong>Murali</strong><br />Balakrishnan Narayanaswamy</span>
         </Link>
         <nav aria-label="Primary navigation">
           <Link href="/">About Me</Link>
