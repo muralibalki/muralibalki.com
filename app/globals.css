@@ -24,6 +24,8 @@ a:hover { color: var(--accent); }
 .kicker { margin: 0 0 14px; color: var(--accent); font: 750 11px/1.1 Arial, sans-serif; letter-spacing: .18em; }
 h1 { margin: 0; font: 500 clamp(44px, 7vw, 82px)/.95 Georgia, serif; letter-spacing: -.055em; text-transform: lowercase; }
 .page-description { max-width: 670px; margin: 22px 0 0; color: var(--muted); font: 21px/1.5 Georgia, serif; }
+.about-portrait { width: min(100%, 431px); margin: -20px 0 48px; }
+.about-portrait img { display: block; width: 100%; height: auto; border: 1px solid var(--ink); box-shadow: 8px 8px 0 var(--ink); }
 .prose-section { max-width: 790px; margin: 0 0 58px; }
 .prose-section h2, .dense-section h2, .education-grid > h2 { margin: 0 0 20px; font: 700 14px/1.2 Arial, sans-serif; letter-spacing: .01em; }
 .prose-section p { margin: 0 0 18px; font: 18px/1.72 Georgia, serif; }

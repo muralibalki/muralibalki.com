@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Frame } from "./site-chrome";
 import { recentPapers } from "./site-data";
@@ -26,6 +27,16 @@ export default function Home() {
           <p className="kicker">ABOUT ME</p>
           <h1>Defined by my work?</h1>
         </header>
+
+        <figure className="about-portrait">
+          <Image
+            src="/murali.jpg"
+            alt="Balakrishnan (Murali) Narayanaswamy"
+            width={431}
+            height={386}
+            priority
+          />
+        </figure>
 
         <section className="prose-section source-copy">
           <h2>Current :</h2>

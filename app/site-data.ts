@@ -15,19 +15,13 @@ export const recentPapers = [
   { year: "2020", venue: "KDD · Best Paper", title: "Temporal-Contextual Recommendation in Real-Time", authors: "Yifei Ma, Balakrishnan Narayanaswamy, Haibin Lin, Hao Ding", href: "https://www.amazon.science/publications/temporal-contextual-recommendation-in-real-time" },
 ];
 
-export const patents = [
-  ["2024", "Assisted Database Anomaly Mitigation", "US 12,130,788"],
-  ["2023", "Detecting idle periods at network endpoints for management actions at processing clusters for managed databases", "WO2023097270A1"],
-  ["2023", "Scaling query processing resources for efficient utilization and performance", "US Patent App. 17/547,831"],
-  ["2023", "Dynamic compilation of machine learning models based on hardware configurations", "US 11,657,069"],
-  ["2023", "Integrating query optimization with machine learning model prediction", "US 11,636,124"],
-  ["2023", "Automatically refreshing materialized views according to performance benefit", "US 11,609,910"],
-  ["2023", "Dynamic generation of match rules for rewriting queries to use materialized views", "US 11,550,787"],
-  ["2021", "Goal-oriented dialog systems and methods", "US 10,963,819"],
-  ["2020", "Task-oriented dialog systems utilizing combined supervised and reinforcement learning", "US 10,860,629"],
-  ["2020", "Demand forecasting via direct quantile loss optimization", "US 10,783,442"],
-  ["2017", "Non-technical loss detection and localization", "US 9,536,198"],
-  ["2016", "Power factor", "US 9,343,904"],
-  ["2016", "Condition-based management of power transformers", "US 9,312,695"],
-  ["2015", "Enforcing fine-grained demand management in smart grids", "US 9,188,967"],
-];
+export const additionalPatents = [
+  { title: "Assisted database anomaly mitigation", inventors: "Vikramank Yogendra Singh, Zhao Song, Balakrishnan Narayanaswamy, et al.", number: "US 12,554,691", href: "https://patents.google.com/patent/US12554691B1/en" },
+  { title: "Adapting concurrency to support machine learning model prediction", inventors: "Balakrishnan Narayanaswamy, Gokul Soundararajan, Jiayuan Chen, et al.", number: "US 12,547,925", href: "https://patents.google.com/patent/US12547925B1/en" },
+  { title: "Predicting a future workload for scaling database processing resources for satisfying a performance objective", inventors: "Vikram Nathan, Balakrishnan Narayanaswamy, Andreas Michael Kipf, Tim Kraska", number: "US 12,530,355", href: "https://patents.google.com/patent/US12530355B1/en" },
+  { title: "Query performance prediction using multiple experts", inventors: "Zhengchun Liu, Gaurav Saxena, Balakrishnan Narayanaswamy, et al.", number: "US 12,248,473", href: "https://patents.google.com/patent/US12248473B1/en" },
+  { title: "Rewriting queries to compensate for stale materialized views", inventors: "Yannis Papakonstantinou, Balakrishnan Narayanaswamy, Christos Faloutsos, Vuk Ercegovac", number: "US 11,868,347", href: "https://patents.google.com/patent/US11868347B1/en" },
+  { title: "Artificial intelligence system using hybrid technique for task-oriented dialog management", inventors: "Rashmi Gangadharaiah, Charles Elkan, Balakrishnan Narayanaswamy", number: "US 11,797,769", href: "https://patents.google.com/patent/US11797769B1/en" },
+  { title: "Generating an ensemble of forecasting models", inventors: "Balakrishnan Narayanaswamy, Thomas George, Yogish Sabharwal, et al.", number: "US 2015/0253463 A1", href: "https://patents.google.com/patent/US20150253463A1/en" },
+  { title: "Power factor", inventors: "Jagabondhu Hazra, Balakrishnan Narayanaswamy, Devasenapathi P. Seetharamakrishnan, Liyanage Chandratilak De Silva", number: "US 9,014,868", href: "https://patents.google.com/patent/US9014868B2/en" },
+] as const;
