@@ -86,5 +86,6 @@ test("renders the blog index and first Markdown post", async () => {
   const nextPostHtml = await nextPostResponse.text();
   assert.match(nextPostHtml, /<h1>Minding the Gap<\/h1>/i);
   assert.match(nextPostHtml, /src=["']\/mind-the-gap\.jpeg["']/i);
+  assert.match(nextPostHtml, /href=["']https:\/\/www\.lspace\.org\/books\/pqf\/the-truth\.html["']/i);
   assert.match(nextPostHtml, /<table>/i);
 });
