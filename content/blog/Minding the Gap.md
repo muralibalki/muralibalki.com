@@ -12,6 +12,8 @@ At the same time, it's clear to even the most AI-pilled among us that we aren't 
 
 It isn't because the agents aren't good. They are often existential-crisis-inducingly good. But there is a chasm - or at least a gap - between a model that sometimes-but-not-always has a capability and a product. A gap stuffed with edge cases, product constraints, user expectations that shifted since I started writing this sentence, and more.
 
+As models get better, the goalposts shift and sometimes even change shape. Users see that a model got better, or solved an Erdős problem, and expect the product to do something harder that 'obviously' should work now.
+
 The world (including the models) moved faster than the system. The capabilities are there, but reliable outcomes in products need a higher '9' of reliability, and as a result we have two stories - a capabilities story of better models that use better tools better, and an outcomes story where products have ragged edges where models don't do what products make users think they should.
 
 | **‘Capability’ story** says        | **‘Outcomes’ story** says                          |
@@ -22,5 +24,7 @@ The world (including the models) moved faster than the system. The capabilities 
 | AI trajectories produce experience | Useful feedback is *noisy*, *sparse* and *delayed* |
 | Stronger AI needs smaller harnesses | Products have stable contracts                     |
 | AI follows instructions            | User expectations are ill-defined and *contextual* |
+
+Look at all the dynamics: incomplete, changing, evolving, varying, noisy, sparse and delayed. The outcomes story is about things that need to stay the same while the things they are built on move - not just in different directions, but at different timescales.
 
 So, what do we need? Not just models, not just prompts - but systems. We need systems that can keep doing what they were designed to do even as the things around them - users, models, expectations - change. I think that this systems gap is deeply interesting, hard to concretize, and also selfishly the thing that keeps me employed. If you are a systems researcher looking for hard problems that really matter - problems where the solution isn't just 'use a better model' - it may be fun to not just mind the gap, but embrace it! I'd warn you, though: the view down here is terrible, the problems are messy, the benchmarks don't exist, you'll spend half your time arguing about what correct even means and the company - the company is people like me. I'll bring snacks. Maybe.
