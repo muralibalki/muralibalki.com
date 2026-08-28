@@ -8,7 +8,7 @@ Last time, I waxed un-lyrical about composing my industry keynote at the [AIDB W
 
 We've entered the [age of AI and agents](https://mitsloan.mit.edu/ideas-made-to-matter/how-to-navigate-age-agentic-ai). Frontier models can plan, use tools, write code, summarize documents, compose poetry in iambic pentameter or haiku. Every day we see new [articles about the latest solved Erdős problem](https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/) and [posts about increasingly capable agents](https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/). Anyone who has used these agents can vouch for how amazing they sometimes are.
 
-At the same time, it's clear to even the most AI-pilled among us that we aren't there yet. Some of us, to paraphrase Terry Pratchett, are being [dragged kicking and screaming into the century of the agent; no one ever seems to want to, for example, lead us gently by the hand](https://www.lspace.org/books/pqf/the-truth.html).
+At the same time, it's clear to even the most AI-pilled among us that we aren't there yet. Some of us, to paraphrase [Terry Pratchett](https://www.lspace.org/books/pqf/the-truth.html), are being dragged kicking and screaming into the century of the agent. No one ever seems to want to, for example, lead us gently by the hand.
 
 We aren't there not because the agents aren't good. They are often existential-crisis-inducingly good. But there is a chasm - or at least a gap - between a model that sometimes-but-not-always has a capability and a product. A gap stuffed with edge cases, product constraints, user expectations that shifted since I started writing this sentence, and more.
 
