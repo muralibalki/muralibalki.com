@@ -71,6 +71,7 @@ test("renders the blog index and first Markdown post", async () => {
   assert.equal(postResponse.status, 200);
   const html = await postResponse.text();
   assert.match(html, /<h1>Finding the Gap<\/h1>/i);
+  assert.match(html, /src=["']\/finding-the-gap\.png["']/i);
   assert.match(html, /href=["']\/research["']/i);
   assert.match(html, /href=["']https:\/\/www\.cs\.princeton\.edu\/~arvindn\/["']/i);
 
