@@ -57,7 +57,9 @@ test("renders the blog index and first Markdown post", async () => {
     context,
   );
   assert.equal(indexResponse.status, 200);
-  assert.match(await indexResponse.text(), /href=["']\/blog\/finding-the-gap["']/i);
+  const indexHtml = await indexResponse.text();
+  assert.match(indexHtml, /href=["']\/blog\/finding-the-gap["']/i);
+  assert.match(indexHtml, /href=["']\/blog\/minding-the-gap["']/i);
 
   const postResponse = await worker.fetch(
     new Request("http://localhost/blog/finding-the-gap", {
@@ -71,4 +73,17 @@ test("renders the blog index and first Markdown post", async () => {
   assert.match(html, /<h1>Finding the Gap<\/h1>/i);
   assert.match(html, /href=["']\/research["']/i);
   assert.match(html, /href=["']https:\/\/www\.cs\.princeton\.edu\/~arvindn\/["']/i);
+
+  const nextPostResponse = await worker.fetch(
+    new Request("http://localhost/blog/minding-the-gap", {
+      headers: { accept: "text/html" },
+    }),
+    env,
+    context,
+  );
+  assert.equal(nextPostResponse.status, 200);
+  const nextPostHtml = await nextPostResponse.text();
+  assert.match(nextPostHtml, /<h1>Minding the Gap<\/h1>/i);
+  assert.match(nextPostHtml, /src=["']\/mind-the-gap\.jpeg["']/i);
+  assert.match(nextPostHtml, /<table>/i);
 });
