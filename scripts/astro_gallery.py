@@ -42,6 +42,10 @@ def field_target(directory, ra, dec, width):
                 name = row["Common names"].split(",")[0] or ("M" + str(int(row["M"])))
                 candidates.append((offset, name, row["Name"]))
     candidates.sort()
+    # OpenNGC lists several bright portions of the Rosette complex separately.
+    if candidates and all(code in {"NGC2237", "NGC2238", "NGC2239", "NGC2246"}
+                          for _, _, code in candidates):
+        return "Rosette Nebula field"
     if len(candidates) == 1:
         _, name, code = candidates[0]
         number = re.search(r"[0-9]+", code)
