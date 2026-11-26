@@ -1,4 +1,5 @@
 """Run alongside the local site preview to enable the bird gallery editor."""
+import fcntl
 import hashlib
 import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -37,6 +38,13 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         if self.headers.get("Origin") != ORIGIN or self.headers.get("Host") != "127.0.0.1:4179":
             return self.respond(403, "Local preview required")
+        lock = DRAFT.parent / "gallery.lock"
+        lock.parent.mkdir(parents=True, exist_ok=True)
+        with lock.open("a") as stream:
+            fcntl.flock(stream, fcntl.LOCK_EX)
+            self.save_review()
+
+    def save_review(self):
         try:
             length = int(self.headers["Content-Length"])
             if not 0 < length <= 4_000_000:

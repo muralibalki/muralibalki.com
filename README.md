@@ -48,7 +48,7 @@ The site is built with React, Next-compatible routes, Vinext, Vite, and Cloudfla
 
 The postings on this site are the author's own and do not necessarily represent Amazon's positions, strategies, or opinions.
 
-## Bird gallery
+## Bird and astronomy galleries
 
 From this checkout, import an extracted Google Photos album or a folder of new photos:
 
@@ -56,15 +56,33 @@ From this checkout, import an extracted Google Photos album or a folder of new p
 uv run --python 3.11 scripts/bird-gallery.py "$HOME/Downloads/mostly birds"
 ```
 
-The first run downloads SpeciesNet, BirdTrace FastViT-MA36-10K, and the eBird taxonomy. Repeat the command after adding
-photos locally. The importer hashes image contents and saves predictions (including
-non-birds) under `work/bird-gallery/`. Keep that directory to skip prior inference.
-Importing a smaller folder preserves previously cataloged birds. SpeciesNet locates birds, and BirdTrace suggests a species per crop. The percentage is
-the BirdTrace classification score. Scientific names come from matching eBird names. When several detections in
-a photo share a label, the gallery displays their highest classification score.
+The command identifies birds with SpeciesNet and BirdTrace. For new photos without
+a bird detection it screens for stars, then tries local Astrometry.net plate
+solving. A solved star field appears in `/astro`; a prominent catalog target is
+named when the field center and extent support a single match. Night landscapes
+and lunar images without a star match may need manual identification.
 
-The site serves `/birds` from `app/birds/catalog.json` and JPEGs in
-`public/bird-photos/`. Include both in a site deployment after updating the album.
+`content/gallery/processed.json` records each photo’s SHA-256 and processing
+outcome. Keep this file with both gallery catalogs, assets, and bird reviews.
+Reimporting a subset or renaming a file preserves earlier results. The ignored
+`work/` directory caches models, star indexes, and intermediate predictions.
+Use `--retry-unresolved` to retry previously unsuccessful astronomy candidates.
+
+### Merlin review
+
+The importer writes pending BirdTrace scores below 50% to
+`work/bird-gallery/merlin-review.csv`, lowest first. Change the threshold with
+`--low-confidence 0.65`. Use Merlin Photo ID on the original photo and enter its
+identification in the CSV’s `reviewed_name` column; `scientific_name` is optional.
+Leave unfinished rows blank. Apply completed reviews with:
+
+```sh
+uv run --python 3.11 scripts/bird-gallery.py "$HOME/Downloads/mostly birds" --merlin-results work/bird-gallery/merlin-review.csv
+```
+
+Completed rows persist in `app/birds/review.json` and leave the queue. The script
+does not upload photos to Merlin. Commit the updated galleries, assets, reviews,
+and processing record to publish through the site's normal deployment.
 
 ### Local review
 

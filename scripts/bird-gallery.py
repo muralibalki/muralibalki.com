@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.10,<3.13"
-# dependencies = ["speciesnet==5.0.6", "Pillow", "pillow-heif", "onnxruntime", "numpy"]
+# dependencies = ["speciesnet==5.0.6", "Pillow", "pillow-heif", "onnxruntime", "numpy", "astrometry==4.3.0", "astropy", "sep"]
 # ///
 """Run with uv run --python 3.11 scripts/bird-gallery.py /path/to/unzipped-album."""
 import argparse
@@ -20,6 +20,8 @@ from pathlib import Path
 
 from PIL import Image, ImageOps
 from pillow_heif import register_heif_opener
+from astro_gallery import solve_photo
+from gallery_review import import_reviews, write_queue
 
 ROOT = Path(__file__).resolve().parents[1]
 FORMATS = {".jpg", ".jpeg", ".png", ".heic", ".heif", ".webp", ".tif", ".tiff", ".avif"}
@@ -107,7 +109,15 @@ def identify(image, bbox, classifier):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("album", type=Path)
+    parser.add_argument("--low-confidence", type=float, default=.50, metavar="FRACTION",
+                        help="Queue visual scores below this value for manual Merlin Photo ID (default .50)")
+    parser.add_argument("--merlin-results", type=Path, metavar="CSV",
+                        help="Apply filled reviewed_name entries to the final site review file")
+    parser.add_argument("--retry-unresolved", action="store_true",
+                        help="Try local plate solving again on previously unresolved photos")
     args = parser.parse_args()
+    if not 0 <= args.low_confidence <= 1:
+        parser.error("--low-confidence must be between 0 and 1")
     files = sorted(p for p in args.album.rglob("*") if p.is_file() and p.suffix.lower() in FORMATS)
     if not files:
         parser.error("No supported still images in this folder")
@@ -118,7 +128,68 @@ def main():
     state.mkdir(parents=True, exist_ok=True)
     with (WORK / "gallery.lock").open("a") as lock:
         fcntl.flock(lock, fcntl.LOCK_EX)
-        update(files, images, state)
+        run_album(files, images, state, args)
+
+
+def run_album(files, images, state, args):
+    ledger = ROOT / "content/gallery/processed.json"
+    done = json.loads(ledger.read_text()) if ledger.exists() else {}
+    paths = {hashlib.sha256(path.read_bytes()).hexdigest(): path for path in files}
+    birds_file = ROOT / "app/birds/catalog.json"
+    birds = json.loads(birds_file.read_text())
+    known_birds = {r["id"] for r in birds}
+    astro_file = ROOT / "app/astro/catalog.json"
+    astro = {r["slug"]: r for r in json.loads(astro_file.read_text())}
+    new = {}
+    remaining = {}
+    for key, path in paths.items():
+        status = done.get(key)
+        if status == "bird" and (key not in known_birds or not all(
+                (images / (key + suffix)).exists() for suffix in (".jpg", "-thumb.jpg"))):
+            status = None
+        if status is None:
+            new[key] = path
+        elif status == "unresolved" and args.retry_unresolved:
+            remaining[key] = path
+        elif status == "astro" and (key[:20] not in astro or not all(
+                (ROOT / "public/astro-photos" / (key[:20] + suffix)).exists() for suffix in (".jpg", "-thumb.jpg"))):
+            if key[:20] not in astro:
+                remaining[key] = path
+            else:
+                from astro_gallery import write_images
+                write_images(path, key[:20], ROOT)
+    if new:
+        update(new, images, state)
+        birds = json.loads(birds_file.read_text())
+        bird_ids = {r["id"] for r in birds}
+        for key, path in new.items():
+            if key in bird_ids:
+                done[key] = "bird"
+            else:
+                remaining[key] = path
+        save_json(ledger, done)
+    for key, path in remaining.items():
+        status, item = solve_photo(path, key, ROOT)
+        if item:
+            astro[item["slug"]] = item
+            save_json(astro_file, list(astro.values()))
+        done[key] = status
+        save_json(ledger, done)
+    review_file = ROOT / "app/birds/review.json"
+    review = json.loads(review_file.read_text())
+    if args.merlin_results:
+        previous_edits = dict(review["edits"])
+        import_reviews(args.merlin_results, birds, review, WORK)
+        save_json(review_file, review)
+        draft_file = WORK / "review-draft.json"
+        if draft_file.exists():
+            draft = json.loads(draft_file.read_text())
+            draft["edits"].update({k: v for k, v in review["edits"].items() if previous_edits.get(k) != v})
+            save_json(draft_file, draft)
+    queue = WORK / "merlin-review.csv"
+    count = write_queue(queue, birds, review["edits"], args.low_confidence)
+    print(f"{len(paths)} distinct photos; {len(new)} new; {len(remaining)} astronomy checks; "
+          f"{count} pending Merlin reviews in {queue}")
 
 
 def detect(paths):
@@ -141,8 +212,7 @@ def detect(paths):
         return results
 
 
-def update(files, images, state):
-    paths = {hashlib.sha256(path.read_bytes()).hexdigest(): path for path in files}
+def update(paths, images, state):
     target = ROOT / "app/birds/catalog.json"
     catalog = [r for r in json.loads(target.read_text()) if r["id"] not in paths]
     box_dir = WORK / "speciesnet-5.0.6-boxes"
