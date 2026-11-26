@@ -41,11 +41,15 @@ export function BirdTable({ birds, initial }: { birds: Bird[]; initial: Review }
   const [order, setOrder] = useState("common-asc");
   const [minimum, setMinimum] = useState("");
   const [field, direction] = order.split("-");
-  const rows = birds.map(original => {
+  const reviewed = birds.map(original => {
     const key = original.entry ?? original.id + "/" + original.common;
     const edit = review.edits[key];
     return {...original, ...edit, key, original, confidence: edit && (edit.source || edit.common !== original.common) ? undefined : original.confidence};
-  }).filter(bird => {
+  });
+  const species = new Set(reviewed
+    .filter(bird => !bird.hidden && (bird.scientific || bird.common === bird.original.common))
+    .map(bird => bird.common.replace(/ *\(tentative\)$/i, "").trim().toLowerCase()));
+  const rows = reviewed.filter(bird => {
     const names = [bird.common, bird.scientific, bird.filename, bird.original.common].join(" ").toLowerCase();
     return (editing || !bird.hidden) && names.includes(query.trim().toLowerCase()) &&
       (!minimum || (bird.confidence ?? -1) * 100 >= Number(minimum));
@@ -60,7 +64,7 @@ export function BirdTable({ birds, initial }: { birds: Bird[]; initial: Review }
   });
   if (!birds.length) return <p>No bird photographs have been cataloged yet.</p>;
   return <section className="bird-gallery">
-    <header className="page-header"><h1>{review.title}</h1><p>{review.description}</p></header>
+    <header className="page-header"><h1>{review.title}</h1><p><strong>{species.size} unique species</strong></p><p>{review.description}</p></header>
     {version && <p><button onClick={() => setEditing(!editing)}>{editing ? "Preview edits" : "Edit locally"}</button></p>}
     {editing && <fieldset disabled={busy}>
       <legend>Local gallery review</legend>
