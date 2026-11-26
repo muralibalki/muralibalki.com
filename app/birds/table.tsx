@@ -64,7 +64,7 @@ export function BirdTable({ birds, initial }: { birds: Bird[]; initial: Review }
   });
   if (!birds.length) return <p>No bird photographs have been cataloged yet.</p>;
   return <section className="bird-gallery">
-    <header className="page-header"><h1>{review.title}</h1><p><strong>{species.size} unique species</strong></p><p>{review.description}</p></header>
+    <header className="page-header"><h1>{review.title}</h1><p className="bird-species-count"><strong>{species.size} unique species</strong></p></header>
     {version && <p><button onClick={() => setEditing(!editing)}>{editing ? "Preview edits" : "Edit locally"}</button></p>}
     {editing && <fieldset disabled={busy}>
       <legend>Local gallery review</legend>
@@ -119,5 +119,6 @@ export function BirdTable({ birds, initial }: { birds: Bird[]; initial: Review }
         <td>{bird.confidence == null ? (bird.source || "Edited") : (100 * bird.confidence).toFixed(1) + "%"}</td>
       </tr>)}</tbody>
     </table>
+    <p className="bird-methods">{review.description} Species suggestions by <a href="https://huggingface.co/warden123/BirdTrace-FastViT-MA36-10K">BirdTrace FastViT-MA36-10K</a> (CC BY-NC 4.0), with regional ranking by <a href="https://birdnet.cornell.edu/">BirdNET</a>.</p>
   </section>;
 }

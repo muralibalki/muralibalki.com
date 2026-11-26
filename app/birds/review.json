@@ -1,6 +1,6 @@
 {
   "title": "Bird photographs",
-  "description": "BirdTrace suggests species from bird crops detected by SpeciesNet. Suggestions favor the regions where I took these photos.",
+  "description": "SpeciesNet locates birds in the photos.",
   "edits": {
     "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-2": {
       "common": "Mallard (tentative)",
