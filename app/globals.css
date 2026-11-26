@@ -117,7 +117,20 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
 
 .bird-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; }
 .bird-controls label { display: grid; gap: .35rem; }
-.bird-controls input, .bird-controls select { font: inherit; padding: .4rem; max-width: 100%; }
+.bird-controls input, .bird-controls select {
+  font: inherit;
+  color: var(--ink);
+  background-color: #fff;
+  border: 1px solid #747870;
+  border-radius: 4px;
+  min-height: 44px;
+  max-width: 100%;
+  padding: .45rem .65rem;
+}
+.bird-controls :is(input, select):focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
 .bird-controls input[type=number] { width: 8rem; }
 .bird-gallery table { width: 100%; border-collapse: collapse; }
 .bird-gallery th, .bird-gallery td { text-align: left; padding: .55rem .3rem; border-bottom: 1px solid #ccc; }
