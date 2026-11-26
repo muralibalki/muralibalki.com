@@ -1,0 +1,189 @@
+{
+  "title": "Bird photographs",
+  "description": "BirdTrace suggests species from bird crops detected by SpeciesNet. Suggestions favor the regions where I took these photos.",
+  "edits": {
+    "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-2": {
+      "common": "Mallard (tentative)",
+      "scientific": "Anas platyrhynchos",
+      "hidden": true
+    },
+    "2640e5a4ab8b95a4f6660e3389c72067d1ece30e54984d9f380a8696929e04f3-0": {
+      "common": "Sparrow or finch (unconfirmed)",
+      "scientific": "",
+      "hidden": false
+    },
+    "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-0": {
+      "common": "Mallard (tentative)",
+      "scientific": "Anas platyrhynchos",
+      "hidden": false
+    },
+    "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-1": {
+      "common": "Mallard (tentative)",
+      "scientific": "Anas platyrhynchos",
+      "hidden": true
+    },
+    "2640e5a4ab8b95a4f6660e3389c72067d1ece30e54984d9f380a8696929e04f3-1": {
+      "common": "Sparrow or finch (unconfirmed)",
+      "scientific": "",
+      "hidden": true
+    },
+    "93381ea311b47f8148f1168f7c38fd2eba239049aa23e83955c00df9a87c7f8e-0": {
+      "common": "Rufous Hummingbird",
+      "scientific": "Selasphorus rufus"
+    },
+    "712369ad67d29312d3c7aff8d7118ef044f7520706f04d21a762b847dcb955a2-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus"
+    },
+    "88f47aaee4c725dc742c2dce6efc64e411c7370cbc0e16a56f824556f2ce21b2-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "e1adfd5080fe683ad50def4598a34e621cd831090cee672a35f6962ade2b9c53-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "e1adfd5080fe683ad50def4598a34e621cd831090cee672a35f6962ade2b9c53-1": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "hidden": true,
+      "source": "Merlin review"
+    },
+    "718cf7f82604fbeea8fde9dd84df23641a9feefee13a5978f7dcb4cba6264d82-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "46a52dd2c8641a88cbb561b886bb4649de19f4ece7ce25b17124c81d6b90ffc9-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "6420d9c78518515802f09ee6fb2bb6cb5aa91721c6db8cbac568df3a38c31f05-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "81e8bc5504cbac0c8c451a5f85d1717c33bebc5c8292940f7178db408033678c-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "9f34088ce7003fd10e148b62d193957770fd463c34c381bceb75b29048784554-0": {
+      "common": "European Starling",
+      "scientific": "Sturnus vulgaris",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "9f34088ce7003fd10e148b62d193957770fd463c34c381bceb75b29048784554-1": {
+      "common": "European Starling",
+      "scientific": "Sturnus vulgaris",
+      "hidden": true,
+      "source": "Merlin review"
+    },
+    "bd76a243fc502f8b919063fc7639ed49f2dbe014ce39953fc1460410d363d428-0": {
+      "common": "European Starling",
+      "scientific": "Sturnus vulgaris",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "bd76a243fc502f8b919063fc7639ed49f2dbe014ce39953fc1460410d363d428-1": {
+      "common": "European Starling",
+      "scientific": "Sturnus vulgaris",
+      "hidden": true,
+      "source": "Merlin review"
+    },
+    "1d107ac63f0bb97bbe5914930eafb774b6af3d39082c0d69b7bcdc0e31ed53f3-0": {
+      "common": "Northern Yellow Warbler",
+      "scientific": "Setophaga aestiva",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "9e76f31d7f77f62fcdbda5073db79cc7139ed948352353c7adff998764fe2bc4-0": {
+      "common": "Violet-green Swallow",
+      "scientific": "Tachycineta thalassina",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "3fa6160e88c81b21455092e677a205a932e11049cfac4d0f81c03a098b057d23-0": {
+      "common": "Western Warbling Vireo",
+      "scientific": "Vireo swainsoni",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "f706f6630cc2d96d565339b87eebae95d3808d58849a10aa742d21204d909c30-1": {
+      "common": "Great Blue Heron",
+      "scientific": "Ardea herodias",
+      "hidden": true,
+      "source": "Merlin review"
+    },
+    "f706f6630cc2d96d565339b87eebae95d3808d58849a10aa742d21204d909c30-0": {
+      "common": "Great Blue Heron",
+      "scientific": "Ardea herodias",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "5340e3416b1562d454fa46f28cf746bb2ab313d50f5ebaa6222923712d07dd14-5": {
+      "common": "Northern Shoveler",
+      "scientific": "Spatula clypeata",
+      "hidden": true,
+      "source": "Merlin review"
+    },
+    "5340e3416b1562d454fa46f28cf746bb2ab313d50f5ebaa6222923712d07dd14-4": {
+      "common": "Northern Shoveler",
+      "scientific": "Spatula clypeata",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "8ff3ba820101a151427cc99c373e360312d40f727704c057186b26963049dd39-0": {
+      "common": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "8ff3ba820101a151427cc99c373e360312d40f727704c057186b26963049dd39-1": {
+      "common": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "hidden": true,
+      "source": "Merlin review"
+    },
+    "de870722b1a3599742012780370a2c0209900d5ac3e2f4e95400688ae030d218-1": {
+      "common": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "de870722b1a3599742012780370a2c0209900d5ac3e2f4e95400688ae030d218-0": {
+      "common": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "hidden": true,
+      "source": "Merlin review"
+    },
+    "f60832861c2afa3bb9c3ccdd0dc901a324b8ec63f49aef722dda63c44a0e9935-0": {
+      "common": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "ec6966ed6a5ad4026c8480d42955c482e15dc955a942b6b0f6827bdc5402d670-0": {
+      "common": "Say's Phoebe",
+      "scientific": "Sayornis saya",
+      "hidden": false,
+      "source": "Merlin review"
+    },
+    "81962bb1c2af257ef6f79e882fd36718b7488566c342d328a92530ee6f2e5222-0": {
+      "common": "Cooper's Hawk",
+      "scientific": "Astur cooperii",
+      "hidden": false,
+      "source": "Merlin review"
+    }
+  }
+}

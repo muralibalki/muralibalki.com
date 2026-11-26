@@ -114,3 +114,17 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
   .patent-row span:last-child { grid-column: 2; }
   .main-column > footer { padding: 28px 22px; flex-direction: column; }
 }
+
+.bird-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; }
+.bird-controls label { display: grid; gap: .35rem; }
+.bird-controls input, .bird-controls select { font: inherit; padding: .4rem; max-width: 100%; }
+.bird-controls input[type=number] { width: 8rem; }
+.bird-gallery table { width: 100%; border-collapse: collapse; }
+.bird-gallery th, .bird-gallery td { text-align: left; padding: .55rem .3rem; border-bottom: 1px solid #ccc; }
+.bird-gallery th:last-child, .bird-gallery td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.bird-gallery td img { display: block; width: clamp(64px, 12vw, 110px); height: auto; }
+.bird-gallery td:nth-child(2) { overflow-wrap: anywhere; }
+.bird-gallery fieldset { margin-block: 1rem; padding: 1rem; }
+.bird-gallery fieldset label, .bird-gallery td small { display: block; margin-block: .5rem; }
+.bird-gallery fieldset textarea { width: 100%; }
+.bird-gallery button { cursor: pointer; }

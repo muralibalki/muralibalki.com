@@ -1,0 +1,3066 @@
+[
+  {
+    "id": "93381ea311b47f8148f1168f7c38fd2eba239049aa23e83955c00df9a87c7f8e",
+    "entry": "93381ea311b47f8148f1168f7c38fd2eba239049aa23e83955c00df9a87c7f8e-0",
+    "common": "Allen's Hummingbird",
+    "scientific": "Selasphorus sasin",
+    "confidence": 0.9962764382362366,
+    "filename": "_55A8598.jpg"
+  },
+  {
+    "id": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7",
+    "entry": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7-0",
+    "common": "American Avocet",
+    "scientific": "Recurvirostra americana",
+    "confidence": 0.8443477749824524,
+    "filename": "_55A7387.jpg"
+  },
+  {
+    "id": "5340e3416b1562d454fa46f28cf746bb2ab313d50f5ebaa6222923712d07dd14",
+    "entry": "5340e3416b1562d454fa46f28cf746bb2ab313d50f5ebaa6222923712d07dd14-0",
+    "common": "American Avocet",
+    "scientific": "Recurvirostra americana",
+    "confidence": 0.9039193987846375,
+    "filename": "_55A3849.jpg"
+  },
+  {
+    "id": "fa2d05966a8a554cf1c2aeae9d648f197f810f294f76fd2aae0948b1b7111966",
+    "entry": "fa2d05966a8a554cf1c2aeae9d648f197f810f294f76fd2aae0948b1b7111966-0",
+    "common": "American Bittern",
+    "scientific": "Botaurus lentiginosus",
+    "confidence": 0.9707536101341248,
+    "filename": "_55A6383.jpg"
+  },
+  {
+    "id": "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb",
+    "entry": "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-2",
+    "common": "American Black Duck",
+    "scientific": "Anas rubripes",
+    "confidence": 0.19584570825099945,
+    "filename": "_55A8540.jpg"
+  },
+  {
+    "id": "8381da932571c8bbaf9e5783b84ff8c38d380e9577b2afaf1043141b3fbb3981",
+    "entry": "8381da932571c8bbaf9e5783b84ff8c38d380e9577b2afaf1043141b3fbb3981-0",
+    "common": "American Coot",
+    "scientific": "Fulica americana",
+    "confidence": 0.9996011853218079,
+    "filename": "_55A6646.jpg"
+  },
+  {
+    "id": "a6770d9e178e99b5649fce67b1ae94ca8a6d82022cbe0b26586981bd75e75f72",
+    "entry": "a6770d9e178e99b5649fce67b1ae94ca8a6d82022cbe0b26586981bd75e75f72-0",
+    "common": "American Coot",
+    "scientific": "Fulica americana",
+    "confidence": 0.9973368048667908,
+    "filename": "_55A6470.jpg"
+  },
+  {
+    "id": "f4b23d5bc643e36b48f80719b1f3b1be22a102a187d3542ef264a55bdb62cfb7",
+    "entry": "f4b23d5bc643e36b48f80719b1f3b1be22a102a187d3542ef264a55bdb62cfb7-0",
+    "common": "American Coot",
+    "scientific": "Fulica americana",
+    "confidence": 0.997687816619873,
+    "filename": "_55A6689.jpg"
+  },
+  {
+    "id": "b5f09cb596514241860a739935d83087df5a79b0ccd92e3335d0286cf7404793",
+    "entry": "b5f09cb596514241860a739935d83087df5a79b0ccd92e3335d0286cf7404793-1",
+    "common": "American Crow",
+    "scientific": "Corvus brachyrhynchos",
+    "confidence": 0.00015776848886162043,
+    "filename": "_55A0400.jpg"
+  },
+  {
+    "id": "dc69be5f8d4a4950f95b283d17d1ff5f4b14909e2d12f436eabfc3878435154a",
+    "entry": "dc69be5f8d4a4950f95b283d17d1ff5f4b14909e2d12f436eabfc3878435154a-0",
+    "common": "American Kestrel",
+    "scientific": "Falco sparverius",
+    "confidence": 0.9998729228973389,
+    "filename": "_55A5880.jpg"
+  },
+  {
+    "id": "418cbecdab64e8a39d5b9f69393698e457f5b6297771bda934a2e02418a7b617",
+    "entry": "418cbecdab64e8a39d5b9f69393698e457f5b6297771bda934a2e02418a7b617-0",
+    "common": "American Pipit",
+    "scientific": "Anthus rubescens",
+    "confidence": 0.4744359254837036,
+    "filename": "_55A2943.jpg"
+  },
+  {
+    "id": "08a5bd80e0df4529bf00cbef3d3eddec1b2160d965ee3e16a0f9934cd6566c08",
+    "entry": "08a5bd80e0df4529bf00cbef3d3eddec1b2160d965ee3e16a0f9934cd6566c08-0",
+    "common": "American Robin",
+    "scientific": "Turdus migratorius",
+    "confidence": 0.72758549451828,
+    "filename": "_55A9596.jpg"
+  },
+  {
+    "id": "560ea73d4dffc6693afbf5a9152208743eee7fe992dd574142242fee8b71f459",
+    "entry": "560ea73d4dffc6693afbf5a9152208743eee7fe992dd574142242fee8b71f459-0",
+    "common": "American Robin",
+    "scientific": "Turdus migratorius",
+    "confidence": 0.794870138168335,
+    "filename": "JK3A0333~2.jpg"
+  },
+  {
+    "id": "6028d03c0556c28f8ae80fc0740c2bb5a4c52a8f91326613f6e44a5f0a788e79",
+    "entry": "6028d03c0556c28f8ae80fc0740c2bb5a4c52a8f91326613f6e44a5f0a788e79-0",
+    "common": "American Robin",
+    "scientific": "Turdus migratorius",
+    "confidence": 0.9910553693771362,
+    "filename": "signed_JK3A0097~2.jpg"
+  },
+  {
+    "id": "9c5265a9505676794e015f1740ceade73e7e2280040ee06a36bee9de36101774",
+    "entry": "9c5265a9505676794e015f1740ceade73e7e2280040ee06a36bee9de36101774-0",
+    "common": "American Robin",
+    "scientific": "Turdus migratorius",
+    "confidence": 0.9972124695777893,
+    "filename": "_55A3717.jpg"
+  },
+  {
+    "id": "cc3f99ee15d4365e0f564ca2db1c03ad06ddda18f156715df4e9b8ef37e40d88",
+    "entry": "cc3f99ee15d4365e0f564ca2db1c03ad06ddda18f156715df4e9b8ef37e40d88-0",
+    "common": "American Robin",
+    "scientific": "Turdus migratorius",
+    "confidence": 0.9998512268066406,
+    "filename": "JK3A4719.jpg"
+  },
+  {
+    "id": "dee1d8bc24d63e5e2e35cec0627b519743da944862d10905b58865678bf67095",
+    "entry": "dee1d8bc24d63e5e2e35cec0627b519743da944862d10905b58865678bf67095-0",
+    "common": "American Robin",
+    "scientific": "Turdus migratorius",
+    "confidence": 0.9793450236320496,
+    "filename": "_55A8864.jpg"
+  },
+  {
+    "id": "7c2cba516219b2d726f0cc706c837915d02e3e0e81412e246c3bdc4404d25d97",
+    "entry": "7c2cba516219b2d726f0cc706c837915d02e3e0e81412e246c3bdc4404d25d97-0",
+    "common": "American White Pelican",
+    "scientific": "Pelecanus erythrorhynchos",
+    "confidence": 0.9999620914459229,
+    "filename": "JK3A4258.jpg"
+  },
+  {
+    "id": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7",
+    "entry": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7-1",
+    "common": "American Wigeon",
+    "scientific": "Mareca americana",
+    "confidence": 0.8442133069038391,
+    "filename": "_55A7387.jpg"
+  },
+  {
+    "id": "70100a6776c42e7c8f08b78bb9681689d7954c9e1295d6dcc86837ed41268292",
+    "entry": "70100a6776c42e7c8f08b78bb9681689d7954c9e1295d6dcc86837ed41268292-0",
+    "common": "Anna's Hummingbird",
+    "scientific": "Calypte anna",
+    "confidence": 0.3466457724571228,
+    "filename": "_55A7274.jpg"
+  },
+  {
+    "id": "7d03ac9efe0dde86bc8657012e28d13799ce0c42e0b6cc79fd33001e6054d98e",
+    "entry": "7d03ac9efe0dde86bc8657012e28d13799ce0c42e0b6cc79fd33001e6054d98e-0",
+    "common": "Anna's Hummingbird",
+    "scientific": "Calypte anna",
+    "confidence": 0.9966887831687927,
+    "filename": "_55A7805~2.jpg"
+  },
+  {
+    "id": "b83ca65890c1166a696838371251904fcf6028df646bc0834147c49082124fc9",
+    "entry": "b83ca65890c1166a696838371251904fcf6028df646bc0834147c49082124fc9-0",
+    "common": "Anna's Hummingbird",
+    "scientific": "Calypte anna",
+    "confidence": 0.9904649257659912,
+    "filename": "_55A3614.jpg"
+  },
+  {
+    "id": "e9de08815712a68aae1abb4b97931969ec33b988c9be5b874b68eafa14afe775",
+    "entry": "e9de08815712a68aae1abb4b97931969ec33b988c9be5b874b68eafa14afe775-0",
+    "common": "Anna's Hummingbird",
+    "scientific": "Calypte anna",
+    "confidence": 0.32031553983688354,
+    "filename": "_55A9554.jpg"
+  },
+  {
+    "id": "0f78e46e4f0015eafb6a881a1ce309fb66c6d1daa39f2925db23ee49161eadb5",
+    "entry": "0f78e46e4f0015eafb6a881a1ce309fb66c6d1daa39f2925db23ee49161eadb5-0",
+    "common": "Ash-throated Flycatcher",
+    "scientific": "Myiarchus cinerascens",
+    "confidence": 0.742222249507904,
+    "filename": "_55A2903.jpg"
+  },
+  {
+    "id": "2e13c7793ae9de0f0b5cead7e95503e6da64bdda9362f090b93c7f160636e376",
+    "entry": "2e13c7793ae9de0f0b5cead7e95503e6da64bdda9362f090b93c7f160636e376-0",
+    "common": "Ash-throated Flycatcher",
+    "scientific": "Myiarchus cinerascens",
+    "confidence": 0.5381020903587341,
+    "filename": "_55A7394-2.jpg"
+  },
+  {
+    "id": "30f25cdcadf93a5c86d49d2acf182a261ac324ce752d97e65a2457e70295712c",
+    "entry": "30f25cdcadf93a5c86d49d2acf182a261ac324ce752d97e65a2457e70295712c-0",
+    "common": "Ash-throated Flycatcher",
+    "scientific": "Myiarchus cinerascens",
+    "confidence": 0.9604591727256775,
+    "filename": "_55A2894.jpg"
+  },
+  {
+    "id": "dba7e73f10a9ff4809494135b6fe5ada17f8cf8040e2e9e083d949e02abfcf23",
+    "entry": "dba7e73f10a9ff4809494135b6fe5ada17f8cf8040e2e9e083d949e02abfcf23-0",
+    "common": "Ash-throated Flycatcher",
+    "scientific": "Myiarchus cinerascens",
+    "confidence": 0.045197997242212296,
+    "filename": "JK3A3626.jpg"
+  },
+  {
+    "id": "59c56f3486f91a6497229b02caee473dd647c7703dc9d20a9d7ce328fc29f939",
+    "entry": "59c56f3486f91a6497229b02caee473dd647c7703dc9d20a9d7ce328fc29f939-0",
+    "common": "Bald Eagle",
+    "scientific": "Haliaeetus leucocephalus",
+    "confidence": 0.9953517913818359,
+    "filename": "_55A5316.jpg"
+  },
+  {
+    "id": "7ae513dd9cb664802f8aa9e242c98ab6801e9acae437a72fcea4433d1315eadd",
+    "entry": "7ae513dd9cb664802f8aa9e242c98ab6801e9acae437a72fcea4433d1315eadd-0",
+    "common": "Bald Eagle",
+    "scientific": "Haliaeetus leucocephalus",
+    "confidence": 0.9993351101875305,
+    "filename": "signed_JK3A1256.jpg"
+  },
+  {
+    "id": "27e5563f30aec96be56e3081f42b2b17195f9846ded9bd020c4df0013e3a0855",
+    "entry": "27e5563f30aec96be56e3081f42b2b17195f9846ded9bd020c4df0013e3a0855-0",
+    "common": "Barn Swallow",
+    "scientific": "Hirundo rustica",
+    "confidence": 0.9845577478408813,
+    "filename": "JK3A2876_0003.jpg"
+  },
+  {
+    "id": "b6a33a9786555dde51ac0494ad3337c61d82d7688d8670149534d71a4b5c23e4",
+    "entry": "b6a33a9786555dde51ac0494ad3337c61d82d7688d8670149534d71a4b5c23e4-0",
+    "common": "Barred Owl",
+    "scientific": "Strix varia",
+    "confidence": 0.9979762434959412,
+    "filename": "JK3A4767.jpg"
+  },
+  {
+    "id": "29d0b4211607ea2c1750122941dc145d33d228220242aadabe61138a86213956",
+    "entry": "29d0b4211607ea2c1750122941dc145d33d228220242aadabe61138a86213956-1",
+    "common": "Barrow's Goldeneye",
+    "scientific": "Bucephala islandica",
+    "confidence": 0.7647675275802612,
+    "filename": "_55A6193.jpg"
+  },
+  {
+    "id": "005662b823edd918c78d404717c0654d4ef288cc5c69f270a917656a194210a9",
+    "entry": "005662b823edd918c78d404717c0654d4ef288cc5c69f270a917656a194210a9-0",
+    "common": "Belted Kingfisher",
+    "scientific": "Megaceryle alcyon",
+    "confidence": 0.9867280125617981,
+    "filename": "_55A2901.jpg"
+  },
+  {
+    "id": "4af31582c6e68a997becaab98a748183ef4acea7ced9a449a109305726c7d937",
+    "entry": "4af31582c6e68a997becaab98a748183ef4acea7ced9a449a109305726c7d937-0",
+    "common": "Belted Kingfisher",
+    "scientific": "Megaceryle alcyon",
+    "confidence": 0.9478350281715393,
+    "filename": "_55A7864.jpg"
+  },
+  {
+    "id": "99de04642bda6be161018785f130058eaef4b733aee4b7bc425d1c71de39bf08",
+    "entry": "99de04642bda6be161018785f130058eaef4b733aee4b7bc425d1c71de39bf08-0",
+    "common": "Belted Kingfisher",
+    "scientific": "Megaceryle alcyon",
+    "confidence": 0.9988981485366821,
+    "filename": "_55A3824.jpg"
+  },
+  {
+    "id": "9e76f31d7f77f62fcdbda5073db79cc7139ed948352353c7adff998764fe2bc4",
+    "entry": "9e76f31d7f77f62fcdbda5073db79cc7139ed948352353c7adff998764fe2bc4-0",
+    "common": "Belted Kingfisher",
+    "scientific": "Megaceryle alcyon",
+    "confidence": 0.006811767350882292,
+    "filename": "_55A3355.jpg"
+  },
+  {
+    "id": "0908f73a3f10f62c3e0de0163772b67771b8810638654a18f4911960ecb6d2eb",
+    "entry": "0908f73a3f10f62c3e0de0163772b67771b8810638654a18f4911960ecb6d2eb-0",
+    "common": "Bewick's Wren",
+    "scientific": "Thryomanes bewickii",
+    "confidence": 0.021714357659220695,
+    "filename": "_55A2875.jpg"
+  },
+  {
+    "id": "0ddd5eba1b42a1e565d0d32814d01f5a2a565b3b3a809ad2f0ba1fdb091a7e63",
+    "entry": "0ddd5eba1b42a1e565d0d32814d01f5a2a565b3b3a809ad2f0ba1fdb091a7e63-0",
+    "common": "Bewick's Wren",
+    "scientific": "Thryomanes bewickii",
+    "confidence": 0.8382021188735962,
+    "filename": "JK3A2213.jpg"
+  },
+  {
+    "id": "747690ebe8ca05f1d4da0466566394dff4554f0e6ebc1ce3d6db463ca155dfbe",
+    "entry": "747690ebe8ca05f1d4da0466566394dff4554f0e6ebc1ce3d6db463ca155dfbe-0",
+    "common": "Bewick's Wren",
+    "scientific": "Thryomanes bewickii",
+    "confidence": 0.996442973613739,
+    "filename": "_55A1238.jpg"
+  },
+  {
+    "id": "de43a80c544f918a20d8b80e0686bbb2a38fbf272d9eafbbf860dd4c5a8343e2",
+    "entry": "de43a80c544f918a20d8b80e0686bbb2a38fbf272d9eafbbf860dd4c5a8343e2-0",
+    "common": "Bewick's Wren",
+    "scientific": "Thryomanes bewickii",
+    "confidence": 0.008141333237290382,
+    "filename": "_55A2887.jpg"
+  },
+  {
+    "id": "f6cb83acc90fe7cb281220b1aec6e5ec8ff99b2c182d6c1a0fb1e8b7e14603f9",
+    "entry": "f6cb83acc90fe7cb281220b1aec6e5ec8ff99b2c182d6c1a0fb1e8b7e14603f9-0",
+    "common": "Bewick's Wren",
+    "scientific": "Thryomanes bewickii",
+    "confidence": 0.0020256023854017258,
+    "filename": "_55A3732.jpg"
+  },
+  {
+    "id": "4538f0ba0e8df4ad097510344dec2c5854ca79ecd1c8d8794d7969c961b40ea9",
+    "entry": "4538f0ba0e8df4ad097510344dec2c5854ca79ecd1c8d8794d7969c961b40ea9-0",
+    "common": "Black Phoebe",
+    "scientific": "Sayornis nigricans",
+    "confidence": 0.99980229139328,
+    "filename": "_55A4075.jpg"
+  },
+  {
+    "id": "51c79f67fbd6be2e547ad6190c690de5e0f46655bd03ec6413a2456c54f47b4e",
+    "entry": "51c79f67fbd6be2e547ad6190c690de5e0f46655bd03ec6413a2456c54f47b4e-0",
+    "common": "Black Phoebe",
+    "scientific": "Sayornis nigricans",
+    "confidence": 0.999923825263977,
+    "filename": "_55A7655.jpg"
+  },
+  {
+    "id": "7b020578d5d0ff28d3eeeba3e260db2181c2feb53d519a669ae3bc43c51644e2",
+    "entry": "7b020578d5d0ff28d3eeeba3e260db2181c2feb53d519a669ae3bc43c51644e2-0",
+    "common": "Black Phoebe",
+    "scientific": "Sayornis nigricans",
+    "confidence": 0.999914288520813,
+    "filename": "_55A4177.jpg"
+  },
+  {
+    "id": "c73ecac299e6f2aa404735717e65237ccb440bfe7f3bf25a6bd4956a9553240c",
+    "entry": "c73ecac299e6f2aa404735717e65237ccb440bfe7f3bf25a6bd4956a9553240c-0",
+    "common": "Black Phoebe",
+    "scientific": "Sayornis nigricans",
+    "confidence": 0.9997225403785706,
+    "filename": "JK3A4156~2.jpg"
+  },
+  {
+    "id": "0d77140cef3461d8defce51dc370ebaf5e04b50a33c640c2d598bb4d8033eda7",
+    "entry": "0d77140cef3461d8defce51dc370ebaf5e04b50a33c640c2d598bb4d8033eda7-0",
+    "common": "Black-crowned Night Heron",
+    "scientific": "Nycticorax nycticorax",
+    "confidence": 0.996966540813446,
+    "filename": "_55A3485.jpg"
+  },
+  {
+    "id": "a8b248cd0c08177a6fc83de4cd2186171934e3c2be9f305ceb5028a78f2130b7",
+    "entry": "a8b248cd0c08177a6fc83de4cd2186171934e3c2be9f305ceb5028a78f2130b7-0",
+    "common": "Black-crowned Night Heron",
+    "scientific": "Nycticorax nycticorax",
+    "confidence": 0.9976623058319092,
+    "filename": "_55A6708.jpg"
+  },
+  {
+    "id": "bd76a243fc502f8b919063fc7639ed49f2dbe014ce39953fc1460410d363d428",
+    "entry": "bd76a243fc502f8b919063fc7639ed49f2dbe014ce39953fc1460410d363d428-0",
+    "common": "Black-crowned Night Heron",
+    "scientific": "Nycticorax nycticorax",
+    "confidence": 9.10176368051907e-06,
+    "filename": "_55A5418.jpg"
+  },
+  {
+    "id": "bf0a7abc1ecdfcb5463c4b9729d6bc69bccc9117776e6ac0216fd5ea4591d0e8",
+    "entry": "bf0a7abc1ecdfcb5463c4b9729d6bc69bccc9117776e6ac0216fd5ea4591d0e8-0",
+    "common": "Black-crowned Night Heron",
+    "scientific": "Nycticorax nycticorax",
+    "confidence": 0.9901958107948303,
+    "filename": "_55A4722.jpg"
+  },
+  {
+    "id": "c1027db371059f43e151c68dc23e52f328c1fcf525c8bed0eed20f986702ad51",
+    "entry": "c1027db371059f43e151c68dc23e52f328c1fcf525c8bed0eed20f986702ad51-0",
+    "common": "Black-crowned Night Heron",
+    "scientific": "Nycticorax nycticorax",
+    "confidence": 0.9853573441505432,
+    "filename": "_55A4143.jpg"
+  },
+  {
+    "id": "e31eb568d7ae6be50c7b382936800b2bd0f0d572013ea0e396a9c51ad915cd84",
+    "entry": "e31eb568d7ae6be50c7b382936800b2bd0f0d572013ea0e396a9c51ad915cd84-0",
+    "common": "Black-crowned Night Heron",
+    "scientific": "Nycticorax nycticorax",
+    "confidence": 0.9186902046203613,
+    "filename": "_55A3501.jpg"
+  },
+  {
+    "id": "eeae4098643b9ccd88bc37ab664b285f5b6c11621a377db3df401233421d06f9",
+    "entry": "eeae4098643b9ccd88bc37ab664b285f5b6c11621a377db3df401233421d06f9-0",
+    "common": "Black-crowned Night Heron",
+    "scientific": "Nycticorax nycticorax",
+    "confidence": 0.9831508994102478,
+    "filename": "JK3A3264_0050~2.jpg"
+  },
+  {
+    "id": "c817cb2e94f8c8301f07faaa2c42a8ce950171e6778fb984b34905590cf333c7",
+    "entry": "c817cb2e94f8c8301f07faaa2c42a8ce950171e6778fb984b34905590cf333c7-0",
+    "common": "Black-headed Grosbeak",
+    "scientific": "Pheucticus melanocephalus",
+    "confidence": 0.9978717565536499,
+    "filename": "_55A4010.jpg"
+  },
+  {
+    "id": "929a1ddacf8e0335ee73590121ce7fdae842f4fcc80ea49c2db0f33b47257cad",
+    "entry": "929a1ddacf8e0335ee73590121ce7fdae842f4fcc80ea49c2db0f33b47257cad-0",
+    "common": "Black-necked Stilt",
+    "scientific": "Himantopus mexicanus",
+    "confidence": 0.5776234269142151,
+    "filename": "_55A9566.jpg"
+  },
+  {
+    "id": "c9f8ca2bae72d310d8ce664a64cca5a79dfd5168f101f0de8f59eb0926d47a05",
+    "entry": "c9f8ca2bae72d310d8ce664a64cca5a79dfd5168f101f0de8f59eb0926d47a05-0",
+    "common": "Black-necked Stilt",
+    "scientific": "Himantopus mexicanus",
+    "confidence": 0.8250954747200012,
+    "filename": "_55A2490.jpg"
+  },
+  {
+    "id": "d8d80b3ba8f96755be288b54eb7bdbc782db06b776325ca0ba8cd0ad0c0ac081",
+    "entry": "d8d80b3ba8f96755be288b54eb7bdbc782db06b776325ca0ba8cd0ad0c0ac081-0",
+    "common": "Black-necked Stilt",
+    "scientific": "Himantopus mexicanus",
+    "confidence": 0.4397308826446533,
+    "filename": "_55A7070.jpg"
+  },
+  {
+    "id": "712369ad67d29312d3c7aff8d7118ef044f7520706f04d21a762b847dcb955a2",
+    "entry": "712369ad67d29312d3c7aff8d7118ef044f7520706f04d21a762b847dcb955a2-0",
+    "common": "Boreal Chickadee",
+    "scientific": "Poecile hudsonicus",
+    "confidence": 2.147594204870984e-05,
+    "filename": "_55A6416.jpg"
+  },
+  {
+    "id": "cb761567cae12f850e24b2548edaaaa239cfd3f6bfc333bae312a489c12d051f",
+    "entry": "cb761567cae12f850e24b2548edaaaa239cfd3f6bfc333bae312a489c12d051f-0",
+    "common": "Brown Creeper",
+    "scientific": "Certhia americana",
+    "confidence": 0.9331377744674683,
+    "filename": "_55A7088.jpg"
+  },
+  {
+    "id": "df4f97d08922378dc23823200fd5219a2ddc870bdea83229659a96f9d26aee66",
+    "entry": "df4f97d08922378dc23823200fd5219a2ddc870bdea83229659a96f9d26aee66-0",
+    "common": "Brown Pelican",
+    "scientific": "Pelecanus occidentalis",
+    "confidence": 0.9369913339614868,
+    "filename": "_55A4287.jpg"
+  },
+  {
+    "id": "59d047eae6bd0815e743661a3e1270f5cf55bc8c10a1659821bfc0509173ea10",
+    "entry": "59d047eae6bd0815e743661a3e1270f5cf55bc8c10a1659821bfc0509173ea10-0",
+    "common": "Brown-headed Cowbird",
+    "scientific": "Molothrus ater",
+    "confidence": 0.9977887868881226,
+    "filename": "JK3A3269_0010.jpg"
+  },
+  {
+    "id": "718cf7f82604fbeea8fde9dd84df23641a9feefee13a5978f7dcb4cba6264d82",
+    "entry": "718cf7f82604fbeea8fde9dd84df23641a9feefee13a5978f7dcb4cba6264d82-0",
+    "common": "Brown-headed Cowbird",
+    "scientific": "Molothrus ater",
+    "confidence": 2.379303168709157e-06,
+    "filename": "_55A8657.jpg"
+  },
+  {
+    "id": "ba5f51d5737fd69355bbbe0485e9cad0867bc3aaa56562779afd61754ee3048d",
+    "entry": "ba5f51d5737fd69355bbbe0485e9cad0867bc3aaa56562779afd61754ee3048d-0",
+    "common": "Brown-headed Cowbird",
+    "scientific": "Molothrus ater",
+    "confidence": 0.9552287459373474,
+    "filename": "_55A3187~2.jpg"
+  },
+  {
+    "id": "1f0e1c804edcd789b8f11d0e5ac7f0c4ce185830c4cffaca30b7fb5e1576b188",
+    "entry": "1f0e1c804edcd789b8f11d0e5ac7f0c4ce185830c4cffaca30b7fb5e1576b188-0",
+    "common": "Bufflehead",
+    "scientific": "Bucephala albeola",
+    "confidence": 0.9999750852584839,
+    "filename": "_55A6756.jpg"
+  },
+  {
+    "id": "0092a0ee98139e63d78d5ce76b9d2ff1216defb54bb0cba5c7abc7d9c7c65ca5",
+    "entry": "0092a0ee98139e63d78d5ce76b9d2ff1216defb54bb0cba5c7abc7d9c7c65ca5-0",
+    "common": "California Quail",
+    "scientific": "Callipepla californica",
+    "confidence": 0.9990973472595215,
+    "filename": "JK3A3148~2.jpg"
+  },
+  {
+    "id": "9f42c5f1856da4a790c4f9c02b221cb99234aaface4ee7ac75a2f61cbbcc4a68",
+    "entry": "9f42c5f1856da4a790c4f9c02b221cb99234aaface4ee7ac75a2f61cbbcc4a68-0",
+    "common": "California Quail",
+    "scientific": "Callipepla californica",
+    "confidence": 0.9905761480331421,
+    "filename": "JK3A3900-2.jpg"
+  },
+  {
+    "id": "feeefa4f0a9b34425f30c1c9930089d0d122c93e7c78402ce2ad618e1e701c47",
+    "entry": "feeefa4f0a9b34425f30c1c9930089d0d122c93e7c78402ce2ad618e1e701c47-0",
+    "common": "California Quail",
+    "scientific": "Callipepla californica",
+    "confidence": 0.9986795783042908,
+    "filename": "_55A1589.jpg"
+  },
+  {
+    "id": "109b4f3209b90b8c9b49f37b222edede7782575ec696f8d6623e1f9fd3e4ce30",
+    "entry": "109b4f3209b90b8c9b49f37b222edede7782575ec696f8d6623e1f9fd3e4ce30-0",
+    "common": "California Scrub-Jay",
+    "scientific": "Aphelocoma californica",
+    "confidence": 0.9456353187561035,
+    "filename": "_55A8145.jpg"
+  },
+  {
+    "id": "3576b2c11a9702211e5aa7e9ca9c8988888135f20b21d2dc1cf1c622cee59840",
+    "entry": "3576b2c11a9702211e5aa7e9ca9c8988888135f20b21d2dc1cf1c622cee59840-0",
+    "common": "California Scrub-Jay",
+    "scientific": "Aphelocoma californica",
+    "confidence": 0.9074013829231262,
+    "filename": "_55A8997.jpg"
+  },
+  {
+    "id": "3bbe96c5ae5ee269b7c26234059f250cf35f24d5a8703277e97684642060443b",
+    "entry": "3bbe96c5ae5ee269b7c26234059f250cf35f24d5a8703277e97684642060443b-0",
+    "common": "California Scrub-Jay",
+    "scientific": "Aphelocoma californica",
+    "confidence": 0.7789964079856873,
+    "filename": "_55A5775.jpg"
+  },
+  {
+    "id": "52736190d8fbff59dc92623e02454c28961e77950060fdcc07e6be4b200822ec",
+    "entry": "52736190d8fbff59dc92623e02454c28961e77950060fdcc07e6be4b200822ec-0",
+    "common": "California Scrub-Jay",
+    "scientific": "Aphelocoma californica",
+    "confidence": 0.5360724925994873,
+    "filename": "_55A0399.jpg"
+  },
+  {
+    "id": "5cf7ba9603d7ddf984f918fd79ea40687919504a001d49581f4678711c69be5e",
+    "entry": "5cf7ba9603d7ddf984f918fd79ea40687919504a001d49581f4678711c69be5e-0",
+    "common": "California Scrub-Jay",
+    "scientific": "Aphelocoma californica",
+    "confidence": 0.9725874662399292,
+    "filename": "_55A4521.jpg"
+  },
+  {
+    "id": "bef9ba201f78cb9c3ec3b8fd4e25cd8f7c54896041a2c2711f97c41832093755",
+    "entry": "bef9ba201f78cb9c3ec3b8fd4e25cd8f7c54896041a2c2711f97c41832093755-0",
+    "common": "California Scrub-Jay",
+    "scientific": "Aphelocoma californica",
+    "confidence": 0.7543293237686157,
+    "filename": "JK3A3066_0019.jpg"
+  },
+  {
+    "id": "df6039a9eee72ce5867ceb5df75153ddd0fcea1ffd8de692e096a4ea97ee655b",
+    "entry": "df6039a9eee72ce5867ceb5df75153ddd0fcea1ffd8de692e096a4ea97ee655b-0",
+    "common": "California Scrub-Jay",
+    "scientific": "Aphelocoma californica",
+    "confidence": 0.9311400651931763,
+    "filename": "_55A4003.jpg"
+  },
+  {
+    "id": "1d5d952511ca43e8a5b110cbd6f2ae46bb42910f624388bb77fd9d5c9b4ba6e8",
+    "entry": "1d5d952511ca43e8a5b110cbd6f2ae46bb42910f624388bb77fd9d5c9b4ba6e8-0",
+    "common": "California Thrasher",
+    "scientific": "Toxostoma redivivum",
+    "confidence": 0.9873183369636536,
+    "filename": "_55A3487.jpg"
+  },
+  {
+    "id": "4e3b6864e573288372dd1f7f24674f4e4800e89460f6da4ad54c1e729ce0de51",
+    "entry": "4e3b6864e573288372dd1f7f24674f4e4800e89460f6da4ad54c1e729ce0de51-0",
+    "common": "California Towhee",
+    "scientific": "Melozone crissalis",
+    "confidence": 0.9989711046218872,
+    "filename": "_55A3169.jpg"
+  },
+  {
+    "id": "747afda2bf3f67ed59f4990b3bb22d0808e705a97f7c60a39b0223bf3e7a0c84",
+    "entry": "747afda2bf3f67ed59f4990b3bb22d0808e705a97f7c60a39b0223bf3e7a0c84-0",
+    "common": "Canada Goose",
+    "scientific": "Branta canadensis",
+    "confidence": 0.8614010214805603,
+    "filename": "_55A3754.jpg"
+  },
+  {
+    "id": "b37340e08f6c867e6baac95005a83cfd40a60cdd8d5778c93392389bdc81e04a",
+    "entry": "b37340e08f6c867e6baac95005a83cfd40a60cdd8d5778c93392389bdc81e04a-0",
+    "common": "Canada Goose",
+    "scientific": "Branta canadensis",
+    "confidence": 0.667188823223114,
+    "filename": "_55A8805.jpg"
+  },
+  {
+    "id": "f706f6630cc2d96d565339b87eebae95d3808d58849a10aa742d21204d909c30",
+    "entry": "f706f6630cc2d96d565339b87eebae95d3808d58849a10aa742d21204d909c30-1",
+    "common": "Canvasback",
+    "scientific": "Aythya valisineria",
+    "confidence": 0.02953355759382248,
+    "filename": "_55A3622.jpg"
+  },
+  {
+    "id": "2640e5a4ab8b95a4f6660e3389c72067d1ece30e54984d9f380a8696929e04f3",
+    "entry": "2640e5a4ab8b95a4f6660e3389c72067d1ece30e54984d9f380a8696929e04f3-0",
+    "common": "Cape Wagtail",
+    "scientific": "Motacilla capensis",
+    "confidence": 0.2011861950159073,
+    "filename": "_55A2415.jpg"
+  },
+  {
+    "id": "bbaa6c8978f4c0094ee2b456c6200908999632f3412de1809201d850774d1790",
+    "entry": "bbaa6c8978f4c0094ee2b456c6200908999632f3412de1809201d850774d1790-0",
+    "common": "Cedar Waxwing",
+    "scientific": "Bombycilla cedrorum",
+    "confidence": 0.9211159944534302,
+    "filename": "JK3A0307.jpg"
+  },
+  {
+    "id": "9ca1d6dbb950911ad00f9024b26a1967297f89b10755bd09ddcd7c2c39616073",
+    "entry": "9ca1d6dbb950911ad00f9024b26a1967297f89b10755bd09ddcd7c2c39616073-0",
+    "common": "Chestnut-backed Chickadee",
+    "scientific": "Poecile rufescens",
+    "confidence": 0.996207594871521,
+    "filename": "_55A3126.jpg"
+  },
+  {
+    "id": "b07121ae9666fe8a3b133d448d9621cc23d9cd6b94c5358097993c86b6bdba8c",
+    "entry": "b07121ae9666fe8a3b133d448d9621cc23d9cd6b94c5358097993c86b6bdba8c-0",
+    "common": "Chestnut-backed Chickadee",
+    "scientific": "Poecile rufescens",
+    "confidence": 0.999645471572876,
+    "filename": "_55A3446(1).jpg"
+  },
+  {
+    "id": "ca008174b7d30d4956b1a2b1fe441742f3efa9ca601d48b15001fdb19ddc1883",
+    "entry": "ca008174b7d30d4956b1a2b1fe441742f3efa9ca601d48b15001fdb19ddc1883-0",
+    "common": "Cinnamon Teal",
+    "scientific": "Spatula cyanoptera",
+    "confidence": 0.999895453453064,
+    "filename": "JK3A2289.jpg"
+  },
+  {
+    "id": "9ce318052c9a367c2c68795ea9c119aff5a377eb3f104f8dfcb8c961b6f3337d",
+    "entry": "9ce318052c9a367c2c68795ea9c119aff5a377eb3f104f8dfcb8c961b6f3337d-0",
+    "common": "Common Crane",
+    "scientific": "Grus grus",
+    "confidence": 0.9917311072349548,
+    "filename": "_55A8772.jpg"
+  },
+  {
+    "id": "e67a97f6269a5d1ef40d5ed00690107662029a86044b622df918b452c3897b77",
+    "entry": "e67a97f6269a5d1ef40d5ed00690107662029a86044b622df918b452c3897b77-0",
+    "common": "Common Gallinule",
+    "scientific": "Gallinula galeata",
+    "confidence": 0.9348706007003784,
+    "filename": "_55A6661~2.jpg"
+  },
+  {
+    "id": "29d0b4211607ea2c1750122941dc145d33d228220242aadabe61138a86213956",
+    "entry": "29d0b4211607ea2c1750122941dc145d33d228220242aadabe61138a86213956-0",
+    "common": "Common Goldeneye",
+    "scientific": "Bucephala clangula",
+    "confidence": 0.8911388516426086,
+    "filename": "_55A6193.jpg"
+  },
+  {
+    "id": "05d5bc5dbc73dd27a068ea4931e981cf7b84702098f346a8ce273cedbd9d8fcb",
+    "entry": "05d5bc5dbc73dd27a068ea4931e981cf7b84702098f346a8ce273cedbd9d8fcb-0",
+    "common": "Common Grackle",
+    "scientific": "Quiscalus quiscula",
+    "confidence": 0.999936580657959,
+    "filename": "JK3A4587.jpg"
+  },
+  {
+    "id": "79067b9acd6affb55f68ee1e6038181260dc5777ac2884473c95f0262d304ea3",
+    "entry": "79067b9acd6affb55f68ee1e6038181260dc5777ac2884473c95f0262d304ea3-0",
+    "common": "Common Yellowthroat",
+    "scientific": "Geothlypis trichas",
+    "confidence": 0.993446409702301,
+    "filename": "_55A5178.jpg"
+  },
+  {
+    "id": "a361600ceed9ca3857aa6273a474b2f3d399be345417d5b76f7b34005eafd192",
+    "entry": "a361600ceed9ca3857aa6273a474b2f3d399be345417d5b76f7b34005eafd192-0",
+    "common": "Common Yellowthroat",
+    "scientific": "Geothlypis trichas",
+    "confidence": 0.7750015258789062,
+    "filename": "_55A2680.jpg"
+  },
+  {
+    "id": "e442f2a10d04e098b1d526f83aee819dd7bb13bb8dbf2661e7900e69774bb6f2",
+    "entry": "e442f2a10d04e098b1d526f83aee819dd7bb13bb8dbf2661e7900e69774bb6f2-0",
+    "common": "Common Yellowthroat",
+    "scientific": "Geothlypis trichas",
+    "confidence": 0.9722625017166138,
+    "filename": "_55A6018.jpg"
+  },
+  {
+    "id": "5073d369849819288b9ce54d7c455829647af028287e01783de026f7beac78f5",
+    "entry": "5073d369849819288b9ce54d7c455829647af028287e01783de026f7beac78f5-0",
+    "common": "Cooper's Hawk",
+    "scientific": "Astur cooperii",
+    "confidence": 0.7692063450813293,
+    "filename": "_55A7759.jpg"
+  },
+  {
+    "id": "6264c256b6e7947115eecd56aeb0e0ff71b5b21b151ec2f8b1c07b847ec36c03",
+    "entry": "6264c256b6e7947115eecd56aeb0e0ff71b5b21b151ec2f8b1c07b847ec36c03-0",
+    "common": "Cooper's Hawk",
+    "scientific": "Astur cooperii",
+    "confidence": 0.9272597432136536,
+    "filename": "_55A5149.jpg"
+  },
+  {
+    "id": "8e4f3702322b37e6bf2f6d42031fda504232a94dfd106a258488cf56ad80489c",
+    "entry": "8e4f3702322b37e6bf2f6d42031fda504232a94dfd106a258488cf56ad80489c-0",
+    "common": "Cooper's Hawk",
+    "scientific": "Astur cooperii",
+    "confidence": 0.9805189371109009,
+    "filename": "_55A6012.jpg"
+  },
+  {
+    "id": "063923ca0cfa1001d122f4bb8fd328d132aec81adb99b2a06a1f6e37e3849ad1",
+    "entry": "063923ca0cfa1001d122f4bb8fd328d132aec81adb99b2a06a1f6e37e3849ad1-0",
+    "common": "Dark-eyed Junco",
+    "scientific": "Junco hyemalis",
+    "confidence": 0.1915624588727951,
+    "filename": "_55A2575.jpg"
+  },
+  {
+    "id": "500f5dde62e5c3646fdfa6da720043432b1bcd761428e8a500fa4a0dbeffead2",
+    "entry": "500f5dde62e5c3646fdfa6da720043432b1bcd761428e8a500fa4a0dbeffead2-0",
+    "common": "Dark-eyed Junco",
+    "scientific": "Junco hyemalis",
+    "confidence": 0.9998375177383423,
+    "filename": "_55A1511.jpg"
+  },
+  {
+    "id": "50f9e2dfb0209d4065a2a7412efdb0ef56f1a8c644505e0c5bef950d29b63d67",
+    "entry": "50f9e2dfb0209d4065a2a7412efdb0ef56f1a8c644505e0c5bef950d29b63d67-0",
+    "common": "Dark-eyed Junco",
+    "scientific": "Junco hyemalis",
+    "confidence": 0.9163177013397217,
+    "filename": "_55A2574.jpg"
+  },
+  {
+    "id": "8aafba48bc732c9130a59bce89c7c50ff762df60b24ae6ffc2152a2e29d98f36",
+    "entry": "8aafba48bc732c9130a59bce89c7c50ff762df60b24ae6ffc2152a2e29d98f36-0",
+    "common": "Dark-eyed Junco",
+    "scientific": "Junco hyemalis",
+    "confidence": 0.9996973276138306,
+    "filename": "_55A3356.jpg"
+  },
+  {
+    "id": "a27cd05539d49d49bddfa2e1ad6f5955c5e7a7b2927063b1b340863e14236b03",
+    "entry": "a27cd05539d49d49bddfa2e1ad6f5955c5e7a7b2927063b1b340863e14236b03-0",
+    "common": "Dark-eyed Junco",
+    "scientific": "Junco hyemalis",
+    "confidence": 0.9992414712905884,
+    "filename": "_55A3847.jpg"
+  },
+  {
+    "id": "b16e4109a154888abf88382016681cb2fd8e1f58351cdf12abd32ef8ae684d79",
+    "entry": "b16e4109a154888abf88382016681cb2fd8e1f58351cdf12abd32ef8ae684d79-0",
+    "common": "Dark-eyed Junco",
+    "scientific": "Junco hyemalis",
+    "confidence": 0.9991575479507446,
+    "filename": "_55A2688.jpg"
+  },
+  {
+    "id": "d8ab5c09113240f649c1912d7abd94c61f6ce93924b14cc350f45e7b83fe54f0",
+    "entry": "d8ab5c09113240f649c1912d7abd94c61f6ce93924b14cc350f45e7b83fe54f0-0",
+    "common": "Dark-eyed Junco",
+    "scientific": "Junco hyemalis",
+    "confidence": 0.9999058246612549,
+    "filename": "_55A6316.jpg"
+  },
+  {
+    "id": "f349c4a4a83b477fd58d4533e5f2e26dde0ad8e2ac17d25b6116759ddcf482b0",
+    "entry": "f349c4a4a83b477fd58d4533e5f2e26dde0ad8e2ac17d25b6116759ddcf482b0-0",
+    "common": "Dark-eyed Junco",
+    "scientific": "Junco hyemalis",
+    "confidence": 0.9912740588188171,
+    "filename": "_55A3857.jpg"
+  },
+  {
+    "id": "2fd2773038163cea7c364a70a07bba185b44073275c6ac236c352e9c6e85f4bf",
+    "entry": "2fd2773038163cea7c364a70a07bba185b44073275c6ac236c352e9c6e85f4bf-0",
+    "common": "Double-crested Cormorant",
+    "scientific": "Nannopterum auritum",
+    "confidence": 0.8281109929084778,
+    "filename": "_55A3791.jpg"
+  },
+  {
+    "id": "ac72df181c5974049bc57bb78399575d17aed00fde7c38ec0ba9119281b6441a",
+    "entry": "ac72df181c5974049bc57bb78399575d17aed00fde7c38ec0ba9119281b6441a-0",
+    "common": "Double-crested Cormorant",
+    "scientific": "Nannopterum auritum",
+    "confidence": 0.7559400796890259,
+    "filename": "_55A4923.jpg"
+  },
+  {
+    "id": "2c9f0f6a3e39f51b35a56fb74b9c366e45103d4b907d04675163922f5ab3c727",
+    "entry": "2c9f0f6a3e39f51b35a56fb74b9c366e45103d4b907d04675163922f5ab3c727-0",
+    "common": "Eastern Meadowlark",
+    "scientific": "Sturnella magna",
+    "confidence": 0.9872283935546875,
+    "filename": "_55A0874~2.jpg"
+  },
+  {
+    "id": "92c9101bdaf71b726d209198442ecb3233cd1fe2c48991eeaf922854c4410abc",
+    "entry": "92c9101bdaf71b726d209198442ecb3233cd1fe2c48991eeaf922854c4410abc-0",
+    "common": "Eastern Meadowlark",
+    "scientific": "Sturnella magna",
+    "confidence": 0.9782670736312866,
+    "filename": "_55A6985~2.jpg"
+  },
+  {
+    "id": "eac91c177c1497fd5749858269983d57b98ab87f88b76ed0e9840582a88f5038",
+    "entry": "eac91c177c1497fd5749858269983d57b98ab87f88b76ed0e9840582a88f5038-0",
+    "common": "Eurasian Collared-Dove",
+    "scientific": "Streptopelia decaocto",
+    "confidence": 0.9907050728797913,
+    "filename": "_55A4353.jpg"
+  },
+  {
+    "id": "289f35ebc2dad2f7d8d2394c597c843477324562b26326ecd35801e3c4449226",
+    "entry": "289f35ebc2dad2f7d8d2394c597c843477324562b26326ecd35801e3c4449226-0",
+    "common": "Forster's Tern",
+    "scientific": "Sterna forsteri",
+    "confidence": 0.3021993041038513,
+    "filename": "_55A6683.jpg"
+  },
+  {
+    "id": "3a6828783b022c2bc31b4344628b064c2d4e7a72a9f16a372cf6eb9aa1cd49ec",
+    "entry": "3a6828783b022c2bc31b4344628b064c2d4e7a72a9f16a372cf6eb9aa1cd49ec-0",
+    "common": "Forster's Tern",
+    "scientific": "Sterna forsteri",
+    "confidence": 0.9617128968238831,
+    "filename": "_55A1890.jpg"
+  },
+  {
+    "id": "425cf39f610407818dbdad23def7ccfe3af523c7d29b616a551d5573a5536b49",
+    "entry": "425cf39f610407818dbdad23def7ccfe3af523c7d29b616a551d5573a5536b49-0",
+    "common": "Fox Sparrow",
+    "scientific": "Passerella iliaca",
+    "confidence": 0.9951218962669373,
+    "filename": "_55A0493.jpg"
+  },
+  {
+    "id": "d248e2cc530f59af8fa90e0d18c118cbe8649966f39f8325ca95e004192961f6",
+    "entry": "d248e2cc530f59af8fa90e0d18c118cbe8649966f39f8325ca95e004192961f6-0",
+    "common": "Fox Sparrow",
+    "scientific": "Passerella iliaca",
+    "confidence": 0.9998774528503418,
+    "filename": "_55A0569.jpg"
+  },
+  {
+    "id": "16e46a76557fb4626a4597ae5d1c77b87674550adcff4e6e72aa823c54c631d0",
+    "entry": "16e46a76557fb4626a4597ae5d1c77b87674550adcff4e6e72aa823c54c631d0-2",
+    "common": "Gadwall",
+    "scientific": "Mareca strepera",
+    "confidence": 0.1320372074842453,
+    "filename": "_55A4951-2.jpg"
+  },
+  {
+    "id": "76c89ebea9dd8d51efedf7fad59ab03f3c281c01d82c70f1bcc3fd4ac3a860a7",
+    "entry": "76c89ebea9dd8d51efedf7fad59ab03f3c281c01d82c70f1bcc3fd4ac3a860a7-0",
+    "common": "Gadwall",
+    "scientific": "Mareca strepera",
+    "confidence": 0.9954559803009033,
+    "filename": "_55A1047.jpg"
+  },
+  {
+    "id": "df5731077c23caa1d3bdb464efb8a21011896e0a368761ee7f61990a91259a40",
+    "entry": "df5731077c23caa1d3bdb464efb8a21011896e0a368761ee7f61990a91259a40-0",
+    "common": "Gadwall",
+    "scientific": "Mareca strepera",
+    "confidence": 0.9994639754295349,
+    "filename": "_55A7573.jpg"
+  },
+  {
+    "id": "c685e0f7957548ed1d77d9a9f9165344bd0926368bc225922937d9f595625125",
+    "entry": "c685e0f7957548ed1d77d9a9f9165344bd0926368bc225922937d9f595625125-0",
+    "common": "Golden Eagle",
+    "scientific": "Aquila chrysaetos",
+    "confidence": 0.056361932307481766,
+    "filename": "_55A5416.jpg"
+  },
+  {
+    "id": "0c0e8eed0323bba707fab07df38cfec9cc7d2b9ca417150d3c148686298dbff5",
+    "entry": "0c0e8eed0323bba707fab07df38cfec9cc7d2b9ca417150d3c148686298dbff5-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9898965358734131,
+    "filename": "_55A0629.jpg"
+  },
+  {
+    "id": "3a23d3e7fc72b1a8329d7a0be4ca03dc0d3b30166bea244428005aaeb4b11b6a",
+    "entry": "3a23d3e7fc72b1a8329d7a0be4ca03dc0d3b30166bea244428005aaeb4b11b6a-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9996019005775452,
+    "filename": "_55A3982.jpg"
+  },
+  {
+    "id": "5fa4af0c6e1ab07267a526dc297cc40d22a35337ed40236d67652d63e8306f2a",
+    "entry": "5fa4af0c6e1ab07267a526dc297cc40d22a35337ed40236d67652d63e8306f2a-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9990549683570862,
+    "filename": "_55A3969.jpg"
+  },
+  {
+    "id": "668914ece3b7f209e7b737e8cb8acd3798dda1f2f7f935cb330c1a3a2b93242a",
+    "entry": "668914ece3b7f209e7b737e8cb8acd3798dda1f2f7f935cb330c1a3a2b93242a-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9999343156814575,
+    "filename": "_55A0793.jpg"
+  },
+  {
+    "id": "7510fe85ab17f2a4033450cc2846ee6f77bcd8a6cb66b76ad0d657fe0bb35daa",
+    "entry": "7510fe85ab17f2a4033450cc2846ee6f77bcd8a6cb66b76ad0d657fe0bb35daa-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9997372031211853,
+    "filename": "_55A7368.jpg"
+  },
+  {
+    "id": "83553ca2981d54c377cf66b1e7b78835665efc64a10ab98d307b71c042e041d4",
+    "entry": "83553ca2981d54c377cf66b1e7b78835665efc64a10ab98d307b71c042e041d4-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9991372227668762,
+    "filename": "_55A1561.jpg"
+  },
+  {
+    "id": "83a3e3c1dc85fbff5339697036e1c18590e942eedafacfdb0404deb280d68042",
+    "entry": "83a3e3c1dc85fbff5339697036e1c18590e942eedafacfdb0404deb280d68042-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9978353381156921,
+    "filename": "_55A8463.jpg"
+  },
+  {
+    "id": "b3565ffd7a8558f6236932ad5606e8ee74f3e158311be2015c31b1ec8faf3c5c",
+    "entry": "b3565ffd7a8558f6236932ad5606e8ee74f3e158311be2015c31b1ec8faf3c5c-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9789381623268127,
+    "filename": "_55A3273.JPG"
+  },
+  {
+    "id": "c905d4f618b4815d1707c8096997fca6768f9f7d949b3770f2745226685f9cf5",
+    "entry": "c905d4f618b4815d1707c8096997fca6768f9f7d949b3770f2745226685f9cf5-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9906057715415955,
+    "filename": "_55A3164.jpg"
+  },
+  {
+    "id": "ecb074c3b7b100731e0bc0bc1ab0f74477081cc1480371ea0a8fe7f76f163818",
+    "entry": "ecb074c3b7b100731e0bc0bc1ab0f74477081cc1480371ea0a8fe7f76f163818-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9825842976570129,
+    "filename": "_55A7345.jpg"
+  },
+  {
+    "id": "fd1065e3594de5bcbbd07d00e3b1390aa70dea8ad14bc5cefd39b232346df576",
+    "entry": "fd1065e3594de5bcbbd07d00e3b1390aa70dea8ad14bc5cefd39b232346df576-0",
+    "common": "Golden-crowned Sparrow",
+    "scientific": "Zonotrichia atricapilla",
+    "confidence": 0.9999817609786987,
+    "filename": "_55A3971.jpg"
+  },
+  {
+    "id": "05e645153a126a1d10269292fa10178b94f7811f288abe71de939b1dc7d00ee6",
+    "entry": "05e645153a126a1d10269292fa10178b94f7811f288abe71de939b1dc7d00ee6-0",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "confidence": 0.9985435009002686,
+    "filename": "_55A4379.jpg"
+  },
+  {
+    "id": "0d023009464a66fd693377b1729a91ddb79d5b0394ef55897f578389b1407705",
+    "entry": "0d023009464a66fd693377b1729a91ddb79d5b0394ef55897f578389b1407705-0",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "confidence": 0.45253774523735046,
+    "filename": "_55A3082.jpg"
+  },
+  {
+    "id": "8f14b9f41a5a4d3ddc6f3d2476854c64e96a294ba7b9c6ab02bb31f35d49b1d7",
+    "entry": "8f14b9f41a5a4d3ddc6f3d2476854c64e96a294ba7b9c6ab02bb31f35d49b1d7-0",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "confidence": 0.9998180270195007,
+    "filename": "JK3A4939.jpg"
+  },
+  {
+    "id": "e798ce0f140792fcc6b90f64cee493201ce535abeeb0e90bd918eea3ab1cbe9a",
+    "entry": "e798ce0f140792fcc6b90f64cee493201ce535abeeb0e90bd918eea3ab1cbe9a-0",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "confidence": 0.9999480247497559,
+    "filename": "_55A9841.jpg"
+  },
+  {
+    "id": "eee037573da033de17a538834cc6362edde260ed1d6479deb2e9b87c6aaa513c",
+    "entry": "eee037573da033de17a538834cc6362edde260ed1d6479deb2e9b87c6aaa513c-0",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "confidence": 0.9909692406654358,
+    "filename": "_55A4720.jpg"
+  },
+  {
+    "id": "f4efb0740ef8335efbd549db4e4ea65a8af21c783fd2704282d85e7c9ea57fcf",
+    "entry": "f4efb0740ef8335efbd549db4e4ea65a8af21c783fd2704282d85e7c9ea57fcf-0",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "confidence": 0.9885222911834717,
+    "filename": "_55A5952.jpg"
+  },
+  {
+    "id": "f706f6630cc2d96d565339b87eebae95d3808d58849a10aa742d21204d909c30",
+    "entry": "f706f6630cc2d96d565339b87eebae95d3808d58849a10aa742d21204d909c30-0",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "confidence": 0.9898502826690674,
+    "filename": "_55A3622.jpg"
+  },
+  {
+    "id": "fdf69e494c229bc09f70a36129778d004cb37ceb04f0c17849c799f4dc2fe5b8",
+    "entry": "fdf69e494c229bc09f70a36129778d004cb37ceb04f0c17849c799f4dc2fe5b8-0",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "confidence": 0.9998621940612793,
+    "filename": "JK3A4943.jpg"
+  },
+  {
+    "id": "0a55f096dc6764d9ebadd45b8e0445774862795d23c2656635103f2b5d57e0c7",
+    "entry": "0a55f096dc6764d9ebadd45b8e0445774862795d23c2656635103f2b5d57e0c7-0",
+    "common": "Great Cormorant",
+    "scientific": "Phalacrocorax carbo",
+    "confidence": 0.9998409748077393,
+    "filename": "_55A1127.jpg"
+  },
+  {
+    "id": "069502cb07fa09192bd32d4dd052a9e4e6e273092ccc9af2928247b59931dfec",
+    "entry": "069502cb07fa09192bd32d4dd052a9e4e6e273092ccc9af2928247b59931dfec-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.9973719120025635,
+    "filename": "_55A8204.jpg"
+  },
+  {
+    "id": "1129d41b2bf142abccd2f8aacd6570af02c2511bce9bf772e704804169d4f716",
+    "entry": "1129d41b2bf142abccd2f8aacd6570af02c2511bce9bf772e704804169d4f716-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.7953822612762451,
+    "filename": "_55A8518.jpg"
+  },
+  {
+    "id": "2277e435345c5b2f22743d0290e2becdf6cae822c0d6937b50c90bf50d49ed92",
+    "entry": "2277e435345c5b2f22743d0290e2becdf6cae822c0d6937b50c90bf50d49ed92-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.9761718511581421,
+    "filename": "_55A4999.jpg"
+  },
+  {
+    "id": "45a4b11cd0a86adc963bd2d498e73d636ba635231a84493758bb711f0941a23c",
+    "entry": "45a4b11cd0a86adc963bd2d498e73d636ba635231a84493758bb711f0941a23c-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.9417459964752197,
+    "filename": "signed_JK3A1865.jpg"
+  },
+  {
+    "id": "4878fdabe6ab2de762aee11f9d18527c67fcc33d7eec1376b56ddaef2c77d5aa",
+    "entry": "4878fdabe6ab2de762aee11f9d18527c67fcc33d7eec1376b56ddaef2c77d5aa-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.4215313196182251,
+    "filename": "_55A4898.jpg"
+  },
+  {
+    "id": "58d9e116466cf3d4d4b4c9ac32b1422ce2e688412b7bbbd41ca55de1c629f1a1",
+    "entry": "58d9e116466cf3d4d4b4c9ac32b1422ce2e688412b7bbbd41ca55de1c629f1a1-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.9844332933425903,
+    "filename": "signed_JK3A0544.jpg"
+  },
+  {
+    "id": "b1556f6f1ad1fc8f4f541a6dbc55313d45c2e638d7e7147ecdad3c8d06c4cbc0",
+    "entry": "b1556f6f1ad1fc8f4f541a6dbc55313d45c2e638d7e7147ecdad3c8d06c4cbc0-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.9975380897521973,
+    "filename": "_55A7000-2.jpg"
+  },
+  {
+    "id": "cd34e40e9dc9fff624062d0f7a6d51db4c48cef8df93ac61ebb6b628282cf067",
+    "entry": "cd34e40e9dc9fff624062d0f7a6d51db4c48cef8df93ac61ebb6b628282cf067-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.8173969388008118,
+    "filename": "_55A5020.jpg"
+  },
+  {
+    "id": "d0c235846385efc193d7302afb2b6f76874a6cccf8671cc2ff3ac3bcd5356f27",
+    "entry": "d0c235846385efc193d7302afb2b6f76874a6cccf8671cc2ff3ac3bcd5356f27-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.9976429343223572,
+    "filename": "JK3A2018-2.jpg"
+  },
+  {
+    "id": "d4a18f55ce6cd458987fc1de4de38e6cd1741c8a1bc3af61cba6a9e283091c2d",
+    "entry": "d4a18f55ce6cd458987fc1de4de38e6cd1741c8a1bc3af61cba6a9e283091c2d-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.9994924068450928,
+    "filename": "JK3A4965.jpg"
+  },
+  {
+    "id": "fa829c7bbcb388ec645b9903e316e4ad238450c39dbb3daa674a2d004a6bd0cf",
+    "entry": "fa829c7bbcb388ec645b9903e316e4ad238450c39dbb3daa674a2d004a6bd0cf-0",
+    "common": "Great Egret",
+    "scientific": "Ardea alba",
+    "confidence": 0.9807345271110535,
+    "filename": "signed_JK3A2346.jpg"
+  },
+  {
+    "id": "6420d9c78518515802f09ee6fb2bb6cb5aa91721c6db8cbac568df3a38c31f05",
+    "entry": "6420d9c78518515802f09ee6fb2bb6cb5aa91721c6db8cbac568df3a38c31f05-0",
+    "common": "Great Horned Owl",
+    "scientific": "Bubo virginianus",
+    "confidence": 7.756344712106511e-05,
+    "filename": "_55A2224.jpg"
+  },
+  {
+    "id": "be2628c15e0a649090f04168ce91ea76bd69ca4aea316780a4604fd1af63b73d",
+    "entry": "be2628c15e0a649090f04168ce91ea76bd69ca4aea316780a4604fd1af63b73d-0",
+    "common": "Great-tailed Grackle",
+    "scientific": "Quiscalus mexicanus",
+    "confidence": 0.14335976541042328,
+    "filename": "_55A8225.jpg"
+  },
+  {
+    "id": "185851059b1054c0db8a9c9c599ce5ec7c1d21d2842366d4065e39df5e1d2ab4",
+    "entry": "185851059b1054c0db8a9c9c599ce5ec7c1d21d2842366d4065e39df5e1d2ab4-0",
+    "common": "Greater Yellowlegs",
+    "scientific": "Tringa melanoleuca",
+    "confidence": 0.9927242398262024,
+    "filename": "_55A6759.jpg"
+  },
+  {
+    "id": "228a05f6f5b21cd8e294a0594aabfe8e27fa3e2e5cb77bd0bd1cd1f5050658ca",
+    "entry": "228a05f6f5b21cd8e294a0594aabfe8e27fa3e2e5cb77bd0bd1cd1f5050658ca-0",
+    "common": "Greater Yellowlegs",
+    "scientific": "Tringa melanoleuca",
+    "confidence": 0.5837683081626892,
+    "filename": "_55A6944.jpg"
+  },
+  {
+    "id": "42b81b60f4291164634bcf1eff46fa151c7574effc6466f19befd2d55b2ced18",
+    "entry": "42b81b60f4291164634bcf1eff46fa151c7574effc6466f19befd2d55b2ced18-0",
+    "common": "Greater Yellowlegs",
+    "scientific": "Tringa melanoleuca",
+    "confidence": 0.9923305511474609,
+    "filename": "_55A1826.jpg"
+  },
+  {
+    "id": "48963a9c7387ac91145e713a6c3a170808f4f2f61f83cf188f5895dc4f4fcc85",
+    "entry": "48963a9c7387ac91145e713a6c3a170808f4f2f61f83cf188f5895dc4f4fcc85-0",
+    "common": "Greater Yellowlegs",
+    "scientific": "Tringa melanoleuca",
+    "confidence": 0.9074917435646057,
+    "filename": "_55A3220.jpg"
+  },
+  {
+    "id": "7b0a8e2a6202f60dc9a9a15a99a4fef813acbe0b64009976b8105b82fa07b884",
+    "entry": "7b0a8e2a6202f60dc9a9a15a99a4fef813acbe0b64009976b8105b82fa07b884-0",
+    "common": "Greater Yellowlegs",
+    "scientific": "Tringa melanoleuca",
+    "confidence": 0.9967124462127686,
+    "filename": "_55A6820.jpg"
+  },
+  {
+    "id": "98f598bc54489ea5bac29b108047b73f2a7471d46c4d446d1b454286a717da9a",
+    "entry": "98f598bc54489ea5bac29b108047b73f2a7471d46c4d446d1b454286a717da9a-0",
+    "common": "Greater Yellowlegs",
+    "scientific": "Tringa melanoleuca",
+    "confidence": 0.922147810459137,
+    "filename": "_55A2932.jpg"
+  },
+  {
+    "id": "9d7fb82a1f0c4f3684107c6d0a282db344f013940d1efa3de09bb3519eed58bd",
+    "entry": "9d7fb82a1f0c4f3684107c6d0a282db344f013940d1efa3de09bb3519eed58bd-0",
+    "common": "Greater Yellowlegs",
+    "scientific": "Tringa melanoleuca",
+    "confidence": 0.96259605884552,
+    "filename": "_55A6734.jpg"
+  },
+  {
+    "id": "e5ebf4b6ca50ce99eeaf0413297c829d85e379e53d1b4ed53e0cba6e278f1912",
+    "entry": "e5ebf4b6ca50ce99eeaf0413297c829d85e379e53d1b4ed53e0cba6e278f1912-0",
+    "common": "Greater Yellowlegs",
+    "scientific": "Tringa melanoleuca",
+    "confidence": 0.9992751479148865,
+    "filename": "_55A1305.jpg"
+  },
+  {
+    "id": "3300cde710eb7dae521391918688fa82e29927a3af240fe27848adb883f93a96",
+    "entry": "3300cde710eb7dae521391918688fa82e29927a3af240fe27848adb883f93a96-0",
+    "common": "Green Heron",
+    "scientific": "Butorides virescens",
+    "confidence": 0.13359174132347107,
+    "filename": "_55A7527.jpg"
+  },
+  {
+    "id": "5f51549fe911e5a0e27b93a28a7607412ff5c0e4d2e4b348dfb5a766e525a9bd",
+    "entry": "5f51549fe911e5a0e27b93a28a7607412ff5c0e4d2e4b348dfb5a766e525a9bd-0",
+    "common": "Green Heron",
+    "scientific": "Butorides virescens",
+    "confidence": 0.22084379196166992,
+    "filename": "_55A8403.jpg"
+  },
+  {
+    "id": "766a9e6c9025841b49b4c6efcd266115e9a814762ae65ed3e96f0cc367dcf877",
+    "entry": "766a9e6c9025841b49b4c6efcd266115e9a814762ae65ed3e96f0cc367dcf877-0",
+    "common": "Green Heron",
+    "scientific": "Butorides virescens",
+    "confidence": 0.5128202438354492,
+    "filename": "_55A9380.jpg"
+  },
+  {
+    "id": "bb07f43bae74296a2fbb5f00497943df6914fc98fe5bdca0991def5e320cb0d3",
+    "entry": "bb07f43bae74296a2fbb5f00497943df6914fc98fe5bdca0991def5e320cb0d3-0",
+    "common": "Green Heron",
+    "scientific": "Butorides virescens",
+    "confidence": 0.3015514612197876,
+    "filename": "JK3A2774_0029.jpg"
+  },
+  {
+    "id": "bd43b8b94db1111b1d21dc09e41cff7c3d4614944f9a9d87dfc37e516a03cf21",
+    "entry": "bd43b8b94db1111b1d21dc09e41cff7c3d4614944f9a9d87dfc37e516a03cf21-0",
+    "common": "Green Heron",
+    "scientific": "Butorides virescens",
+    "confidence": 0.15967798233032227,
+    "filename": "_55A9502.jpg"
+  },
+  {
+    "id": "dac757b9533603409a7df6cf59996e1f1203bb136320e98cb3ca1660bccc25cf",
+    "entry": "dac757b9533603409a7df6cf59996e1f1203bb136320e98cb3ca1660bccc25cf-0",
+    "common": "Green Heron",
+    "scientific": "Butorides virescens",
+    "confidence": 0.41751813888549805,
+    "filename": "_55A3701.jpg"
+  },
+  {
+    "id": "187dbed06974ac152f5abbc3c916260ad304706db306606320d8fd34050d8192",
+    "entry": "187dbed06974ac152f5abbc3c916260ad304706db306606320d8fd34050d8192-0",
+    "common": "Green-winged Teal",
+    "scientific": "Anas crecca",
+    "confidence": 0.9998107552528381,
+    "filename": "_55A8663.jpg"
+  },
+  {
+    "id": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7",
+    "entry": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7-4",
+    "common": "Green-winged Teal",
+    "scientific": "Anas crecca",
+    "confidence": 0.024109208956360817,
+    "filename": "_55A7387.jpg"
+  },
+  {
+    "id": "5413934d99d59fe4b203aed023a3cb02db2f4f2d5d38e91e0e080412e5688f40",
+    "entry": "5413934d99d59fe4b203aed023a3cb02db2f4f2d5d38e91e0e080412e5688f40-0",
+    "common": "Green-winged Teal",
+    "scientific": "Anas crecca",
+    "confidence": 0.9999239444732666,
+    "filename": "_55A4033.jpg"
+  },
+  {
+    "id": "41b7ad43e15ebf5d21f17c8d6edacbd122f65f14e31feb01e4977936f09e5f18",
+    "entry": "41b7ad43e15ebf5d21f17c8d6edacbd122f65f14e31feb01e4977936f09e5f18-0",
+    "common": "Hairy Woodpecker",
+    "scientific": "Leuconotopicus villosus",
+    "confidence": 0.9969558715820312,
+    "filename": "_55A9857~2.jpg"
+  },
+  {
+    "id": "cae1cf1a56b5bc14f236002646fd9e7cab1798797e9e87c89b0160ada5c7bb7c",
+    "entry": "cae1cf1a56b5bc14f236002646fd9e7cab1798797e9e87c89b0160ada5c7bb7c-0",
+    "common": "Hairy Woodpecker",
+    "scientific": "Leuconotopicus villosus",
+    "confidence": 0.9988386034965515,
+    "filename": "_55A0759.jpg"
+  },
+  {
+    "id": "fc0d9e32137bfef71a687e562d8c4f1c691861d346821fe3bcef57375ca7c2e6",
+    "entry": "fc0d9e32137bfef71a687e562d8c4f1c691861d346821fe3bcef57375ca7c2e6-0",
+    "common": "Hairy Woodpecker",
+    "scientific": "Leuconotopicus villosus",
+    "confidence": 0.9400341510772705,
+    "filename": "_55A2098.jpg"
+  },
+  {
+    "id": "901e81fd2da3c4e82ebabda5542ba288859f0e2e73d98044018c160e05f22b87",
+    "entry": "901e81fd2da3c4e82ebabda5542ba288859f0e2e73d98044018c160e05f22b87-0",
+    "common": "Hammond's Flycatcher",
+    "scientific": "Empidonax hammondii",
+    "confidence": 0.952366054058075,
+    "filename": "_55A2329.jpg"
+  },
+  {
+    "id": "7376a8022dd6dce6f646a7d7457c6590619601839683283c8600ee77a5dc457c",
+    "entry": "7376a8022dd6dce6f646a7d7457c6590619601839683283c8600ee77a5dc457c-0",
+    "common": "Hermit Thrush",
+    "scientific": "Catharus guttatus",
+    "confidence": 0.7023568749427795,
+    "filename": "_55A1326.jpg"
+  },
+  {
+    "id": "7441dfce9e04fb2f2e05cf8cd806fe9e440f18704c386555be7aecea4d27e3a0",
+    "entry": "7441dfce9e04fb2f2e05cf8cd806fe9e440f18704c386555be7aecea4d27e3a0-0",
+    "common": "Hermit Thrush",
+    "scientific": "Catharus guttatus",
+    "confidence": 0.9855071306228638,
+    "filename": "_55A7633.jpg"
+  },
+  {
+    "id": "918431a1ffab3d23881f0acbc30259f5c4a27badcbf3cd20004b8329528db58d",
+    "entry": "918431a1ffab3d23881f0acbc30259f5c4a27badcbf3cd20004b8329528db58d-0",
+    "common": "Hermit Thrush",
+    "scientific": "Catharus guttatus",
+    "confidence": 0.9687145948410034,
+    "filename": "_55A2046.jpg"
+  },
+  {
+    "id": "b9b59bc7c4e043c393a66d9dc3508993cac19d6e70f6c7fa2a7d9297b64ec09f",
+    "entry": "b9b59bc7c4e043c393a66d9dc3508993cac19d6e70f6c7fa2a7d9297b64ec09f-0",
+    "common": "Hermit Thrush",
+    "scientific": "Catharus guttatus",
+    "confidence": 0.9981335997581482,
+    "filename": "_55A9709.jpg"
+  },
+  {
+    "id": "c1a7e776205d48a048e150d72f87171b43fd84f6c99d5dd15a4f4dbffd05db2c",
+    "entry": "c1a7e776205d48a048e150d72f87171b43fd84f6c99d5dd15a4f4dbffd05db2c-0",
+    "common": "Hermit Thrush",
+    "scientific": "Catharus guttatus",
+    "confidence": 0.3940032124519348,
+    "filename": "_55A3384.jpg"
+  },
+  {
+    "id": "ec83e349ffe47db1eb9118948779aed813e9d339aec7294705dabfac861c483e",
+    "entry": "ec83e349ffe47db1eb9118948779aed813e9d339aec7294705dabfac861c483e-0",
+    "common": "Hermit Thrush",
+    "scientific": "Catharus guttatus",
+    "confidence": 0.31009459495544434,
+    "filename": "_55A3931.jpg"
+  },
+  {
+    "id": "298b037dcd945c82d516b3e61fcd1fb1e46ae3892a058425cde704130834a70a",
+    "entry": "298b037dcd945c82d516b3e61fcd1fb1e46ae3892a058425cde704130834a70a-0",
+    "common": "Hooded Oriole",
+    "scientific": "Icterus cucullatus",
+    "confidence": 0.003857517149299383,
+    "filename": "JK3A4218.jpg"
+  },
+  {
+    "id": "5dec83f091e7427d9873ee12b584c2188ae55becdc2cad8241aff6fdc25b3b4f",
+    "entry": "5dec83f091e7427d9873ee12b584c2188ae55becdc2cad8241aff6fdc25b3b4f-0",
+    "common": "Hooded Oriole",
+    "scientific": "Icterus cucullatus",
+    "confidence": 0.001950418925844133,
+    "filename": "_55A4396.jpg"
+  },
+  {
+    "id": "a4dc966b3773192c774df182c840d29854771ade54b7412e4dfe19eb557ab68c",
+    "entry": "a4dc966b3773192c774df182c840d29854771ade54b7412e4dfe19eb557ab68c-0",
+    "common": "Hooded Oriole",
+    "scientific": "Icterus cucullatus",
+    "confidence": 0.5624357461929321,
+    "filename": "_55A4361.jpg"
+  },
+  {
+    "id": "ededae72b39ce0704e3e0fbc5385039688feaa52ef4f44b874437a56a9689f77",
+    "entry": "ededae72b39ce0704e3e0fbc5385039688feaa52ef4f44b874437a56a9689f77-0",
+    "common": "Hooded Oriole",
+    "scientific": "Icterus cucullatus",
+    "confidence": 0.0022423837799578905,
+    "filename": "_55A4301.jpg"
+  },
+  {
+    "id": "754536f1ca8b030fe47850e3cf3ed88fcc801998a3b0b34cda64c74d4589a54b",
+    "entry": "754536f1ca8b030fe47850e3cf3ed88fcc801998a3b0b34cda64c74d4589a54b-0",
+    "common": "House Finch",
+    "scientific": "Haemorhous mexicanus",
+    "confidence": 0.9828862547874451,
+    "filename": "_55A5250.jpg"
+  },
+  {
+    "id": "89b559355aaa216c9b4f7165270a552270eb067bf4678597f52e1489e78dec5c",
+    "entry": "89b559355aaa216c9b4f7165270a552270eb067bf4678597f52e1489e78dec5c-0",
+    "common": "House Finch",
+    "scientific": "Haemorhous mexicanus",
+    "confidence": 0.982819139957428,
+    "filename": "_55A5762.jpg"
+  },
+  {
+    "id": "975c6081ab2efafd376fc06ec7dd93c816f16544726346d57024729eb1e8a285",
+    "entry": "975c6081ab2efafd376fc06ec7dd93c816f16544726346d57024729eb1e8a285-0",
+    "common": "House Finch",
+    "scientific": "Haemorhous mexicanus",
+    "confidence": 0.9856268763542175,
+    "filename": "_55A8077.jpg"
+  },
+  {
+    "id": "ccbf82c7a611ca4e80ae176d48725a79b3b5a52ff1cc595bfdf4e71240e86a61",
+    "entry": "ccbf82c7a611ca4e80ae176d48725a79b3b5a52ff1cc595bfdf4e71240e86a61-0",
+    "common": "House Finch",
+    "scientific": "Haemorhous mexicanus",
+    "confidence": 0.9967477321624756,
+    "filename": "_55A7984.jpg"
+  },
+  {
+    "id": "de870722b1a3599742012780370a2c0209900d5ac3e2f4e95400688ae030d218",
+    "entry": "de870722b1a3599742012780370a2c0209900d5ac3e2f4e95400688ae030d218-1",
+    "common": "House Finch",
+    "scientific": "Haemorhous mexicanus",
+    "confidence": 0.8399102091789246,
+    "filename": "signed_JK3A0105-2.jpg"
+  },
+  {
+    "id": "78d7486297fc5007727a2378e7c389aad44e7ce62adacbe33351b1084f925b5f",
+    "entry": "78d7486297fc5007727a2378e7c389aad44e7ce62adacbe33351b1084f925b5f-0",
+    "common": "House Sparrow",
+    "scientific": "Passer domesticus",
+    "confidence": 0.7343528866767883,
+    "filename": "_55A7525.jpg"
+  },
+  {
+    "id": "ca49f25bdc327e29cf56cfdbdbbef43eb576ef4207b615b860dda54f82bf7e34",
+    "entry": "ca49f25bdc327e29cf56cfdbdbbef43eb576ef4207b615b860dda54f82bf7e34-0",
+    "common": "House Sparrow",
+    "scientific": "Passer domesticus",
+    "confidence": 0.9725956320762634,
+    "filename": "JK3A4680.jpg"
+  },
+  {
+    "id": "cada694e8a480ff0fc203dc87440565401636f921003e4119c5a682c7ec56835",
+    "entry": "cada694e8a480ff0fc203dc87440565401636f921003e4119c5a682c7ec56835-0",
+    "common": "House Sparrow",
+    "scientific": "Passer domesticus",
+    "confidence": 0.681343138217926,
+    "filename": "_55A5912.jpg"
+  },
+  {
+    "id": "2e1aa9d03464a1bcdc5e90c4dfcc72a08a8f1b74d7c903806ce816f1931f70ce",
+    "entry": "2e1aa9d03464a1bcdc5e90c4dfcc72a08a8f1b74d7c903806ce816f1931f70ce-0",
+    "common": "Hutton's Vireo",
+    "scientific": "Vireo huttoni",
+    "confidence": 0.9999834299087524,
+    "filename": "_55A7033.jpg"
+  },
+  {
+    "id": "23e3b0d6a7b7bd737fa7e8e594a4af1d356027aedee837c9d810d81bfe832026",
+    "entry": "23e3b0d6a7b7bd737fa7e8e594a4af1d356027aedee837c9d810d81bfe832026-0",
+    "common": "Indian Pond-Heron",
+    "scientific": "Ardeola grayii",
+    "confidence": 0.9800573587417603,
+    "filename": "_55A1262.jpg"
+  },
+  {
+    "id": "bd1c07c5cb628911bae96c52050e46a667b565c9f594253cf7965c23b3be423c",
+    "entry": "bd1c07c5cb628911bae96c52050e46a667b565c9f594253cf7965c23b3be423c-0",
+    "common": "Killdeer",
+    "scientific": "Charadrius vociferus",
+    "confidence": 0.9711394309997559,
+    "filename": "_55A8321.jpg"
+  },
+  {
+    "id": "31a5ebb45c9f61906f358d8c1f2434857fa7b6ffc5546b22de38f0c296e87d8d",
+    "entry": "31a5ebb45c9f61906f358d8c1f2434857fa7b6ffc5546b22de38f0c296e87d8d-0",
+    "common": "Lazuli Bunting",
+    "scientific": "Passerina amoena",
+    "confidence": 0.999808132648468,
+    "filename": "_55A3865.jpg"
+  },
+  {
+    "id": "78617d75f53d39fd6254bc96daf6a4858f1cb610969d5e49870b4c0d0dd5d70c",
+    "entry": "78617d75f53d39fd6254bc96daf6a4858f1cb610969d5e49870b4c0d0dd5d70c-0",
+    "common": "Lazuli Bunting",
+    "scientific": "Passerina amoena",
+    "confidence": 0.969163715839386,
+    "filename": "_55A3840~2.jpg"
+  },
+  {
+    "id": "e547c0b6edcf7a234c2de39411cfa37da8206395fd6e7323b3a2c98104f485b0",
+    "entry": "e547c0b6edcf7a234c2de39411cfa37da8206395fd6e7323b3a2c98104f485b0-0",
+    "common": "Lazuli Bunting",
+    "scientific": "Passerina amoena",
+    "confidence": 0.9996410608291626,
+    "filename": "_55A3829.jpg"
+  },
+  {
+    "id": "9a1c6265d49f53f35cbf2b3729efb81aab89e7170add49d9553482e1f7541ef9",
+    "entry": "9a1c6265d49f53f35cbf2b3729efb81aab89e7170add49d9553482e1f7541ef9-0",
+    "common": "Least Sandpiper",
+    "scientific": "Calidris minutilla",
+    "confidence": 0.852298378944397,
+    "filename": "_55A1027.jpg"
+  },
+  {
+    "id": "1ef99c1bac1cde1ca7abb970f47511c3b2a388af34e7deb98db7caad7c580cc9",
+    "entry": "1ef99c1bac1cde1ca7abb970f47511c3b2a388af34e7deb98db7caad7c580cc9-0",
+    "common": "Lesser Goldfinch",
+    "scientific": "Spinus psaltria",
+    "confidence": 0.5455906391143799,
+    "filename": "_55A7492.jpg"
+  },
+  {
+    "id": "8b47d3eb8ad865884e3e3318fac141a88d5f671b95d5d783fbfd6b90e5b159ed",
+    "entry": "8b47d3eb8ad865884e3e3318fac141a88d5f671b95d5d783fbfd6b90e5b159ed-1",
+    "common": "Lesser Goldfinch",
+    "scientific": "Spinus psaltria",
+    "confidence": 0.7483838796615601,
+    "filename": "_55A8752.jpg"
+  },
+  {
+    "id": "8ff3ba820101a151427cc99c373e360312d40f727704c057186b26963049dd39",
+    "entry": "8ff3ba820101a151427cc99c373e360312d40f727704c057186b26963049dd39-0",
+    "common": "Lesser Goldfinch",
+    "scientific": "Spinus psaltria",
+    "confidence": 0.018374726176261902,
+    "filename": "_55A6141.jpg"
+  },
+  {
+    "id": "99d0ed2a25c05ecf49cb9492a85df26991acfc2883bb6ca5fa0c8116ccd9124d",
+    "entry": "99d0ed2a25c05ecf49cb9492a85df26991acfc2883bb6ca5fa0c8116ccd9124d-0",
+    "common": "Lesser Goldfinch",
+    "scientific": "Spinus psaltria",
+    "confidence": 0.8298742771148682,
+    "filename": "_55A1058.jpg"
+  },
+  {
+    "id": "bc4f8157acc7ddc33e3431888afdb3f06f3d08f65be9cb9b53a6df3e0ae5c4ac",
+    "entry": "bc4f8157acc7ddc33e3431888afdb3f06f3d08f65be9cb9b53a6df3e0ae5c4ac-0",
+    "common": "Lesser Goldfinch",
+    "scientific": "Spinus psaltria",
+    "confidence": 0.7854148745536804,
+    "filename": "_55A4951.jpg"
+  },
+  {
+    "id": "c16ede0ab0312f7007f1f309ed1f56c5cd76833f46263f6aeec9729f05aace20",
+    "entry": "c16ede0ab0312f7007f1f309ed1f56c5cd76833f46263f6aeec9729f05aace20-0",
+    "common": "Lesser Goldfinch",
+    "scientific": "Spinus psaltria",
+    "confidence": 0.8863286375999451,
+    "filename": "_55A0836.jpg"
+  },
+  {
+    "id": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7",
+    "entry": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7-3",
+    "common": "Lesser Scaup",
+    "scientific": "Aythya affinis",
+    "confidence": 0.021903542801737785,
+    "filename": "_55A7387.jpg"
+  },
+  {
+    "id": "d3e253d3314a8f39d3b843148ddd4eacc00da38ac069495fb182049a472c51fd",
+    "entry": "d3e253d3314a8f39d3b843148ddd4eacc00da38ac069495fb182049a472c51fd-0",
+    "common": "Loggerhead Shrike",
+    "scientific": "Lanius ludovicianus",
+    "confidence": 0.005224159918725491,
+    "filename": "_55A0508.jpg"
+  },
+  {
+    "id": "f0d2ba6a0e752e98d4dc1db2f6ac3a2105c04882113de55edd2f5133342e2710",
+    "entry": "f0d2ba6a0e752e98d4dc1db2f6ac3a2105c04882113de55edd2f5133342e2710-0",
+    "common": "Loggerhead Shrike",
+    "scientific": "Lanius ludovicianus",
+    "confidence": 0.07846871763467789,
+    "filename": "_55A4898(1).jpg"
+  },
+  {
+    "id": "afb1c2b5e658a7ce145f99a0f2510481236bf8f09c330cbbca12f6d826d78d4f",
+    "entry": "afb1c2b5e658a7ce145f99a0f2510481236bf8f09c330cbbca12f6d826d78d4f-0",
+    "common": "Long-billed Dowitcher",
+    "scientific": "Limnodromus scolopaceus",
+    "confidence": 0.8822721242904663,
+    "filename": "_55A7840.jpg"
+  },
+  {
+    "id": "16e46a76557fb4626a4597ae5d1c77b87674550adcff4e6e72aa823c54c631d0",
+    "entry": "16e46a76557fb4626a4597ae5d1c77b87674550adcff4e6e72aa823c54c631d0-0",
+    "common": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "confidence": 0.16887284815311432,
+    "filename": "_55A4951-2.jpg"
+  },
+  {
+    "id": "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb",
+    "entry": "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-0",
+    "common": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "confidence": 0.7467324137687683,
+    "filename": "_55A8540.jpg"
+  },
+  {
+    "id": "36fa2819c02acf23314d45f7a2cad76966fe888c94fabc8c54b91115b7b24926",
+    "entry": "36fa2819c02acf23314d45f7a2cad76966fe888c94fabc8c54b91115b7b24926-0",
+    "common": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "confidence": 0.8075627088546753,
+    "filename": "_55A7176.jpg"
+  },
+  {
+    "id": "41da9934cac2a16a08d685f9da950169a858fc69f7509b6e27b16cb0fde2d401",
+    "entry": "41da9934cac2a16a08d685f9da950169a858fc69f7509b6e27b16cb0fde2d401-0",
+    "common": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "confidence": 0.27461495995521545,
+    "filename": "_55A7300.jpg"
+  },
+  {
+    "id": "4262c6aeddab8f744846535cfbf353bdadc3c71b5a8292f4c521b53928b6f8b5",
+    "entry": "4262c6aeddab8f744846535cfbf353bdadc3c71b5a8292f4c521b53928b6f8b5-0",
+    "common": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "confidence": 0.9070199131965637,
+    "filename": "JK3A0573-2.jpg"
+  },
+  {
+    "id": "4f403b5d4ae64d9eb4058db1e4e2ad7b1c6f6657b2882047094476b62789bc2c",
+    "entry": "4f403b5d4ae64d9eb4058db1e4e2ad7b1c6f6657b2882047094476b62789bc2c-0",
+    "common": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "confidence": 0.32812830805778503,
+    "filename": "_55A7504.jpg"
+  },
+  {
+    "id": "5eab39adcd8000e8ea47d4358befee29a775dd5fe02538737623e3d3ce83e892",
+    "entry": "5eab39adcd8000e8ea47d4358befee29a775dd5fe02538737623e3d3ce83e892-0",
+    "common": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "confidence": 0.863568902015686,
+    "filename": "_55A7072.jpg"
+  },
+  {
+    "id": "ec59f6f499ff9a89dcc76dea6e830a90e5924a0fac7ed3401e4e0291456c4eb2",
+    "entry": "ec59f6f499ff9a89dcc76dea6e830a90e5924a0fac7ed3401e4e0291456c4eb2-0",
+    "common": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "confidence": 0.8912039995193481,
+    "filename": "_55A9999-5.jpg"
+  },
+  {
+    "id": "21d495690f9bf07af9d3d1f5f975e7207dd984ba3f54d4f170e3971b165e0afb",
+    "entry": "21d495690f9bf07af9d3d1f5f975e7207dd984ba3f54d4f170e3971b165e0afb-0",
+    "common": "Marbled Godwit",
+    "scientific": "Limosa fedoa",
+    "confidence": 0.9873859882354736,
+    "filename": "_55A0897.jpg"
+  },
+  {
+    "id": "3572230e00ef5ab7f727eaf228e7713d3bcd0d94e23ae57037789ff1008f6d29",
+    "entry": "3572230e00ef5ab7f727eaf228e7713d3bcd0d94e23ae57037789ff1008f6d29-0",
+    "common": "Marbled Godwit",
+    "scientific": "Limosa fedoa",
+    "confidence": 0.8562129735946655,
+    "filename": "_55A3919.jpg"
+  },
+  {
+    "id": "5340e3416b1562d454fa46f28cf746bb2ab313d50f5ebaa6222923712d07dd14",
+    "entry": "5340e3416b1562d454fa46f28cf746bb2ab313d50f5ebaa6222923712d07dd14-5",
+    "common": "Marbled Godwit",
+    "scientific": "Limosa fedoa",
+    "confidence": 0.03337022289633751,
+    "filename": "_55A3849.jpg"
+  },
+  {
+    "id": "06066108aab90f8cb8bf48dfaf9be02ac7d771b623d55276d032627ae09cb55a",
+    "entry": "06066108aab90f8cb8bf48dfaf9be02ac7d771b623d55276d032627ae09cb55a-0",
+    "common": "Marsh Wren",
+    "scientific": "",
+    "confidence": 0.9651533365249634,
+    "filename": "_55A7830-2.jpg"
+  },
+  {
+    "id": "74dfff8fa769ce3780a309d3cb8900006ed5a3274ff59d3999c7876bdca463fa",
+    "entry": "74dfff8fa769ce3780a309d3cb8900006ed5a3274ff59d3999c7876bdca463fa-0",
+    "common": "Marsh Wren",
+    "scientific": "",
+    "confidence": 0.9977566599845886,
+    "filename": "_55A4544.jpg"
+  },
+  {
+    "id": "93470045ef187ad04158e5f1a79d88935131af6a1e7494b4984b496d4d782d1a",
+    "entry": "93470045ef187ad04158e5f1a79d88935131af6a1e7494b4984b496d4d782d1a-0",
+    "common": "Marsh Wren",
+    "scientific": "",
+    "confidence": 0.03857388347387314,
+    "filename": "_55A8782.jpg"
+  },
+  {
+    "id": "d580e00a7cbc95da42a6eda3389266c3aace057adcebf33465f62df3254eb97f",
+    "entry": "d580e00a7cbc95da42a6eda3389266c3aace057adcebf33465f62df3254eb97f-0",
+    "common": "Marsh Wren",
+    "scientific": "",
+    "confidence": 0.9915278553962708,
+    "filename": "_55A7647~2.jpg"
+  },
+  {
+    "id": "bb3190d297a24ebae19e8a4e9d30088ab609bc14ffbccadde04922fe1d0517b3",
+    "entry": "bb3190d297a24ebae19e8a4e9d30088ab609bc14ffbccadde04922fe1d0517b3-0",
+    "common": "Merlin",
+    "scientific": "Falco columbarius",
+    "confidence": 0.9998134970664978,
+    "filename": "_55A6788.jpg"
+  },
+  {
+    "id": "23e4962b9844376fb0b521668695ffe178d053d72b38ee9406250d7703bea293",
+    "entry": "23e4962b9844376fb0b521668695ffe178d053d72b38ee9406250d7703bea293-0",
+    "common": "Mourning Dove",
+    "scientific": "Zenaida macroura",
+    "confidence": 0.9936157464981079,
+    "filename": "_55A5337.jpg"
+  },
+  {
+    "id": "2fc274a6df0baaccdbe08da100ff62a079b734d3eedff42832cfb85b1ebfc0cd",
+    "entry": "2fc274a6df0baaccdbe08da100ff62a079b734d3eedff42832cfb85b1ebfc0cd-0",
+    "common": "Northern Cardinal",
+    "scientific": "Cardinalis cardinalis",
+    "confidence": 0.9910467267036438,
+    "filename": "JK3A4664.jpg"
+  },
+  {
+    "id": "ce06bb6d624d6570ab544663994567ff7caa3262a8856e9aa9875ac67dbd35e6",
+    "entry": "ce06bb6d624d6570ab544663994567ff7caa3262a8856e9aa9875ac67dbd35e6-0",
+    "common": "Northern Cardinal",
+    "scientific": "Cardinalis cardinalis",
+    "confidence": 0.955963134765625,
+    "filename": "JK3A4864.jpg"
+  },
+  {
+    "id": "c12e7dcf5e29203aa57da2d34c93c7ce8181ff786e0564933a3d197ca522b74e",
+    "entry": "c12e7dcf5e29203aa57da2d34c93c7ce8181ff786e0564933a3d197ca522b74e-0",
+    "common": "Northern Flicker",
+    "scientific": "Colaptes auratus",
+    "confidence": 0.02244691736996174,
+    "filename": "_55A5121~2.jpg"
+  },
+  {
+    "id": "882947f95044e79c67a16fa2d474b06aad5b587e9626d566bf4e207059743719",
+    "entry": "882947f95044e79c67a16fa2d474b06aad5b587e9626d566bf4e207059743719-0",
+    "common": "Northern Harrier",
+    "scientific": "Circus hudsonius",
+    "confidence": 0.0005629009683616459,
+    "filename": "_55A5878.jpg"
+  },
+  {
+    "id": "a310e25c34d1555a4f1f79f97b04f28a501a4143c35d5aee1699e29bf2396e34",
+    "entry": "a310e25c34d1555a4f1f79f97b04f28a501a4143c35d5aee1699e29bf2396e34-0",
+    "common": "Northern Harrier",
+    "scientific": "Circus hudsonius",
+    "confidence": 0.009011964313685894,
+    "filename": "_55A6515.jpg"
+  },
+  {
+    "id": "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb",
+    "entry": "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-1",
+    "common": "Northern Pintail",
+    "scientific": "Anas acuta",
+    "confidence": 0.005051822401583195,
+    "filename": "_55A8540.jpg"
+  },
+  {
+    "id": "85c1354a0884e442881c512b7764fe58d4d9f947d899b3a2bcc61199b185030f",
+    "entry": "85c1354a0884e442881c512b7764fe58d4d9f947d899b3a2bcc61199b185030f-0",
+    "common": "Northern Pintail",
+    "scientific": "Anas acuta",
+    "confidence": 0.99998939037323,
+    "filename": "_55A6444.jpg"
+  },
+  {
+    "id": "cf79cec8b358c1b6413c39495c2c470c750c861b3e2d0394f50a9bcd85bcf022",
+    "entry": "cf79cec8b358c1b6413c39495c2c470c750c861b3e2d0394f50a9bcd85bcf022-0",
+    "common": "Northern Rough-winged Swallow",
+    "scientific": "Stelgidopteryx serripennis",
+    "confidence": 0.9648764729499817,
+    "filename": "JK3A4843.jpg"
+  },
+  {
+    "id": "062d6886f63a559d9433a2e6dc9979e4b77bb1ce353f44174212baaec2acae33",
+    "entry": "062d6886f63a559d9433a2e6dc9979e4b77bb1ce353f44174212baaec2acae33-0",
+    "common": "Northern Shoveler",
+    "scientific": "Spatula clypeata",
+    "confidence": 0.9952842593193054,
+    "filename": "signed_JK3A2627.jpg"
+  },
+  {
+    "id": "1446b92b60db15932a6894d74a04cdebd1a72dfeba15e54aa95446bd7b988b99",
+    "entry": "1446b92b60db15932a6894d74a04cdebd1a72dfeba15e54aa95446bd7b988b99-0",
+    "common": "Northern Shoveler",
+    "scientific": "Spatula clypeata",
+    "confidence": 0.9997794032096863,
+    "filename": "_55A4558.jpg"
+  },
+  {
+    "id": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7",
+    "entry": "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7-2",
+    "common": "Northern Shoveler",
+    "scientific": "Spatula clypeata",
+    "confidence": 0.9999788999557495,
+    "filename": "_55A7387.jpg"
+  },
+  {
+    "id": "5340e3416b1562d454fa46f28cf746bb2ab313d50f5ebaa6222923712d07dd14",
+    "entry": "5340e3416b1562d454fa46f28cf746bb2ab313d50f5ebaa6222923712d07dd14-4",
+    "common": "Northern Shoveler",
+    "scientific": "Spatula clypeata",
+    "confidence": 0.9844467043876648,
+    "filename": "_55A3849.jpg"
+  },
+  {
+    "id": "9760c2f9731450dd9eb4d3060ee8949407d3bf0ef6a2a7d507187bfa7488b603",
+    "entry": "9760c2f9731450dd9eb4d3060ee8949407d3bf0ef6a2a7d507187bfa7488b603-0",
+    "common": "Northern Shoveler",
+    "scientific": "Spatula clypeata",
+    "confidence": 0.9998846054077148,
+    "filename": "_55A9902.jpg"
+  },
+  {
+    "id": "aeb0558b73ff2bf0f9471a20a86c6f5729eb22d1cc3b6f70d65cfa47c4d13fea",
+    "entry": "aeb0558b73ff2bf0f9471a20a86c6f5729eb22d1cc3b6f70d65cfa47c4d13fea-0",
+    "common": "Northern Shoveler",
+    "scientific": "Spatula clypeata",
+    "confidence": 0.9693902730941772,
+    "filename": "_55A7329.jpg"
+  },
+  {
+    "id": "c321666c11a2b41458735f7be0f92efd90e9b8e1fc3265903ad865ba2865e178",
+    "entry": "c321666c11a2b41458735f7be0f92efd90e9b8e1fc3265903ad865ba2865e178-0",
+    "common": "Northern Shoveler",
+    "scientific": "Spatula clypeata",
+    "confidence": 0.9593992233276367,
+    "filename": "_55A6032.jpg"
+  },
+  {
+    "id": "4de44f413149957f484da21d2e67d4432977d6d2225c344c65bd5b40253fe2ed",
+    "entry": "4de44f413149957f484da21d2e67d4432977d6d2225c344c65bd5b40253fe2ed-0",
+    "common": "Nuttall's Woodpecker",
+    "scientific": "Dryobates nuttallii",
+    "confidence": 0.9999510049819946,
+    "filename": "_55A8276~2.jpg"
+  },
+  {
+    "id": "50f02f5bd64f1e353feb351effb221fcdd5141009b9e3843ce5d255396b82587",
+    "entry": "50f02f5bd64f1e353feb351effb221fcdd5141009b9e3843ce5d255396b82587-0",
+    "common": "Nuttall's Woodpecker",
+    "scientific": "Dryobates nuttallii",
+    "confidence": 0.8745303750038147,
+    "filename": "_55A8393.jpg"
+  },
+  {
+    "id": "1931f8073276e998597d6e1d9963e36189970ef7034e656986f0bc8d0bbd4ac8",
+    "entry": "1931f8073276e998597d6e1d9963e36189970ef7034e656986f0bc8d0bbd4ac8-0",
+    "common": "Oak Titmouse",
+    "scientific": "Baeolophus inornatus",
+    "confidence": 0.9779620170593262,
+    "filename": "JK3A0686.jpg"
+  },
+  {
+    "id": "8400f5abb47f446e51d7a01ddf4328e14cbd74a2919a6847a9579afb69484e6a",
+    "entry": "8400f5abb47f446e51d7a01ddf4328e14cbd74a2919a6847a9579afb69484e6a-0",
+    "common": "Oak Titmouse",
+    "scientific": "Baeolophus inornatus",
+    "confidence": 0.46703657507896423,
+    "filename": "_55A0271.jpg"
+  },
+  {
+    "id": "88f47aaee4c725dc742c2dce6efc64e411c7370cbc0e16a56f824556f2ce21b2",
+    "entry": "88f47aaee4c725dc742c2dce6efc64e411c7370cbc0e16a56f824556f2ce21b2-0",
+    "common": "Oak Titmouse",
+    "scientific": "Baeolophus inornatus",
+    "confidence": 6.636797706960351e-07,
+    "filename": "_55A5968.jpg"
+  },
+  {
+    "id": "abc5e037eb6628f44636d14b89ee38c73d9b1919c243ca5fcbdfec43a17dc366",
+    "entry": "abc5e037eb6628f44636d14b89ee38c73d9b1919c243ca5fcbdfec43a17dc366-0",
+    "common": "Oak Titmouse",
+    "scientific": "Baeolophus inornatus",
+    "confidence": 0.9741606116294861,
+    "filename": "_55A1477.jpg"
+  },
+  {
+    "id": "bddb3bc74fb0e6c44d7183c5e98bd78c275165c898c6141668fd1bcf52d94e87",
+    "entry": "bddb3bc74fb0e6c44d7183c5e98bd78c275165c898c6141668fd1bcf52d94e87-0",
+    "common": "Oak Titmouse",
+    "scientific": "Baeolophus inornatus",
+    "confidence": 0.998711109161377,
+    "filename": "_55A0581.jpg"
+  },
+  {
+    "id": "e1adfd5080fe683ad50def4598a34e621cd831090cee672a35f6962ade2b9c53",
+    "entry": "e1adfd5080fe683ad50def4598a34e621cd831090cee672a35f6962ade2b9c53-0",
+    "common": "Oak Titmouse",
+    "scientific": "Baeolophus inornatus",
+    "confidence": 1.4872721294523217e-06,
+    "filename": "signed_JK3A0795.jpg"
+  },
+  {
+    "id": "fe88c7b77435dfffa66fcb332f07a5d4355dc4239b7158c539ab7ec7056b7b76",
+    "entry": "fe88c7b77435dfffa66fcb332f07a5d4355dc4239b7158c539ab7ec7056b7b76-0",
+    "common": "Oak Titmouse",
+    "scientific": "Baeolophus inornatus",
+    "confidence": 0.9855123162269592,
+    "filename": "_55A3285.jpg"
+  },
+  {
+    "id": "7a981b8565354d4a1162cdacb3b74f5c66d33116860eb615cb7c65b446612ab1",
+    "entry": "7a981b8565354d4a1162cdacb3b74f5c66d33116860eb615cb7c65b446612ab1-0",
+    "common": "Oriental Darter",
+    "scientific": "Anhinga melanogaster",
+    "confidence": 0.99965500831604,
+    "filename": "_55A4922.jpg"
+  },
+  {
+    "id": "bd76a243fc502f8b919063fc7639ed49f2dbe014ce39953fc1460410d363d428",
+    "entry": "bd76a243fc502f8b919063fc7639ed49f2dbe014ce39953fc1460410d363d428-1",
+    "common": "Parasitic Jaeger",
+    "scientific": "Stercorarius parasiticus",
+    "confidence": 0.00037912759580649436,
+    "filename": "_55A5418.jpg"
+  },
+  {
+    "id": "3fa6160e88c81b21455092e677a205a932e11049cfac4d0f81c03a098b057d23",
+    "entry": "3fa6160e88c81b21455092e677a205a932e11049cfac4d0f81c03a098b057d23-0",
+    "common": "Philadelphia Vireo",
+    "scientific": "Vireo philadelphicus",
+    "confidence": 0.00846113171428442,
+    "filename": "_55A2730.jpg"
+  },
+  {
+    "id": "cc5dcc859d1ca14b9ec89bb625d8101d3371d20ab581034cf26dbda6853bad4e",
+    "entry": "cc5dcc859d1ca14b9ec89bb625d8101d3371d20ab581034cf26dbda6853bad4e-0",
+    "common": "Pied-billed Grebe",
+    "scientific": "Podilymbus podiceps",
+    "confidence": 0.9895910620689392,
+    "filename": "_55A6588.jpg"
+  },
+  {
+    "id": "3a93356415ead6020f8c578adbca38fc2c92acddca1a13575302f3cd388294cb",
+    "entry": "3a93356415ead6020f8c578adbca38fc2c92acddca1a13575302f3cd388294cb-0",
+    "common": "Pygmy Nuthatch",
+    "scientific": "Sitta pygmaea",
+    "confidence": 0.9727030992507935,
+    "filename": "_55A1177.jpg"
+  },
+  {
+    "id": "de870722b1a3599742012780370a2c0209900d5ac3e2f4e95400688ae030d218",
+    "entry": "de870722b1a3599742012780370a2c0209900d5ac3e2f4e95400688ae030d218-0",
+    "common": "Red Crossbill",
+    "scientific": "Loxia curvirostra",
+    "confidence": 0.08964359015226364,
+    "filename": "signed_JK3A0105-2.jpg"
+  },
+  {
+    "id": "f60832861c2afa3bb9c3ccdd0dc901a324b8ec63f49aef722dda63c44a0e9935",
+    "entry": "f60832861c2afa3bb9c3ccdd0dc901a324b8ec63f49aef722dda63c44a0e9935-0",
+    "common": "Red Crossbill",
+    "scientific": "Loxia curvirostra",
+    "confidence": 0.517595112323761,
+    "filename": "_55A4262.jpg"
+  },
+  {
+    "id": "b6a4fcbe29d7c3bb3bbc9526b9d50d0ded3f0a6e348c61907b685199344890df",
+    "entry": "b6a4fcbe29d7c3bb3bbc9526b9d50d0ded3f0a6e348c61907b685199344890df-0",
+    "common": "Red-breasted Nuthatch",
+    "scientific": "Sitta canadensis",
+    "confidence": 0.9599331617355347,
+    "filename": "_55A3226.jpg"
+  },
+  {
+    "id": "becdbea48df2872c45e2ee37a5f69ca30520ec7949e943ce94579542b203993d",
+    "entry": "becdbea48df2872c45e2ee37a5f69ca30520ec7949e943ce94579542b203993d-0",
+    "common": "Red-breasted Nuthatch",
+    "scientific": "Sitta canadensis",
+    "confidence": 0.0014868206344544888,
+    "filename": "_55A7397.jpg"
+  },
+  {
+    "id": "afb167056b90b3ee794ac929efd4702e3c1d2008a604c1026482118880302c06",
+    "entry": "afb167056b90b3ee794ac929efd4702e3c1d2008a604c1026482118880302c06-0",
+    "common": "Red-breasted Sapsucker",
+    "scientific": "Sphyrapicus ruber",
+    "confidence": 0.5723873376846313,
+    "filename": "_55A0734.jpg"
+  },
+  {
+    "id": "8bec93061648959120bc83e0b917856bde6d1e66c066f32e7b2b20de7c050e46",
+    "entry": "8bec93061648959120bc83e0b917856bde6d1e66c066f32e7b2b20de7c050e46-0",
+    "common": "Red-shouldered Hawk",
+    "scientific": "Buteo lineatus",
+    "confidence": 0.3436693847179413,
+    "filename": "_55A8152.jpg"
+  },
+  {
+    "id": "8a18cefe68f998d725bf3337a82e77c2cafc84ffcda8182a0abd36c24eaf2fdb",
+    "entry": "8a18cefe68f998d725bf3337a82e77c2cafc84ffcda8182a0abd36c24eaf2fdb-0",
+    "common": "Red-tailed Hawk",
+    "scientific": "Buteo jamaicensis",
+    "confidence": 0.23206259310245514,
+    "filename": "_55A9716.jpg"
+  },
+  {
+    "id": "b5db87c6d05c6d8293d507847bb55ecb546cbf000bd27e7aaf0a4708e003a176",
+    "entry": "b5db87c6d05c6d8293d507847bb55ecb546cbf000bd27e7aaf0a4708e003a176-0",
+    "common": "Red-tailed Hawk",
+    "scientific": "Buteo jamaicensis",
+    "confidence": 0.013906844891607761,
+    "filename": "_55A0411.jpg"
+  },
+  {
+    "id": "cb8f489419915cc35a49e323ad614d05c235f57c576dfde7e38c2625b9331228",
+    "entry": "cb8f489419915cc35a49e323ad614d05c235f57c576dfde7e38c2625b9331228-0",
+    "common": "Red-tailed Hawk",
+    "scientific": "Buteo jamaicensis",
+    "confidence": 0.045431338250637054,
+    "filename": "_55A9999-2.jpg"
+  },
+  {
+    "id": "d68e17e53f5593faa3715175287dafde00f1343db1648c2ada37f2f0f3274212",
+    "entry": "d68e17e53f5593faa3715175287dafde00f1343db1648c2ada37f2f0f3274212-0",
+    "common": "Red-tailed Hawk",
+    "scientific": "Buteo jamaicensis",
+    "confidence": 0.961529016494751,
+    "filename": "_55A0844-2.jpg"
+  },
+  {
+    "id": "0d142fab5521c2b08bdeb463ba511addb85a49bb51189af4618b0d03ce87b176",
+    "entry": "0d142fab5521c2b08bdeb463ba511addb85a49bb51189af4618b0d03ce87b176-0",
+    "common": "Red-winged Blackbird",
+    "scientific": "Agelaius phoeniceus",
+    "confidence": 0.9532465934753418,
+    "filename": "_55A1635.jpg"
+  },
+  {
+    "id": "1ba1e3b0b252a61287976a41f4ddedf1a39d69b0af86a9ce1d97313c10ce6dd5",
+    "entry": "1ba1e3b0b252a61287976a41f4ddedf1a39d69b0af86a9ce1d97313c10ce6dd5-0",
+    "common": "Red-winged Blackbird",
+    "scientific": "Agelaius phoeniceus",
+    "confidence": 0.0353243313729763,
+    "filename": "_55A8802.jpg"
+  },
+  {
+    "id": "47203588ae7050d099f35763cb7c82a05572e64dde7cbcb1e2c63034efa89f7c",
+    "entry": "47203588ae7050d099f35763cb7c82a05572e64dde7cbcb1e2c63034efa89f7c-0",
+    "common": "Red-winged Blackbird",
+    "scientific": "Agelaius phoeniceus",
+    "confidence": 0.5417117476463318,
+    "filename": "_55A7574.jpg"
+  },
+  {
+    "id": "eacbbcc46189463928e59d257b8883e0e1b99eeb0983c07e448b995907a8949e",
+    "entry": "eacbbcc46189463928e59d257b8883e0e1b99eeb0983c07e448b995907a8949e-0",
+    "common": "Red-winged Blackbird",
+    "scientific": "Agelaius phoeniceus",
+    "confidence": 0.9949842691421509,
+    "filename": "_55A2936.jpg"
+  },
+  {
+    "id": "28700ed2b7e2b7383b82ac3e947bea8ef528727500a68b2fa00018bbfb618912",
+    "entry": "28700ed2b7e2b7383b82ac3e947bea8ef528727500a68b2fa00018bbfb618912-0",
+    "common": "Ring-billed Gull",
+    "scientific": "Larus delawarensis",
+    "confidence": 0.7168902158737183,
+    "filename": "_55A6622.jpg"
+  },
+  {
+    "id": "e0a4cffe1f2c37a32df8bb49bdad21e7e019d36a688c1109b8dc7accdee3a201",
+    "entry": "e0a4cffe1f2c37a32df8bb49bdad21e7e019d36a688c1109b8dc7accdee3a201-0",
+    "common": "Ring-billed Gull",
+    "scientific": "Larus delawarensis",
+    "confidence": 0.5423175692558289,
+    "filename": "_55A2595.jpg"
+  },
+  {
+    "id": "9f34088ce7003fd10e148b62d193957770fd463c34c381bceb75b29048784554",
+    "entry": "9f34088ce7003fd10e148b62d193957770fd463c34c381bceb75b29048784554-0",
+    "common": "Rosy Starling",
+    "scientific": "Pastor roseus",
+    "confidence": 4.85279451822862e-05,
+    "filename": "signed_JK3A1981.jpg"
+  },
+  {
+    "id": "0e22828b4b893d01a993124b947065777254d063b03c19e588779c6f0646e1a9",
+    "entry": "0e22828b4b893d01a993124b947065777254d063b03c19e588779c6f0646e1a9-0",
+    "common": "Ruby-crowned Kinglet",
+    "scientific": "Corthylio calendula",
+    "confidence": 0.891331136226654,
+    "filename": "_55A4305~2.jpg"
+  },
+  {
+    "id": "1c8b62ee3e53b9a51b30b4bf5d9fc94d46087ef27f2c4bfd76ce5432cd3c1b19",
+    "entry": "1c8b62ee3e53b9a51b30b4bf5d9fc94d46087ef27f2c4bfd76ce5432cd3c1b19-0",
+    "common": "Ruby-crowned Kinglet",
+    "scientific": "Corthylio calendula",
+    "confidence": 0.9762753844261169,
+    "filename": "_55A4652-2.jpg"
+  },
+  {
+    "id": "af99362afbfa56345562598e4c72fab0a823fae65a30c090f392488f0c595bd0",
+    "entry": "af99362afbfa56345562598e4c72fab0a823fae65a30c090f392488f0c595bd0-0",
+    "common": "Ruby-crowned Kinglet",
+    "scientific": "Corthylio calendula",
+    "confidence": 0.0046358490362763405,
+    "filename": "_55A8413.jpg"
+  },
+  {
+    "id": "cb0e4aeee3bac0c857c22eb5e1ddc93dc601d200c3e6c393170a1aadc46940d5",
+    "entry": "cb0e4aeee3bac0c857c22eb5e1ddc93dc601d200c3e6c393170a1aadc46940d5-0",
+    "common": "Ruby-crowned Kinglet",
+    "scientific": "Corthylio calendula",
+    "confidence": 0.001114544807933271,
+    "filename": "JK3A0115.jpg"
+  },
+  {
+    "id": "08ecded5ab9e7276fdd812a5b711d509a9bfbc0f50d4ec4ba2d8dfaa39dad7d4",
+    "entry": "08ecded5ab9e7276fdd812a5b711d509a9bfbc0f50d4ec4ba2d8dfaa39dad7d4-0",
+    "common": "Ruddy Duck",
+    "scientific": "Oxyura jamaicensis",
+    "confidence": 0.9975051283836365,
+    "filename": "JK3A1831.jpg"
+  },
+  {
+    "id": "3741e5dfadd86d3f594f5d2213e3eefe69e0ba1d25c85baea47c9562ac395fab",
+    "entry": "3741e5dfadd86d3f594f5d2213e3eefe69e0ba1d25c85baea47c9562ac395fab-0",
+    "common": "Ruddy Duck",
+    "scientific": "Oxyura jamaicensis",
+    "confidence": 0.9997547268867493,
+    "filename": "_55A7418.jpg"
+  },
+  {
+    "id": "fe461754aad644253fed2d2d24ef265dce450cd064b70310349d99aa6618fd63",
+    "entry": "fe461754aad644253fed2d2d24ef265dce450cd064b70310349d99aa6618fd63-0",
+    "common": "Ruddy Duck",
+    "scientific": "Oxyura jamaicensis",
+    "confidence": 0.9975419044494629,
+    "filename": "signed_JK3A2785.JPG"
+  },
+  {
+    "id": "8b47d3eb8ad865884e3e3318fac141a88d5f671b95d5d783fbfd6b90e5b159ed",
+    "entry": "8b47d3eb8ad865884e3e3318fac141a88d5f671b95d5d783fbfd6b90e5b159ed-0",
+    "common": "Rufous Hummingbird",
+    "scientific": "Selasphorus rufus",
+    "confidence": 0.4800748825073242,
+    "filename": "_55A8752.jpg"
+  },
+  {
+    "id": "6d1b53dcf8aa796b3da45472b9b86e23e313212de7bf00220fdb0246a3b8b6aa",
+    "entry": "6d1b53dcf8aa796b3da45472b9b86e23e313212de7bf00220fdb0246a3b8b6aa-0",
+    "common": "Sage Thrasher",
+    "scientific": "Oreoscoptes montanus",
+    "confidence": 0.9774858951568604,
+    "filename": "_55A8813.jpg"
+  },
+  {
+    "id": "06a26a5cedc413fbfbd8b363fce7b14bd8c5f83c2dfc41205c52a91b421c666f",
+    "entry": "06a26a5cedc413fbfbd8b363fce7b14bd8c5f83c2dfc41205c52a91b421c666f-0",
+    "common": "Sandhill Crane",
+    "scientific": "Antigone canadensis",
+    "confidence": 0.3025572597980499,
+    "filename": "_55A7939.jpg"
+  },
+  {
+    "id": "11441b636157746d1e79974d1e4e5779b3bc23c1ab777f5af0f59e41ba3667ef",
+    "entry": "11441b636157746d1e79974d1e4e5779b3bc23c1ab777f5af0f59e41ba3667ef-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9989873766899109,
+    "filename": "_55A4175.jpg"
+  },
+  {
+    "id": "2a1576e355b4cadabbe64f71c215b8cb635c20ea1cc3fcfe12476662b59b92e9",
+    "entry": "2a1576e355b4cadabbe64f71c215b8cb635c20ea1cc3fcfe12476662b59b92e9-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9982319474220276,
+    "filename": "_55A4957.jpg"
+  },
+  {
+    "id": "3896996e9245bff9285a82872484541a3b35ecf6616bb28467ffeebf02d5abb1",
+    "entry": "3896996e9245bff9285a82872484541a3b35ecf6616bb28467ffeebf02d5abb1-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.38090574741363525,
+    "filename": "_55A5233.jpg"
+  },
+  {
+    "id": "44ec0127a390d75a17fc864827e1506745662b4573de0176cfd3ce23c8b421c4",
+    "entry": "44ec0127a390d75a17fc864827e1506745662b4573de0176cfd3ce23c8b421c4-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9997832179069519,
+    "filename": "JK3A4955.jpg"
+  },
+  {
+    "id": "523c838cfc906e8d9888e3c78148e291408c37456de20d20360db532059bdbf9",
+    "entry": "523c838cfc906e8d9888e3c78148e291408c37456de20d20360db532059bdbf9-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9317799210548401,
+    "filename": "_55A8248.jpg"
+  },
+  {
+    "id": "695022f3a4652bb0e8358049538e0f2840a3e298adf76436f95a3fd93afbeff9",
+    "entry": "695022f3a4652bb0e8358049538e0f2840a3e298adf76436f95a3fd93afbeff9-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9999573230743408,
+    "filename": "signed_JK3A2818_0026-2.jpg"
+  },
+  {
+    "id": "6a2506cf35c7b8dbec250e3d706f5065347c7f5fedf80d24e63f69808995bb97",
+    "entry": "6a2506cf35c7b8dbec250e3d706f5065347c7f5fedf80d24e63f69808995bb97-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9961827397346497,
+    "filename": "_55A4815.jpg"
+  },
+  {
+    "id": "9fe4fb6b31c24757c68403562f873eb5e37427cf27756d4c3734f700a87967cc",
+    "entry": "9fe4fb6b31c24757c68403562f873eb5e37427cf27756d4c3734f700a87967cc-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9960696697235107,
+    "filename": "_55A7624.jpg"
+  },
+  {
+    "id": "b24f2ac317572c573ddc86a13912cf836337862847bfae4360fca5761b0727f7",
+    "entry": "b24f2ac317572c573ddc86a13912cf836337862847bfae4360fca5761b0727f7-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9969086050987244,
+    "filename": "_55A4829.jpg"
+  },
+  {
+    "id": "bfc07abc7b004bb8a8945ba991afeb7b58fb66a43a77755e264bb4328c84b8b0",
+    "entry": "bfc07abc7b004bb8a8945ba991afeb7b58fb66a43a77755e264bb4328c84b8b0-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9928441643714905,
+    "filename": "_55A7292.jpg"
+  },
+  {
+    "id": "defb9c9d3acb4519530efffaf8594ce57445c23620cd7f820b7df929de9e47c4",
+    "entry": "defb9c9d3acb4519530efffaf8594ce57445c23620cd7f820b7df929de9e47c4-0",
+    "common": "Savannah Sparrow",
+    "scientific": "Passerculus sandwichensis",
+    "confidence": 0.9988388419151306,
+    "filename": "_55A7441.jpg"
+  },
+  {
+    "id": "a56c0be76f113c1945207717c975f4bedb77d47b36fa1006f65848fb24a33f1f",
+    "entry": "a56c0be76f113c1945207717c975f4bedb77d47b36fa1006f65848fb24a33f1f-0",
+    "common": "Say's Phoebe",
+    "scientific": "Sayornis saya",
+    "confidence": 0.9976295232772827,
+    "filename": "_55A8200.jpg"
+  },
+  {
+    "id": "81962bb1c2af257ef6f79e882fd36718b7488566c342d328a92530ee6f2e5222",
+    "entry": "81962bb1c2af257ef6f79e882fd36718b7488566c342d328a92530ee6f2e5222-0",
+    "common": "Sharp-shinned Hawk",
+    "scientific": "Accipiter striatus",
+    "confidence": 0.7477342486381531,
+    "filename": "_55A3962.jpg"
+  },
+  {
+    "id": "8b45fe38d245b85f0e450769193ab355f0b65684740170680300cc3991496b1d",
+    "entry": "8b45fe38d245b85f0e450769193ab355f0b65684740170680300cc3991496b1d-0",
+    "common": "Short-billed Gull",
+    "scientific": "Larus brachyrhynchus",
+    "confidence": 9.518873412162066e-05,
+    "filename": "_55A0997.jpg"
+  },
+  {
+    "id": "12964bf4abdbd48f43535bf07bd3ff02d7f1cf22730c341d774fdff3fbca20e4",
+    "entry": "12964bf4abdbd48f43535bf07bd3ff02d7f1cf22730c341d774fdff3fbca20e4-0",
+    "common": "Snowy Egret",
+    "scientific": "Egretta thula",
+    "confidence": 0.9980329871177673,
+    "filename": "JK3A3263_0032~2.jpg"
+  },
+  {
+    "id": "57809ade3468a7421a6d5d43c446245f2e00b67ad40d8870b47877075d75e119",
+    "entry": "57809ade3468a7421a6d5d43c446245f2e00b67ad40d8870b47877075d75e119-0",
+    "common": "Snowy Egret",
+    "scientific": "Egretta thula",
+    "confidence": 0.9998723268508911,
+    "filename": "_55A0840.jpg"
+  },
+  {
+    "id": "6bba67596848fdc839095688e5caa70b3444b485a491de046fe57ef991134710",
+    "entry": "6bba67596848fdc839095688e5caa70b3444b485a491de046fe57ef991134710-0",
+    "common": "Snowy Egret",
+    "scientific": "Egretta thula",
+    "confidence": 0.9784340262413025,
+    "filename": "_55A6040.jpg"
+  },
+  {
+    "id": "8665a3eb2077313f7e248bca51e69c37250fe36414e4f564fb95fd147a29931b",
+    "entry": "8665a3eb2077313f7e248bca51e69c37250fe36414e4f564fb95fd147a29931b-0",
+    "common": "Snowy Egret",
+    "scientific": "Egretta thula",
+    "confidence": 0.9997130036354065,
+    "filename": "signed_JK3A2565.jpg"
+  },
+  {
+    "id": "a3fa06d07cd3d1928230426a2f635be26170d2ad6e0eccb244a7ad473ef28d36",
+    "entry": "a3fa06d07cd3d1928230426a2f635be26170d2ad6e0eccb244a7ad473ef28d36-0",
+    "common": "Snowy Egret",
+    "scientific": "Egretta thula",
+    "confidence": 0.9999351501464844,
+    "filename": "_55A5768.jpg"
+  },
+  {
+    "id": "a9a7797ad22b664771a30662a47e3b1f4ba3a080b2f1cbe1abe80184d0dbb7f7",
+    "entry": "a9a7797ad22b664771a30662a47e3b1f4ba3a080b2f1cbe1abe80184d0dbb7f7-0",
+    "common": "Snowy Egret",
+    "scientific": "Egretta thula",
+    "confidence": 0.9998524188995361,
+    "filename": "JK3A3263_0007.jpg"
+  },
+  {
+    "id": "beec900126e8b89d5d32dbc8acd5be078fe74da8ed76ca0a80f1ad54257c15f2",
+    "entry": "beec900126e8b89d5d32dbc8acd5be078fe74da8ed76ca0a80f1ad54257c15f2-0",
+    "common": "Snowy Egret",
+    "scientific": "Egretta thula",
+    "confidence": 0.8911941051483154,
+    "filename": "_55A6764.jpg"
+  },
+  {
+    "id": "f1be0e71a9ab54b826e0a64a353bb2c2f18414afb7d9a82bab2c20021f4d1de3",
+    "entry": "f1be0e71a9ab54b826e0a64a353bb2c2f18414afb7d9a82bab2c20021f4d1de3-0",
+    "common": "Snowy Egret",
+    "scientific": "Egretta thula",
+    "confidence": 0.9977618455886841,
+    "filename": "_55A6694.jpg"
+  },
+  {
+    "id": "11edfa129841a94b6a935d0412026abee964a0290959093456c53ea86e190827",
+    "entry": "11edfa129841a94b6a935d0412026abee964a0290959093456c53ea86e190827-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.9925670623779297,
+    "filename": "_55A6530.jpg"
+  },
+  {
+    "id": "215bc8c2ff398ead35640d5f4ba0e0a28ac60d93aa8621dcf18f825ec60b174e",
+    "entry": "215bc8c2ff398ead35640d5f4ba0e0a28ac60d93aa8621dcf18f825ec60b174e-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.20809803903102875,
+    "filename": "_55A3398.jpg"
+  },
+  {
+    "id": "3be77fe53a3df609698b8c7e103bb0b99906b7402809a2735b098fe3af4481b4",
+    "entry": "3be77fe53a3df609698b8c7e103bb0b99906b7402809a2735b098fe3af4481b4-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.8984695672988892,
+    "filename": "_55A0632.jpg"
+  },
+  {
+    "id": "4e1974f4cfcefdb056f01c5479b7018c7ec22a3fe47e277f6f9b02b118e135a1",
+    "entry": "4e1974f4cfcefdb056f01c5479b7018c7ec22a3fe47e277f6f9b02b118e135a1-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.9255771040916443,
+    "filename": "_55A1580.jpg"
+  },
+  {
+    "id": "5a8bf3b04ea707e25de7e14fd1ce2313542ab2e642e3f1716990fd3a85a0fa64",
+    "entry": "5a8bf3b04ea707e25de7e14fd1ce2313542ab2e642e3f1716990fd3a85a0fa64-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.9866070747375488,
+    "filename": "_55A4390-2.jpg"
+  },
+  {
+    "id": "5d1f208fef7eb027e9d77ba19c2da8326919f0a1fbdb0e4144e36b98718ab735",
+    "entry": "5d1f208fef7eb027e9d77ba19c2da8326919f0a1fbdb0e4144e36b98718ab735-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.5174965858459473,
+    "filename": "_55A3053.jpg"
+  },
+  {
+    "id": "7aa9d04766b133c943214183f59718b236c6b2ad315fec75819658b4eaeaea3e",
+    "entry": "7aa9d04766b133c943214183f59718b236c6b2ad315fec75819658b4eaeaea3e-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.8250412940979004,
+    "filename": "JK3A2029-2.jpg"
+  },
+  {
+    "id": "a99dcebc5a2284bcc3bcec4248b77ec2e07c5055262313981ff6e24d3e3adbe1",
+    "entry": "a99dcebc5a2284bcc3bcec4248b77ec2e07c5055262313981ff6e24d3e3adbe1-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.9969974756240845,
+    "filename": "JK3A2892_0044.jpg"
+  },
+  {
+    "id": "aca554c6edcfeb678b5eab59b42c28dc4be989e4c03605bc92a424eb6b2d6d0c",
+    "entry": "aca554c6edcfeb678b5eab59b42c28dc4be989e4c03605bc92a424eb6b2d6d0c-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.9975447058677673,
+    "filename": "JK3A4282.jpg"
+  },
+  {
+    "id": "aebc062dd30de450b01f3698eff4b636bc9e8d2f394fc0ddbc6c806b5583d20f",
+    "entry": "aebc062dd30de450b01f3698eff4b636bc9e8d2f394fc0ddbc6c806b5583d20f-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.3034760653972626,
+    "filename": "_55A3601.jpg"
+  },
+  {
+    "id": "cbf41601f69ec0162d8dad6c15eabea47c56a367b569b4dfb67b7c0c39641e52",
+    "entry": "cbf41601f69ec0162d8dad6c15eabea47c56a367b569b4dfb67b7c0c39641e52-0",
+    "common": "Song Sparrow",
+    "scientific": "Melospiza melodia",
+    "confidence": 0.9402551651000977,
+    "filename": "_55A2975.jpg"
+  },
+  {
+    "id": "8ff3ba820101a151427cc99c373e360312d40f727704c057186b26963049dd39",
+    "entry": "8ff3ba820101a151427cc99c373e360312d40f727704c057186b26963049dd39-1",
+    "common": "Spotted Towhee",
+    "scientific": "Pipilo maculatus",
+    "confidence": 0.03365795314311981,
+    "filename": "_55A6141.jpg"
+  },
+  {
+    "id": "975336ffe4f80b5c855e6ddf6e50c1e86428f1141e8ac9f15d8c4814a0384b1d",
+    "entry": "975336ffe4f80b5c855e6ddf6e50c1e86428f1141e8ac9f15d8c4814a0384b1d-0",
+    "common": "Spotted Towhee",
+    "scientific": "Pipilo maculatus",
+    "confidence": 0.3736833333969116,
+    "filename": "_55A2085.jpg"
+  },
+  {
+    "id": "9d746215011f915bd58c717f16b6f6701dfb1ca96611f25f12c4ed3e9e23b97b",
+    "entry": "9d746215011f915bd58c717f16b6f6701dfb1ca96611f25f12c4ed3e9e23b97b-0",
+    "common": "Spotted Towhee",
+    "scientific": "Pipilo maculatus",
+    "confidence": 0.6753225922584534,
+    "filename": "_55A1107.jpg"
+  },
+  {
+    "id": "b5b324a423aa626a80e7dbe4cf27cc714b94fb9db172e39612c3f41d6c3703a8",
+    "entry": "b5b324a423aa626a80e7dbe4cf27cc714b94fb9db172e39612c3f41d6c3703a8-0",
+    "common": "Spotted Towhee",
+    "scientific": "Pipilo maculatus",
+    "confidence": 0.7174333333969116,
+    "filename": "_55A8460.jpg"
+  },
+  {
+    "id": "ee4c0cbfd5d6f522efd3faebd5e53cef804caaf3ecec29c4bb62b8cb39d98070",
+    "entry": "ee4c0cbfd5d6f522efd3faebd5e53cef804caaf3ecec29c4bb62b8cb39d98070-0",
+    "common": "Spotted Towhee",
+    "scientific": "Pipilo maculatus",
+    "confidence": 0.7212448716163635,
+    "filename": "_55A9100.jpg"
+  },
+  {
+    "id": "1befb9b6ab8285633b9976c4e0549e9749983bcad6bf3a5453b66e55eb887b61",
+    "entry": "1befb9b6ab8285633b9976c4e0549e9749983bcad6bf3a5453b66e55eb887b61-0",
+    "common": "Steller's Jay",
+    "scientific": "Cyanocitta stelleri",
+    "confidence": 0.9999052286148071,
+    "filename": "_55A8622.jpg"
+  },
+  {
+    "id": "3c16553d4f857e085aa763ef62655e87a8522a3fd6b64ce119137b7feef5d9ab",
+    "entry": "3c16553d4f857e085aa763ef62655e87a8522a3fd6b64ce119137b7feef5d9ab-0",
+    "common": "Steller's Jay",
+    "scientific": "Cyanocitta stelleri",
+    "confidence": 0.9994445443153381,
+    "filename": "_55A1482.jpg"
+  },
+  {
+    "id": "d17734af792189d3340bceb51ec73279f77e5d8c282ae5a59850c8ea6dd62fe9",
+    "entry": "d17734af792189d3340bceb51ec73279f77e5d8c282ae5a59850c8ea6dd62fe9-0",
+    "common": "Steller's Jay",
+    "scientific": "Cyanocitta stelleri",
+    "confidence": 0.9999760389328003,
+    "filename": "_55A2755.jpg"
+  },
+  {
+    "id": "c1338c87255691016b77383d3eecd4f675900921c1a5b5da855efc0dccb21e68",
+    "entry": "c1338c87255691016b77383d3eecd4f675900921c1a5b5da855efc0dccb21e68-0",
+    "common": "Tickell's Blue Flycatcher",
+    "scientific": "Cyornis tickelliae",
+    "confidence": 0.9786054491996765,
+    "filename": "_55A2196-3.jpg"
+  },
+  {
+    "id": "3b1adb59b0b6c29b6b59f6a35ccbf540b1eba2ec6f3b430921abcfd1ec26373f",
+    "entry": "3b1adb59b0b6c29b6b59f6a35ccbf540b1eba2ec6f3b430921abcfd1ec26373f-0",
+    "common": "Tree Swallow",
+    "scientific": "Tachycineta bicolor",
+    "confidence": 0.9958932399749756,
+    "filename": "_55A3390.jpg"
+  },
+  {
+    "id": "6e03d955d52e1842a19b468bf7d7ce1fd617dd3e58b0fb5c88381ab146fd0511",
+    "entry": "6e03d955d52e1842a19b468bf7d7ce1fd617dd3e58b0fb5c88381ab146fd0511-0",
+    "common": "Tree Swallow",
+    "scientific": "Tachycineta bicolor",
+    "confidence": 0.97122722864151,
+    "filename": "_55A5377.jpg"
+  },
+  {
+    "id": "14060f18814785f287e3fd817d1c183e6f9a92d2db3817b57c13f9238b2d065e",
+    "entry": "14060f18814785f287e3fd817d1c183e6f9a92d2db3817b57c13f9238b2d065e-0",
+    "common": "Tricolored Blackbird",
+    "scientific": "Agelaius tricolor",
+    "confidence": 0.00020559872791636735,
+    "filename": "_55A1496.jpg"
+  },
+  {
+    "id": "9f34088ce7003fd10e148b62d193957770fd463c34c381bceb75b29048784554",
+    "entry": "9f34088ce7003fd10e148b62d193957770fd463c34c381bceb75b29048784554-1",
+    "common": "Tricolored Blackbird",
+    "scientific": "Agelaius tricolor",
+    "confidence": 7.9409397812924e-07,
+    "filename": "signed_JK3A1981.jpg"
+  },
+  {
+    "id": "81e8bc5504cbac0c8c451a5f85d1717c33bebc5c8292940f7178db408033678c",
+    "entry": "81e8bc5504cbac0c8c451a5f85d1717c33bebc5c8292940f7178db408033678c-0",
+    "common": "Tundra Swan",
+    "scientific": "Cygnus columbianus",
+    "confidence": 0.0008082203567028046,
+    "filename": "_55A2216.jpg"
+  },
+  {
+    "id": "030fc54c63bee832feff38cc3a3aad3de9e428e46e79145a7f721f634cbaacbf",
+    "entry": "030fc54c63bee832feff38cc3a3aad3de9e428e46e79145a7f721f634cbaacbf-0",
+    "common": "Turkey Vulture",
+    "scientific": "Cathartes aura",
+    "confidence": 0.9997244477272034,
+    "filename": "JK3A8972.jpg"
+  },
+  {
+    "id": "03d9a4d1136fa1e5dc88f94e775e616e946da9da236763c3d2b3c597455a8d56",
+    "entry": "03d9a4d1136fa1e5dc88f94e775e616e946da9da236763c3d2b3c597455a8d56-0",
+    "common": "Turkey Vulture",
+    "scientific": "Cathartes aura",
+    "confidence": 0.9975453019142151,
+    "filename": "_55A9777-2.jpg"
+  },
+  {
+    "id": "ada603d73f7f7771e17350060e05d71f7c3bb384fc4b125b008a467eef4af760",
+    "entry": "ada603d73f7f7771e17350060e05d71f7c3bb384fc4b125b008a467eef4af760-0",
+    "common": "Turkey Vulture",
+    "scientific": "Cathartes aura",
+    "confidence": 0.7798227667808533,
+    "filename": "_55A0310.jpg"
+  },
+  {
+    "id": "b4fecdf20608c8cdf79e1d4ff5ba2d17e94f2f6811be347cfcf142fe8770b43b",
+    "entry": "b4fecdf20608c8cdf79e1d4ff5ba2d17e94f2f6811be347cfcf142fe8770b43b-0",
+    "common": "Turkey Vulture",
+    "scientific": "Cathartes aura",
+    "confidence": 0.9975799322128296,
+    "filename": "_55A8404.jpg"
+  },
+  {
+    "id": "b5f09cb596514241860a739935d83087df5a79b0ccd92e3335d0286cf7404793",
+    "entry": "b5f09cb596514241860a739935d83087df5a79b0ccd92e3335d0286cf7404793-0",
+    "common": "Turkey Vulture",
+    "scientific": "Cathartes aura",
+    "confidence": 0.9960435628890991,
+    "filename": "_55A0400.jpg"
+  },
+  {
+    "id": "c0a59520d1a8669f928a66cd09fbb66f065d60e046aa3de1d8815991710f7810",
+    "entry": "c0a59520d1a8669f928a66cd09fbb66f065d60e046aa3de1d8815991710f7810-0",
+    "common": "Turkey Vulture",
+    "scientific": "Cathartes aura",
+    "confidence": 0.994124710559845,
+    "filename": "_55A2902.jpg"
+  },
+  {
+    "id": "156cbb6819a3d38a1f2e45058aa7ea5128d6b9873ea1164176f1165a4fe2fefe",
+    "entry": "156cbb6819a3d38a1f2e45058aa7ea5128d6b9873ea1164176f1165a4fe2fefe-0",
+    "common": "Varied Thrush",
+    "scientific": "Ixoreus naevius",
+    "confidence": 0.9999353885650635,
+    "filename": "_55A9148.jpg"
+  },
+  {
+    "id": "748b172ac8cd2be1dc367e24a840ed8a8b22ab3235e76d059e09a3ae236b4f93",
+    "entry": "748b172ac8cd2be1dc367e24a840ed8a8b22ab3235e76d059e09a3ae236b4f93-0",
+    "common": "Varied Thrush",
+    "scientific": "Ixoreus naevius",
+    "confidence": 0.9996917247772217,
+    "filename": "_55A9124.jpg"
+  },
+  {
+    "id": "e6c48466914eedb5f6682c8b2afbdd3638685e7c137ee88f7386032bb37e965b",
+    "entry": "e6c48466914eedb5f6682c8b2afbdd3638685e7c137ee88f7386032bb37e965b-0",
+    "common": "Varied Thrush",
+    "scientific": "Ixoreus naevius",
+    "confidence": 0.9982701539993286,
+    "filename": "_55A8300.jpg"
+  },
+  {
+    "id": "03b76a9bcffeae50a5befebb93bdf139a07938e6a242793087c43b3a5e2bddf5",
+    "entry": "03b76a9bcffeae50a5befebb93bdf139a07938e6a242793087c43b3a5e2bddf5-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.9995632767677307,
+    "filename": "_55A2997.jpg"
+  },
+  {
+    "id": "05e969157fe79b1997fb847043a2f771eb464f9a2b5972d8474f772da79834c1",
+    "entry": "05e969157fe79b1997fb847043a2f771eb464f9a2b5972d8474f772da79834c1-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.12070538103580475,
+    "filename": "_55A0916.jpg"
+  },
+  {
+    "id": "0f7b8c4596f2009731d87ccf2f11753a59ce95c9a55dd575609c1ceb05471291",
+    "entry": "0f7b8c4596f2009731d87ccf2f11753a59ce95c9a55dd575609c1ceb05471291-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.5520159602165222,
+    "filename": "_55A8550.jpg"
+  },
+  {
+    "id": "49703a9698897243853f9814ea0ab87e9f800ebc9c303c0b651f434945db5530",
+    "entry": "49703a9698897243853f9814ea0ab87e9f800ebc9c303c0b651f434945db5530-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.9906328916549683,
+    "filename": "_55A1976.jpg"
+  },
+  {
+    "id": "4bdf3e7ca81a0c5e1f42a66748e4e4b97e02625f8d19c2af85e9e57ce8766d26",
+    "entry": "4bdf3e7ca81a0c5e1f42a66748e4e4b97e02625f8d19c2af85e9e57ce8766d26-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.7197787165641785,
+    "filename": "signed_JK3A1607-Enhanced-NR.jpg"
+  },
+  {
+    "id": "956bc991cb164d0f8b0e80c36efc620686f2d7a0fbd4ad648f1fd5bf77fe24e3",
+    "entry": "956bc991cb164d0f8b0e80c36efc620686f2d7a0fbd4ad648f1fd5bf77fe24e3-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.42518630623817444,
+    "filename": "_55A0912.jpg"
+  },
+  {
+    "id": "b6e47adf6d77c358209baf55480d86c9c237d868c745bbec4ee031e68a0237b4",
+    "entry": "b6e47adf6d77c358209baf55480d86c9c237d868c745bbec4ee031e68a0237b4-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.9993863105773926,
+    "filename": "_55A0846.jpg"
+  },
+  {
+    "id": "b9db5d6c3c625146d51621c828902d6665d1e0c2b097a911af40adef6a522e53",
+    "entry": "b9db5d6c3c625146d51621c828902d6665d1e0c2b097a911af40adef6a522e53-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.9986956715583801,
+    "filename": "JK3A4031-EFFECTS.jpg"
+  },
+  {
+    "id": "bd747d623e61536140c4da06473e1577c120ac47d273927b343167ec80220570",
+    "entry": "bd747d623e61536140c4da06473e1577c120ac47d273927b343167ec80220570-0",
+    "common": "Western Bluebird",
+    "scientific": "Sialia mexicana",
+    "confidence": 0.695587694644928,
+    "filename": "JK3A4346.jpg"
+  },
+  {
+    "id": "0d7d5c70dd0f7d795f13390caf5a77e0a0955612d813833b64cf3150549efa0b",
+    "entry": "0d7d5c70dd0f7d795f13390caf5a77e0a0955612d813833b64cf3150549efa0b-0",
+    "common": "Western Meadowlark",
+    "scientific": "Sturnella neglecta",
+    "confidence": 0.12644551694393158,
+    "filename": "_55A6801.jpg"
+  },
+  {
+    "id": "3fdd70814391d77371c5602e2132eb40fc6311305bfb21df48ffe07e99bb3676",
+    "entry": "3fdd70814391d77371c5602e2132eb40fc6311305bfb21df48ffe07e99bb3676-0",
+    "common": "Western Meadowlark",
+    "scientific": "Sturnella neglecta",
+    "confidence": 0.7211659550666809,
+    "filename": "_55A3822.jpg"
+  },
+  {
+    "id": "5b30f099174a058be3bc409700ef492685293667cd2846f032a8c688d541dfe8",
+    "entry": "5b30f099174a058be3bc409700ef492685293667cd2846f032a8c688d541dfe8-0",
+    "common": "Western Meadowlark",
+    "scientific": "Sturnella neglecta",
+    "confidence": 0.6638013124465942,
+    "filename": "_55A0857.jpg"
+  },
+  {
+    "id": "178df02e7d736b1eec2321e6fa04f5dd7ad16d96d8dc5d89e7fb9ccd00b89f62",
+    "entry": "178df02e7d736b1eec2321e6fa04f5dd7ad16d96d8dc5d89e7fb9ccd00b89f62-0",
+    "common": "Western Tanager",
+    "scientific": "Piranga ludoviciana",
+    "confidence": 0.07617900520563126,
+    "filename": "_55A9711.jpg"
+  },
+  {
+    "id": "964552689e7f19b43114f3112d589125f61b4868728290443b3074f29cff52c7",
+    "entry": "964552689e7f19b43114f3112d589125f61b4868728290443b3074f29cff52c7-0",
+    "common": "Western Tanager",
+    "scientific": "Piranga ludoviciana",
+    "confidence": 0.9999538660049438,
+    "filename": "_55A2816.jpg"
+  },
+  {
+    "id": "a6724ed9288d1e395c976bf7d7bc813334d3c1725b2b00f5f72038f5fd19fb49",
+    "entry": "a6724ed9288d1e395c976bf7d7bc813334d3c1725b2b00f5f72038f5fd19fb49-0",
+    "common": "Western Tanager",
+    "scientific": "Piranga ludoviciana",
+    "confidence": 0.21799202263355255,
+    "filename": "_55A5030.jpg"
+  },
+  {
+    "id": "ec6966ed6a5ad4026c8480d42955c482e15dc955a942b6b0f6827bdc5402d670",
+    "entry": "ec6966ed6a5ad4026c8480d42955c482e15dc955a942b6b0f6827bdc5402d670-0",
+    "common": "Western Wood-Pewee",
+    "scientific": "Contopus sordidulus",
+    "confidence": 0.7241523861885071,
+    "filename": "_55A5913.jpg"
+  },
+  {
+    "id": "1220a5f6caa054be0693d85f6e5fb50eda438839759d423e327e38d09bce6d57",
+    "entry": "1220a5f6caa054be0693d85f6e5fb50eda438839759d423e327e38d09bce6d57-0",
+    "common": "White-breasted Nuthatch",
+    "scientific": "Sitta carolinensis",
+    "confidence": 0.08270024508237839,
+    "filename": "_55A7952.jpg"
+  },
+  {
+    "id": "0b7ea2544a5a3bbf3177f5ff322729791a454fc21d984710820646f146344f55",
+    "entry": "0b7ea2544a5a3bbf3177f5ff322729791a454fc21d984710820646f146344f55-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.9986540079116821,
+    "filename": "_55A5330~2.jpg"
+  },
+  {
+    "id": "1c1d1a777c6069a1e781e012c97f75e7a1ae1c83a4f033805f20cbc39770f373",
+    "entry": "1c1d1a777c6069a1e781e012c97f75e7a1ae1c83a4f033805f20cbc39770f373-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.9813491702079773,
+    "filename": "_55A1779.jpg"
+  },
+  {
+    "id": "2640e5a4ab8b95a4f6660e3389c72067d1ece30e54984d9f380a8696929e04f3",
+    "entry": "2640e5a4ab8b95a4f6660e3389c72067d1ece30e54984d9f380a8696929e04f3-1",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.1081865057349205,
+    "filename": "_55A2415.jpg"
+  },
+  {
+    "id": "2dc36c79812643e03831413be629bf5d58fc47f82c5e087dc634e20dafe6ac67",
+    "entry": "2dc36c79812643e03831413be629bf5d58fc47f82c5e087dc634e20dafe6ac67-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.9823901653289795,
+    "filename": "signed_JK3A2329.jpg"
+  },
+  {
+    "id": "4f025b24ffad99299da0f9f46be376a73c1b5866af75aa56512968103e3eada4",
+    "entry": "4f025b24ffad99299da0f9f46be376a73c1b5866af75aa56512968103e3eada4-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.9979536533355713,
+    "filename": "_55A0664.jpg"
+  },
+  {
+    "id": "639f6f332d5288db43926ca267adfa165d4149607fa29ae2fbeb1bee31698b13",
+    "entry": "639f6f332d5288db43926ca267adfa165d4149607fa29ae2fbeb1bee31698b13-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.8726428151130676,
+    "filename": "_55A3271~2.jpg"
+  },
+  {
+    "id": "665d47354be8d9aa7bea8e1c396f8b514e24d042eb1390d3a22c2153f4e75e91",
+    "entry": "665d47354be8d9aa7bea8e1c396f8b514e24d042eb1390d3a22c2153f4e75e91-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.9972935318946838,
+    "filename": "_55A8131.jpg"
+  },
+  {
+    "id": "7f3520417b1552b4e358e2feb8211ce1c0865019f9b4b13882ae135a83d9d13a",
+    "entry": "7f3520417b1552b4e358e2feb8211ce1c0865019f9b4b13882ae135a83d9d13a-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.971027672290802,
+    "filename": "_55A8446.jpg"
+  },
+  {
+    "id": "87db06251ab1b1d382c8c1ff4d7be045ae5c8b1d7a0a5d1d1d87d057d9de840e",
+    "entry": "87db06251ab1b1d382c8c1ff4d7be045ae5c8b1d7a0a5d1d1d87d057d9de840e-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.8278931975364685,
+    "filename": "_55A1838.jpg"
+  },
+  {
+    "id": "9f6c2b393760775fa7b08e667e189a0b54dd5ecabb5506df4d2046a75f4a556c",
+    "entry": "9f6c2b393760775fa7b08e667e189a0b54dd5ecabb5506df4d2046a75f4a556c-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.9961225390434265,
+    "filename": "_55A5052.jpg"
+  },
+  {
+    "id": "c77748c04cd143a87cb945c71b5022f72fa77457a325d73a0561c9dc6f693e3d",
+    "entry": "c77748c04cd143a87cb945c71b5022f72fa77457a325d73a0561c9dc6f693e3d-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.9925771355628967,
+    "filename": "_55A7991.jpg"
+  },
+  {
+    "id": "d73e5e308f23c5cc5789ac3ff84c442f1db674d935d3a40775c9b86e2e8bb083",
+    "entry": "d73e5e308f23c5cc5789ac3ff84c442f1db674d935d3a40775c9b86e2e8bb083-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.8296018838882446,
+    "filename": "_55A2510.jpg"
+  },
+  {
+    "id": "ea42483d53d2ceb6ee274b433e017e84aa465dde6256d92d7a12be05ee870965",
+    "entry": "ea42483d53d2ceb6ee274b433e017e84aa465dde6256d92d7a12be05ee870965-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.9904143810272217,
+    "filename": "JK3A2540.jpg"
+  },
+  {
+    "id": "fa0bd2484dea721f99d96748051b1500a446f8b38d0716a127337ad87a24e00e",
+    "entry": "fa0bd2484dea721f99d96748051b1500a446f8b38d0716a127337ad87a24e00e-0",
+    "common": "White-crowned Sparrow",
+    "scientific": "Zonotrichia leucophrys",
+    "confidence": 0.7995799779891968,
+    "filename": "_55A3661.jpg"
+  },
+  {
+    "id": "adc92acab6ee3e9fbbf751a3f4fddcc8fae8493313c267206782e7898d7d1549",
+    "entry": "adc92acab6ee3e9fbbf751a3f4fddcc8fae8493313c267206782e7898d7d1549-0",
+    "common": "White-throated Sparrow",
+    "scientific": "Zonotrichia albicollis",
+    "confidence": 0.9903059005737305,
+    "filename": "_55A9999.jpg"
+  },
+  {
+    "id": "d564d0f6b0ffe31ccb89755b380f63675add269ca8d14cc2ccb999524bbb4d01",
+    "entry": "d564d0f6b0ffe31ccb89755b380f63675add269ca8d14cc2ccb999524bbb4d01-0",
+    "common": "Wild Turkey",
+    "scientific": "Meleagris gallopavo",
+    "confidence": 0.9803453087806702,
+    "filename": "_55A4661.jpg"
+  },
+  {
+    "id": "1d107ac63f0bb97bbe5914930eafb774b6af3d39082c0d69b7bcdc0e31ed53f3",
+    "entry": "1d107ac63f0bb97bbe5914930eafb774b6af3d39082c0d69b7bcdc0e31ed53f3-0",
+    "common": "Wilson's Warbler",
+    "scientific": "Cardellina pusilla",
+    "confidence": 4.2625973861731836e-08,
+    "filename": "_55A4544(1).jpg"
+  },
+  {
+    "id": "94c2f7133d7508ac2cbb0e36d94c6f94c9b08e4c129da17418da9a3a8246007b",
+    "entry": "94c2f7133d7508ac2cbb0e36d94c6f94c9b08e4c129da17418da9a3a8246007b-0",
+    "common": "Wilson's Warbler",
+    "scientific": "Cardellina pusilla",
+    "confidence": 0.00015619855548720807,
+    "filename": "_55A9701.jpg"
+  },
+  {
+    "id": "f9e85336c10995a3ebb850eac22236968189dae28de1452adc709045f9adfd52",
+    "entry": "f9e85336c10995a3ebb850eac22236968189dae28de1452adc709045f9adfd52-0",
+    "common": "Wilson's Warbler",
+    "scientific": "Cardellina pusilla",
+    "confidence": 0.006129750516265631,
+    "filename": "_55A9728.jpg"
+  },
+  {
+    "id": "ea880d6a86513024ce4afdbd81cd3eae14aa30203ff5aa38b066527dd2335953",
+    "entry": "ea880d6a86513024ce4afdbd81cd3eae14aa30203ff5aa38b066527dd2335953-0",
+    "common": "Wood Thrush",
+    "scientific": "Hylocichla mustelina",
+    "confidence": 0.9999386072158813,
+    "filename": "JK3A4642.jpg"
+  },
+  {
+    "id": "ee5f3fb4d3c4e67a56bdfe214a123d7e50388dd916d71ee79ea29ca4a57fdcda",
+    "entry": "ee5f3fb4d3c4e67a56bdfe214a123d7e50388dd916d71ee79ea29ca4a57fdcda-0",
+    "common": "Wood Thrush",
+    "scientific": "Hylocichla mustelina",
+    "confidence": 0.9998501539230347,
+    "filename": "JK3A4658.jpg"
+  },
+  {
+    "id": "46a52dd2c8641a88cbb561b886bb4649de19f4ece7ce25b17124c81d6b90ffc9",
+    "entry": "46a52dd2c8641a88cbb561b886bb4649de19f4ece7ce25b17124c81d6b90ffc9-0",
+    "common": "Wrentit",
+    "scientific": "Chamaea fasciata",
+    "confidence": 4.7839817852946e-05,
+    "filename": "_55A0085.jpg"
+  },
+  {
+    "id": "e1adfd5080fe683ad50def4598a34e621cd831090cee672a35f6962ade2b9c53",
+    "entry": "e1adfd5080fe683ad50def4598a34e621cd831090cee672a35f6962ade2b9c53-1",
+    "common": "Wrentit",
+    "scientific": "Chamaea fasciata",
+    "confidence": 2.7633683203021064e-05,
+    "filename": "signed_JK3A0795.jpg"
+  },
+  {
+    "id": "1c3b4d926ec61f7878e253393610e0e8561dff33a59943f4efcfeceb8ae3310e",
+    "entry": "1c3b4d926ec61f7878e253393610e0e8561dff33a59943f4efcfeceb8ae3310e-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.969280481338501,
+    "filename": "_55A7538.jpg"
+  },
+  {
+    "id": "314cc63a4c4c626dfdcfbf836232d1b95b17d85ccc67308068242550e821bb5d",
+    "entry": "314cc63a4c4c626dfdcfbf836232d1b95b17d85ccc67308068242550e821bb5d-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9868462085723877,
+    "filename": "_55A8505.jpg"
+  },
+  {
+    "id": "4686f1fd9281ae996662af6bc77b8f77699221880c6f00ab1edc0a8c0a4d85f5",
+    "entry": "4686f1fd9281ae996662af6bc77b8f77699221880c6f00ab1edc0a8c0a4d85f5-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9999927282333374,
+    "filename": "_55A8234.jpg"
+  },
+  {
+    "id": "5e58cc92f3ea1cd537bc26413c404d3c67e0deec27f2928333d1f96957563f4c",
+    "entry": "5e58cc92f3ea1cd537bc26413c404d3c67e0deec27f2928333d1f96957563f4c-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9990143775939941,
+    "filename": "_55A0986.jpg"
+  },
+  {
+    "id": "6c64da72a78fc7184a42428bd2b87124392970604b576b10e1475f5b9bd4a2f1",
+    "entry": "6c64da72a78fc7184a42428bd2b87124392970604b576b10e1475f5b9bd4a2f1-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9983614087104797,
+    "filename": "_55A6034-2.jpg"
+  },
+  {
+    "id": "6fd0f3c9bfd1e1e1d2477f2fc0c48d0f3436346cf9f6b67d98b29a5c2c7e0c06",
+    "entry": "6fd0f3c9bfd1e1e1d2477f2fc0c48d0f3436346cf9f6b67d98b29a5c2c7e0c06-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9991160035133362,
+    "filename": "_55A4466.jpg"
+  },
+  {
+    "id": "84d6592fc2f0463aaa09cb2b235d7c82bf6618f1aa6c39bb2328fe3838bf3b4c",
+    "entry": "84d6592fc2f0463aaa09cb2b235d7c82bf6618f1aa6c39bb2328fe3838bf3b4c-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9418759346008301,
+    "filename": "_55A0372.jpg"
+  },
+  {
+    "id": "9729d964ed3343a339434b3665a98c65812ce91c6f145c994f5c486c68696337",
+    "entry": "9729d964ed3343a339434b3665a98c65812ce91c6f145c994f5c486c68696337-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9972262978553772,
+    "filename": "_55A9955.jpg"
+  },
+  {
+    "id": "bf080c2059546ec67a32fb3c00e858052314eb8acdcf41414deda9cd32de0200",
+    "entry": "bf080c2059546ec67a32fb3c00e858052314eb8acdcf41414deda9cd32de0200-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9593894481658936,
+    "filename": "_55A8358.jpg"
+  },
+  {
+    "id": "e7cb4c13ee973ee919aaa4bda1a99a72226bb2f74987a213330f65d4b0314786",
+    "entry": "e7cb4c13ee973ee919aaa4bda1a99a72226bb2f74987a213330f65d4b0314786-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9814127683639526,
+    "filename": "_55A2961.jpg"
+  },
+  {
+    "id": "fc6ea453212b00a7ba86eaca11a4359a24b0ca8c43dcfa95106db4fd3b513db5",
+    "entry": "fc6ea453212b00a7ba86eaca11a4359a24b0ca8c43dcfa95106db4fd3b513db5-0",
+    "common": "Yellow-rumped Warbler",
+    "scientific": "Setophaga coronata",
+    "confidence": 0.9995632767677307,
+    "filename": "_55A9304.jpg"
+  }
+]
