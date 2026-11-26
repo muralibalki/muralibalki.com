@@ -68,6 +68,20 @@ Reimporting a subset or renaming a file preserves earlier results. The ignored
 `work/` directory caches models, star indexes, and intermediate predictions.
 Use `--retry-unresolved` to retry previously unsuccessful astronomy candidates.
 
+### Species inventory
+
+Every import refreshes `work/bird-gallery/all-species.csv` from the entire gallery,
+including when the input folder contains only new photos. Each species has one
+row with identification evidence, confirmed and possible countries, and filenames.
+The export includes suggestions for review. It does not submit sightings to eBird.
+
+Private notes in `work/bird-gallery/species-notes.json` can supply
+`photo_countries` (photo SHA-256 to country), `confirmed_ids` (confirmed photo
+hashes), `possible_trips` (start and end dates in YYYY-MM-DD format and country),
+and `additional_records` (name, status, optional scientific name, photo key,
+filename, and country). A capture date inside a trip window only suggests a
+country. Back up these notes to keep your personal confirmations across checkouts.
+
 ### Merlin review
 
 The importer writes pending BirdTrace scores below 50% to

@@ -21,6 +21,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 from pillow_heif import register_heif_opener
 from astro_gallery import solve_photo
+from gallery_species import write_species_list
 from gallery_review import import_reviews, write_queue
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -187,6 +188,7 @@ def run_album(files, images, state, args):
             draft["edits"].update({k: v for k, v in review["edits"].items() if previous_edits.get(k) != v})
             save_json(draft_file, draft)
     queue = WORK / "merlin-review.csv"
+    write_species_list(WORK, birds, review["edits"], paths)
     count = write_queue(queue, birds, review["edits"], args.low_confidence)
     print(f"{len(paths)} distinct photos; {len(new)} new; {len(remaining)} astronomy checks; "
           f"{count} pending Merlin reviews in {queue}")
