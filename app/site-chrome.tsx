@@ -13,7 +13,7 @@ export function Frame({ children }: { children: React.ReactNode }) {
           <Link href="/blog">Blog</Link>
           <Link href="/research">Research Publications</Link>
           <Link href="/patents">Patents</Link>
-          <Link href="/birds">Birds</Link><Link href="/cv">CV</Link>
+          <Link href="/birds">Birds</Link><Link href="/astro">Astro</Link><Link href="/cv">CV</Link>
         </nav>
         <div className="sidebar-elsewhere">
           <p>Elsewhere</p>
@@ -25,7 +25,7 @@ export function Frame({ children }: { children: React.ReactNode }) {
       <div className="main-column">
         <header className="mobile-header">
           <Link href="/" className="identity"><span className="monogram portrait-mark" aria-hidden="true" /><strong>Murali Balki</strong></Link>
-          <nav><Link href="/blog">Blog</Link><Link href="/research">Research</Link><Link href="/birds">Birds</Link><Link href="/cv">CV</Link></nav>
+          <nav><Link href="/blog">Blog</Link><Link href="/research">Research</Link><Link href="/birds">Birds</Link><Link href="/astro">Astro</Link><Link href="/cv">CV</Link></nav>
         </header>
         <main>{children}</main>
         <footer>

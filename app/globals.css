@@ -128,3 +128,14 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
 .bird-gallery fieldset label, .bird-gallery td small { display: block; margin-block: .5rem; }
 .bird-gallery fieldset textarea { width: 100%; }
 .bird-gallery button { cursor: pointer; }
+
+.astro-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 2rem 1.25rem; }
+.astro-gallery figure { margin: 0; min-width: 0; }
+.astro-gallery img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: contain; background: #0c1015; }
+.astro-gallery h2 { font-size: 1.15rem; margin: .7rem 0 .2rem; }
+.astro-gallery figcaption a { overflow-wrap: anywhere; }
+.astro-gallery figcaption p { margin: .4rem 0; }
+@media (max-width: 540px) {
+  .mobile-header { flex-wrap: wrap; gap: .75rem; }
+  .mobile-header nav { flex-wrap: wrap; }
+}
