@@ -5,7 +5,7 @@ import settings from "./review.json";
 
 import { speciesKey, type Bird } from "./species";
 
-type Edit = {common: string; hidden?: boolean; unsure?: boolean; scientific: string};
+type Edit = {common: string; hidden?: boolean; unsure?: boolean; scientific: string; source?: string};
 const edits: Record<string, Edit> = settings.edits;
 
 function visibleSpecies(bird: Bird) {
@@ -21,12 +21,19 @@ const confirmedIds = new Set(confirmedPhotos.map(row => row.id));
 const additional = [...confirmedPhotos, ...(archive as Bird[]).filter(row => !basePhotos.has(row.id) && !confirmedIds.has(row.id))];
 export const allBirds: Bird[] = [...base, ...additional];
 const existing = new Set(base.map(visibleSpecies));
+function reviewed(bird: Bird) {
+  return Boolean(bird.confirmed || (bird.entry && edits[bird.entry]?.source));
+}
+
 const representatives = new Map<string, Bird>();
 for (const bird of additional) {
   const name = visibleSpecies(bird);
   if (!name || existing.has(name)) continue;
   const previous = representatives.get(name);
-  if (!previous || (!previous.confirmed && (bird.confirmed || (bird.confidence ?? 0) > (previous.confidence ?? 0)))) representatives.set(name, bird);
+  if (!previous || (reviewed(bird) && !reviewed(previous)) ||
+      (reviewed(bird) === reviewed(previous) && (bird.confidence ?? 0) > (previous.confidence ?? 0))) {
+    representatives.set(name, bird);
+  }
 }
 const uncertain = additional.filter(row => row.entry && edits[row.entry]?.unsure && !edits[row.entry]?.hidden);
 export const featuredBirds = [...base, ...representatives.values(), ...uncertain];

@@ -192,7 +192,8 @@
     "b33541525ef6b2f196cce80ce7cef8ac24d83976f08dcf530b849c5dc0b488e5-0": {
       "common": "Bushtit",
       "scientific": "Psaltriparus minimus",
-      "source": "User confirmed"
+      "source": "User confirmed",
+      "hidden": true
     },
     "f636466280ae13ae4ac2199763a69e0bfc04de2f7ce565251a4995d44b3c9e6d-0": {
       "common": "Bushtit",
