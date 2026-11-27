@@ -4,7 +4,7 @@ import metadataById from "./photo-metadata.json";
 import { PhotoGallery, type GalleryPhoto } from "./photo-gallery";
 
 export const metadata = { title: "Bird photography" };
-const dimensions: Record<string, {width: number; height: number; date: string | null}> = metadataById;
+const dimensions: Record<string, {width: number; height: number; date: string | null; details?: Record<string, string>}> = metadataById;
 const photos = new Map<string, GalleryPhoto>();
 for (const row of birdInventory) {
   if (!row.showOnBirds) continue;
@@ -14,7 +14,7 @@ for (const row of birdInventory) {
     photo = {
       id: row.id, filename: row.filename ?? row.id, album: row.album,
       src: row.archive ? `/all-bird-photos/${row.id}.webp` : `/bird-photos/${row.id}.jpg`,
-      width: details?.width, height: details?.height, date: details?.date ?? null, species: [],
+      width: details?.width, height: details?.height, date: details?.date ?? null, details: details?.details ?? {}, species: [],
     };
     photos.set(row.id, photo);
   }

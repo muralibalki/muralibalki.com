@@ -1,10 +1,10 @@
 "use client";
 
-import { useMemo, useRef, useState, type CSSProperties } from "react";
+import { Fragment, useMemo, useRef, useState, type CSSProperties } from "react";
 
 export type GalleryPhoto = {
   id: string; filename: string; album: string; src: string;
-  date: string | null; width?: number; height?: number;
+  details: Record<string, string>; date: string | null; width?: number; height?: number;
   species: { common: string; scientific: string }[];
 };
 
@@ -73,6 +73,7 @@ export function PhotoGallery({ photos, total }: { photos: GalleryPhoto[]; total:
           <dt>Captured</dt><dd>{active.date ?? "Date unavailable"}</dd>
           <dt>Album</dt><dd>{active.album}</dd>
           {active.width && active.height && <><dt>Original dimensions</dt><dd>{active.width} × {active.height} px</dd></>}
+          {Object.entries(active.details).map(([label, value]) => <Fragment key={label}><dt>{label}</dt><dd>{value}</dd></Fragment>)}
         </dl>
       </div>}
     </dialog>
