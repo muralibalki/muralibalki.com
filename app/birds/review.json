@@ -980,17 +980,107 @@
       "source": "User confirmed"
     },
     "a26cee81e0a4052a962a5b975249511199bf69a4a3d16500f173ce1aeb1d8365-visual": {
-      "common": "Barbet (species unresolved)",
-      "scientific": "",
-      "unsure": false,
+      "common": "White-cheeked Barbet",
+      "scientific": "Psilopogon viridis",
       "source": "User confirmed",
-      "speciesUnresolved": true
+      "unsure": false
     },
     "75bb6081b0de11597af169222bb56a8b927aa3490ea470398c96cf12791bd2ee-visual": {
       "common": "Bushtit",
       "scientific": "Psaltriparus minimus",
       "unsure": false,
       "source": "User confirmed"
+    },
+    "104db3ba638c499a52dd847dc121bb935745fe448536db869d70f5ebec8074a6-visual": {
+      "common": "Bewick's Wren",
+      "scientific": "Thryomanes bewickii",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "fee59fd903b425040175a7f0a0c17ef62a8e24ab16c66321c6ce27c63bf82059-visual": {
+      "common": "White-tailed Kite",
+      "scientific": "Elanus leucurus",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "ac466ed03fb36a73c97a7fec66f05f85a0ed40a4895dd8ea169dac7c41867e9b-visual": {
+      "common": "Golden-crowned Sparrow",
+      "scientific": "Zonotrichia atricapilla",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "d4d2edffa45e916dc7bdfca2177ad707628b1126192f1690267ffa51d021a7a6-visual": {
+      "common": "Western Tanager",
+      "scientific": "Piranga ludoviciana",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "80f91f36dd58f6c431da2d892c6d052acd1be82a38992afd3774da2e07c7c7a9-visual": {
+      "common": "Yellow-rumped Warbler",
+      "scientific": "Setophaga coronata",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "cab2a7df774d44d7fe958026eebfc0b68b460261411caae4f7216434b00daa64-visual": {
+      "common": "Western Bluebird",
+      "scientific": "Sialia mexicana",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "4b3cffbabe8a0277b30153ffddb53af0b0c5907cf3ff0d8f954311aff7bdc7bf-visual": {
+      "common": "Black Phoebe",
+      "scientific": "Sayornis nigricans",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "2b8c0211ac3537fb9ea7e86e502b99b2e0dd8c9384df15cdab8cded78ad5d087-visual": {
+      "common": "Western Bluebird",
+      "scientific": "Sialia mexicana",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "1e484c7fd2333f5082622415b2d84b9c71747b2c38cf2dbc8b8cfc346bedc0f8-visual": {
+      "common": "Western Warbling Vireo",
+      "scientific": "Vireo swainsoni",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "6144c53982965f7c3fef333105b9b16b5ffe178a22c2ee428905a47b1d8e5889-visual": {
+      "common": "Orange-crowned Warbler",
+      "scientific": "Leiothlypis celata",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "902e314d745705abf31003296b05df8323c3c6c783b0b438acf816be1c9580c4-visual": {
+      "common": "Forster's Tern",
+      "scientific": "Sterna forsteri",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "f01175cbc8189136f06e3b507660bd3edd588cd7686012ae4267c40a17d6971a-visual": {
+      "common": "Barn Swallow",
+      "scientific": "Hirundo rustica",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "8a20b2e7e1c68c5b9d5332a83e3fae04a7cd2498461905dc7ed18700de94c96c-visual": {
+      "common": "Barn Swallow",
+      "scientific": "Hirundo rustica",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "e7209faab3660b15e48cc8ccfed6f0afd1b39e097d456270f11ae7d92caaa078-visual": {
+      "common": "Squirrel",
+      "scientific": "",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": true
+    },
+    "a50489098b8eaa7659935f2f24740cb495c961cc81b80664ba16d1b3ef211a11-visual": {
+      "common": "Fox Sparrow",
+      "scientific": "Passerella iliaca",
+      "source": "User confirmed",
+      "unsure": false
     }
   }
 }
