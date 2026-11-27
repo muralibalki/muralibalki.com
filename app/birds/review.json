@@ -502,6 +502,51 @@
       "common": "Northern Yellow Warbler",
       "scientific": "Setophaga aestiva",
       "source": "User confirmed"
+    },
+    "29d0b4211607ea2c1750122941dc145d33d228220242aadabe61138a86213956-1": {
+      "common": "Barrow's Goldeneye",
+      "scientific": "Bucephala islandica",
+      "hidden": true
+    },
+    "29d0b4211607ea2c1750122941dc145d33d228220242aadabe61138a86213956-0": {
+      "common": "Common Goldeneye",
+      "scientific": "Bucephala clangula",
+      "source": "User confirmed",
+      "featured": true
+    },
+    "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7-3": {
+      "common": "Lesser Scaup",
+      "scientific": "Aythya affinis",
+      "unsure": true
+    },
+    "bc6bd0994b0ff8941fcf5f80dc7b64f208be6effc69a57bbb99f02b661d90f13-0": {
+      "common": "Lesser Black-backed Gull",
+      "scientific": "Larus fuscus",
+      "unsure": true
+    },
+    "41e1218412cc5548950eac7fb896b128ce613e4cd6f666a0a7822bade3d9667e-0": {
+      "common": "Merlin",
+      "scientific": "Falco columbarius",
+      "source": "User confirmed",
+      "featured": true
+    },
+    "ca368a19f88b83d29448ba2503ae4853c6842780ecf104c3ab6bf32440e9b901-0": {
+      "common": "Wood Duck",
+      "scientific": "Aix sponsa",
+      "source": "User confirmed",
+      "featured": true
+    },
+    "41e1218412cc5548950eac7fb896b128ce613e4cd6f666a0a7822bade3d9667e-1": {
+      "common": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "source": "User confirmed",
+      "featured": true
+    },
+    "9068c7d9a2a5fb393fecbc23db147ff8f8d5a1c110eb80aceefbb9f9dc790f52-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "source": "User confirmed",
+      "featured": true
     }
   }
 }
