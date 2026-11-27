@@ -11,7 +11,7 @@ function photoUrl(bird: Bird, thumbnail = false) {
   return bird.archive ? `/all-bird-photos/${bird.id}${suffix}.webp` : `/bird-photos/${bird.id}${suffix}.jpg`;
 }
 
-export function BirdTable({ birds, initial, collection = false }: { birds: Bird[]; initial: Review; collection?: boolean }) {
+export function BirdTable({ birds, initial, sightingNames, collection = false }: { birds: Bird[]; initial: Review; sightingNames: string[]; collection?: boolean }) {
   const [review, setReview] = useState(initial);
   const [version, setVersion] = useState("");
   const [editing, setEditing] = useState(false);
@@ -53,6 +53,7 @@ export function BirdTable({ birds, initial, collection = false }: { birds: Bird[
   const species = new Set(reviewed
     .filter(bird => !bird.hidden && (bird.scientific || bird.common === bird.original.common))
     .map(bird => speciesKey(bird.common)));
+  const unpictured = sightingNames.filter(name => !species.has(speciesKey(name)));
   const rows = reviewed.filter(bird => {
     const names = [bird.common, bird.scientific, bird.filename, bird.original.common].join(" ").toLowerCase();
     return (editing || !bird.hidden) && names.includes(query.trim().toLowerCase()) &&
@@ -68,7 +69,7 @@ export function BirdTable({ birds, initial, collection = false }: { birds: Bird[
   });
   if (!birds.length) return <p>No bird photographs have been cataloged yet.</p>;
   return <section className="bird-gallery">
-    <header className="page-header"><h1>{review.title}</h1><p className="bird-species-count"><strong>{species.size} unique species</strong></p></header>
+    <header className="page-header"><h1>{review.title}</h1><p className="bird-species-count"><strong>{species.size + unpictured.length} unique species</strong></p>{unpictured.length > 0 && <p>{species.size} photographed · Seen without a linked photo: {unpictured.join(", ")}</p>}</header>
     {version && <p><button onClick={() => setEditing(!editing)}>{editing ? "Preview edits" : "Edit locally"}</button></p>}
     {editing && <fieldset disabled={busy}>
       <legend>Local gallery review</legend>
@@ -120,7 +121,7 @@ export function BirdTable({ birds, initial, collection = false }: { birds: Bird[
             setReview({...review, edits}); setStatus("Unsaved edits");
           }}>Restore suggestion</button>}
         </> : <>{bird.common}<br/><i>{bird.scientific}</i></>}</td>
-        <td>{bird.confidence == null ? (bird.source || "Edited") : (100 * bird.confidence).toFixed(1) + "%"}</td>
+        <td>{bird.confidence == null ? (bird.source || (bird.confirmed ? "User confirmed" : "Edited")) : (100 * bird.confidence).toFixed(1) + "%"}</td>
       </tr>)}</tbody>
     </table>
     <p className="bird-methods">{review.description} Species suggestions by <a href="https://huggingface.co/warden123/BirdTrace-FastViT-MA36-10K">BirdTrace FastViT-MA36-10K</a> (CC BY-NC 4.0), with regional ranking by <a href="https://birdnet.cornell.edu/">BirdNET</a>.</p>
