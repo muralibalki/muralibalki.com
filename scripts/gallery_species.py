@@ -6,7 +6,7 @@ from pathlib import Path
 from PIL import Image
 
 
-def write_species_list(work, birds, edits, paths):
+def write_species_list(work, birds, edits, paths, confirmed=()):
     settings = work / "species-notes.json"
     notes = json.loads(settings.read_text()) if settings.exists() else {}
     date_file = work / "species-photo-dates.json"
@@ -34,6 +34,9 @@ def write_species_list(work, birds, edits, paths):
             status = "Tentative"
         entries.append(dict(name=name, scientific=edit.get("scientific", bird["scientific"]),
                             status=status, filename=bird["filename"], key=bird["id"]))
+    for item in confirmed:
+        entries.append(dict(name=item["common"], scientific=item["scientific"], status="User confirmed",
+                            filename=item.get("filename", ""), key=item.get("id", "")))
     entries.extend(notes.get("additional_records", []))
     groups = {}
     for record in entries:

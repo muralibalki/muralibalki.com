@@ -260,7 +260,9 @@ def refresh_reviews(paths, args):
             draft["edits"].update({k: v for k, v in review["edits"].items() if previous_edits.get(k) != v})
             save_json(draft_file, draft)
     queue = WORK / "merlin-review.csv"
-    write_species_list(WORK, birds, review["edits"], paths)
+    confirmed_file = ROOT / "app/birds/confirmed.json"
+    confirmed = json.loads(confirmed_file.read_text()) if confirmed_file.exists() else []
+    write_species_list(WORK, birds, review["edits"], paths, confirmed)
     count = write_queue(queue, birds, review["edits"], args.low_confidence)
     print(f"{count} pending Merlin reviews in {queue}")
 
