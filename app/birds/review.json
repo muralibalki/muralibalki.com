@@ -383,7 +383,8 @@
     "8dcc0f243267d1313ebbe94a6fc4abcbb668948898b6ff930d9923d48ed967b6-2": {
       "common": "Glaucous Gull",
       "scientific": "Larus hyperboreus",
-      "unsure": true
+      "source": "User confirmed",
+      "hidden": true
     },
     "8dcc0f243267d1313ebbe94a6fc4abcbb668948898b6ff930d9923d48ed967b6-0": {
       "common": "Lesser Black-backed Gull",
@@ -408,12 +409,14 @@
     "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-16": {
       "common": "Long-billed Dowitcher",
       "scientific": "Limnodromus scolopaceus",
-      "unsure": true
+      "source": "User confirmed",
+      "hidden": false
     },
     "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-0": {
       "common": "Marbled Godwit",
       "scientific": "Limosa fedoa",
-      "unsure": true
+      "source": "User confirmed",
+      "hidden": true
     },
     "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-1": {
       "common": "Northern Pintail",
@@ -423,7 +426,8 @@
     "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-8": {
       "common": "Northern Shoveler",
       "scientific": "Spatula clypeata",
-      "unsure": true
+      "source": "User confirmed",
+      "hidden": true
     },
     "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-11": {
       "common": "Ross's Goose",
@@ -480,7 +484,8 @@
     "418cbecdab64e8a39d5b9f69393698e457f5b6297771bda934a2e02418a7b617-0": {
       "common": "American Pipit",
       "scientific": "Anthus rubescens",
-      "unsure": true
+      "source": "User confirmed",
+      "hidden": false
     },
     "7a981b8565354d4a1162cdacb3b74f5c66d33116860eb615cb7c65b446612ab1-0": {
       "common": "Oriental Darter",
