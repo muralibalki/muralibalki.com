@@ -44,7 +44,9 @@ def write_queue(path, birds, edits, threshold):
         for bird in sorted(birds, key=lambda r: r["confidence"]):
             entry = bird["entry"]
             previous = existing.get(entry, {})
-            if entry in edits or (bird["confidence"] >= threshold and not previous.get("reviewed_name")):
+            edit = edits.get(entry, {})
+            requested = edit.get("unsure") and not edit.get("hidden")
+            if not requested and (entry in edits or (bird["confidence"] >= threshold and not previous.get("reviewed_name"))):
                 continue
             folder, ext = ("all-bird-photos", "webp") if bird.get("archive") else ("bird-photos", "jpg")
             writer.writerow(dict(entry=entry, filename=bird["filename"], suggested_name=bird["common"],

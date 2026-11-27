@@ -5,27 +5,32 @@
     "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-2": {
       "common": "Mallard (tentative)",
       "scientific": "Anas platyrhynchos",
-      "hidden": true
+      "hidden": true,
+      "unsure": true
     },
     "2640e5a4ab8b95a4f6660e3389c72067d1ece30e54984d9f380a8696929e04f3-0": {
       "common": "Sparrow or finch (unconfirmed)",
       "scientific": "",
-      "hidden": false
+      "hidden": false,
+      "unsure": true
     },
     "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-0": {
       "common": "Mallard (tentative)",
       "scientific": "Anas platyrhynchos",
-      "hidden": false
+      "hidden": false,
+      "unsure": true
     },
     "1be2769c67e7aea24cd3f75a031f0391b84573b88fa082250d5f1b835fbf84cb-1": {
       "common": "Mallard (tentative)",
       "scientific": "Anas platyrhynchos",
-      "hidden": true
+      "hidden": true,
+      "unsure": true
     },
     "2640e5a4ab8b95a4f6660e3389c72067d1ece30e54984d9f380a8696929e04f3-1": {
       "common": "Sparrow or finch (unconfirmed)",
       "scientific": "",
-      "hidden": true
+      "hidden": true,
+      "unsure": true
     },
     "93381ea311b47f8148f1168f7c38fd2eba239049aa23e83955c00df9a87c7f8e-0": {
       "common": "Rufous Hummingbird",
@@ -108,10 +113,9 @@
       "source": "Merlin review"
     },
     "9e76f31d7f77f62fcdbda5073db79cc7139ed948352353c7adff998764fe2bc4-0": {
-      "common": "Violet-green Swallow",
-      "scientific": "Tachycineta thalassina",
-      "hidden": false,
-      "source": "Merlin review"
+      "common": "Tree Swallow",
+      "scientific": "Tachycineta bicolor",
+      "source": "User confirmed"
     },
     "3fa6160e88c81b21455092e677a205a932e11049cfac4d0f81c03a098b057d23-0": {
       "common": "Western Warbling Vireo",
@@ -184,6 +188,288 @@
       "scientific": "Astur cooperii",
       "hidden": false,
       "source": "Merlin review"
+    },
+    "b33541525ef6b2f196cce80ce7cef8ac24d83976f08dcf530b849c5dc0b488e5-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "source": "User confirmed"
+    },
+    "f636466280ae13ae4ac2199763a69e0bfc04de2f7ce565251a4995d44b3c9e6d-0": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "source": "User confirmed"
+    },
+    "05834360f783e76ad0f0e5a37a09879070a6106fbb37a05fc55c0acc0c74cbf2-0": {
+      "common": "Cinnamon Teal",
+      "scientific": "Spatula cyanoptera",
+      "source": "User confirmed"
+    },
+    "05834360f783e76ad0f0e5a37a09879070a6106fbb37a05fc55c0acc0c74cbf2-2": {
+      "common": "Blue-winged Teal",
+      "scientific": "Spatula discors",
+      "hidden": true
+    },
+    "05834360f783e76ad0f0e5a37a09879070a6106fbb37a05fc55c0acc0c74cbf2-3": {
+      "common": "Mallard",
+      "scientific": "Anas platyrhynchos",
+      "hidden": true
+    },
+    "2667cc5cb8ed0cb4a0c78cdae4f9d06af26b867b48cf86fac653593768ef4a06-0": {
+      "common": "Western Bluebird",
+      "scientific": "Sialia mexicana",
+      "source": "User confirmed"
+    },
+    "2667cc5cb8ed0cb4a0c78cdae4f9d06af26b867b48cf86fac653593768ef4a06-1": {
+      "common": "Common Chiffchaff",
+      "scientific": "Phylloscopus collybita",
+      "hidden": true
+    },
+    "1dcaf3d9a4d0905a415081aad8b83f5e8089b8b5016ca14a595096085439419c-0": {
+      "common": "Western Bluebird",
+      "scientific": "Sialia mexicana",
+      "source": "User confirmed"
+    },
+    "9ce318052c9a367c2c68795ea9c119aff5a377eb3f104f8dfcb8c961b6f3337d-0": {
+      "common": "Sandhill Crane",
+      "scientific": "Antigone canadensis",
+      "source": "User confirmed"
+    },
+    "2c9f0f6a3e39f51b35a56fb74b9c366e45103d4b907d04675163922f5ab3c727-0": {
+      "common": "Western Meadowlark",
+      "scientific": "Sturnella neglecta",
+      "source": "User confirmed"
+    },
+    "92c9101bdaf71b726d209198442ecb3233cd1fe2c48991eeaf922854c4410abc-0": {
+      "common": "Western Meadowlark",
+      "scientific": "Sturnella neglecta",
+      "source": "User confirmed"
+    },
+    "791b4d71ce2c5a08f94c1d4edadce36b3f39c87ecfee09776e42f069081598a1-0": {
+      "common": "Ash-throated Flycatcher",
+      "scientific": "Myiarchus cinerascens",
+      "source": "User confirmed"
+    },
+    "bebebe20da34cc22ad09ab7d44d69dfb35075f290840281dddda8784a35119b7-0": {
+      "common": "Dark-eyed Junco",
+      "scientific": "Junco hyemalis",
+      "source": "User confirmed"
+    },
+    "bebebe20da34cc22ad09ab7d44d69dfb35075f290840281dddda8784a35119b7-1": {
+      "common": "Chestnut-backed Chickadee",
+      "scientific": "Poecile rufescens",
+      "hidden": true
+    },
+    "bebebe20da34cc22ad09ab7d44d69dfb35075f290840281dddda8784a35119b7-2": {
+      "common": "Lapland Longspur",
+      "scientific": "Calcarius lapponicus",
+      "hidden": true
+    },
+    "21bee17ab9d11793a1aba7f6be4e82957ab7d2becc51a779f79a2690acfebc2f-0": {
+      "common": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "source": "User confirmed"
+    },
+    "940057b76d2af2a480ad57d3c48853171704cc1698810934f5f41e2e491e45ff-0": {
+      "common": "European Starling",
+      "scientific": "Sturnus vulgaris",
+      "source": "User confirmed"
+    },
+    "14060f18814785f287e3fd817d1c183e6f9a92d2db3817b57c13f9238b2d065e-0": {
+      "common": "European Starling",
+      "scientific": "Sturnus vulgaris",
+      "source": "User confirmed"
+    },
+    "8b45fe38d245b85f0e450769193ab355f0b65684740170680300cc3991496b1d-0": {
+      "common": "Black-bellied Plover",
+      "scientific": "Pluvialis squatarola",
+      "source": "User confirmed"
+    },
+    "d3e891cb359fa6e65a1111c39f15198d75ad24909457c403a4edf546ddeb0b98-4": {
+      "common": "Tricolored Blackbird",
+      "scientific": "Agelaius tricolor",
+      "source": "User confirmed"
+    },
+    "d3e891cb359fa6e65a1111c39f15198d75ad24909457c403a4edf546ddeb0b98-5": {
+      "common": "Brown-headed Cowbird",
+      "scientific": "Molothrus ater",
+      "hidden": true
+    },
+    "d3e891cb359fa6e65a1111c39f15198d75ad24909457c403a4edf546ddeb0b98-0": {
+      "common": "Red-winged Blackbird",
+      "scientific": "Agelaius phoeniceus",
+      "source": "User confirmed"
+    },
+    "c5757e0e266d7a301b7acf4b83349190b62eb3e7d19d089c67b8376a15af3da5-0": {
+      "common": "Chiloe Wigeon",
+      "scientific": "Mareca sibilatrix",
+      "hidden": true
+    },
+    "c685e0f7957548ed1d77d9a9f9165344bd0926368bc225922937d9f595625125-0": {
+      "common": "Golden Eagle",
+      "scientific": "Aquila chrysaetos",
+      "hidden": true
+    },
+    "436f7e959a6722a3bcdb16d09a1326c40b79a34a2d40706b2ea3aaa460c8d245-0": {
+      "common": "Little Tern",
+      "scientific": "Sternula albifrons",
+      "hidden": true
+    },
+    "b3b6368f234d4bce23ed0741bfb83e954d73793aa3eec326f060e90e25bc3604-4": {
+      "common": "Cackling Goose",
+      "scientific": "Branta hutchinsii",
+      "hidden": true
+    },
+    "b3b6368f234d4bce23ed0741bfb83e954d73793aa3eec326f060e90e25bc3604-2": {
+      "common": "Canada Goose",
+      "scientific": "Branta canadensis",
+      "hidden": true
+    },
+    "b3b6368f234d4bce23ed0741bfb83e954d73793aa3eec326f060e90e25bc3604-0": {
+      "common": "Muscovy Duck",
+      "scientific": "Cairina moschata",
+      "hidden": true
+    },
+    "b3b6368f234d4bce23ed0741bfb83e954d73793aa3eec326f060e90e25bc3604-1": {
+      "common": "Wood Duck",
+      "scientific": "Aix sponsa",
+      "hidden": true
+    },
+    "42e9a6f2acf131b5bda1f5fbfe2246286838198d3df7a8bc72789fc03c8b7fea-0": {
+      "common": "Swamp Sparrow",
+      "scientific": "Melospiza georgiana",
+      "hidden": true
+    },
+    "f7c6e182d65be4b57ece6ffb3fdcbc53bc7225d6c30a3c54597790b5b0d55e9e-0": {
+      "common": "Wilson's Phalarope",
+      "scientific": "Phalaropus tricolor",
+      "hidden": true
+    },
+    "901e81fd2da3c4e82ebabda5542ba288859f0e2e73d98044018c160e05f22b87-0": {
+      "common": "Hammond's Flycatcher",
+      "scientific": "Empidonax hammondii",
+      "unsure": true
+    },
+    "fea0169ca67c42df36bf0ebc40592d2ed5da3c159684df8956b13a9103826a21-0": {
+      "common": "Common Tern",
+      "scientific": "Sterna hirundo",
+      "unsure": true
+    },
+    "e326918a710b719d870c2a872bad3da3a09e2c26dd9f3894e814d1b443e51c8c-17": {
+      "common": "Brown-headed Cowbird",
+      "scientific": "Molothrus ater",
+      "unsure": true
+    },
+    "e326918a710b719d870c2a872bad3da3a09e2c26dd9f3894e814d1b443e51c8c-18": {
+      "common": "Hudsonian Godwit",
+      "scientific": "Limosa haemastica",
+      "unsure": true
+    },
+    "e326918a710b719d870c2a872bad3da3a09e2c26dd9f3894e814d1b443e51c8c-0": {
+      "common": "Marbled Godwit",
+      "scientific": "Limosa fedoa",
+      "unsure": true
+    },
+    "e326918a710b719d870c2a872bad3da3a09e2c26dd9f3894e814d1b443e51c8c-14": {
+      "common": "Short-billed Dowitcher",
+      "scientific": "Limnodromus griseus",
+      "unsure": true
+    },
+    "e326918a710b719d870c2a872bad3da3a09e2c26dd9f3894e814d1b443e51c8c-2": {
+      "common": "Willet",
+      "scientific": "",
+      "unsure": true
+    },
+    "8dcc0f243267d1313ebbe94a6fc4abcbb668948898b6ff930d9923d48ed967b6-2": {
+      "common": "Glaucous Gull",
+      "scientific": "Larus hyperboreus",
+      "unsure": true
+    },
+    "8dcc0f243267d1313ebbe94a6fc4abcbb668948898b6ff930d9923d48ed967b6-0": {
+      "common": "Lesser Black-backed Gull",
+      "scientific": "Larus fuscus",
+      "unsure": true
+    },
+    "8dcc0f243267d1313ebbe94a6fc4abcbb668948898b6ff930d9923d48ed967b6-3": {
+      "common": "Willet",
+      "scientific": "",
+      "unsure": true
+    },
+    "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-10": {
+      "common": "Green-winged Teal",
+      "scientific": "Anas crecca",
+      "unsure": true
+    },
+    "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-13": {
+      "common": "Long-billed Curlew",
+      "scientific": "Numenius americanus",
+      "unsure": true
+    },
+    "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-16": {
+      "common": "Long-billed Dowitcher",
+      "scientific": "Limnodromus scolopaceus",
+      "unsure": true
+    },
+    "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-0": {
+      "common": "Marbled Godwit",
+      "scientific": "Limosa fedoa",
+      "unsure": true
+    },
+    "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-1": {
+      "common": "Northern Pintail",
+      "scientific": "Anas acuta",
+      "unsure": true
+    },
+    "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-8": {
+      "common": "Northern Shoveler",
+      "scientific": "Spatula clypeata",
+      "unsure": true
+    },
+    "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-11": {
+      "common": "Ross's Goose",
+      "scientific": "Anser rossii",
+      "unsure": true
+    },
+    "fee0335515963e6752e9e7eca8fc6b15c98a853626c4530c97bbcab197121115-0": {
+      "common": "Medium Egret",
+      "scientific": "Ardea intermedia",
+      "unsure": true
+    },
+    "aa04257b3de397e2d2423eeb318e5f3a32575ceeb60fcb0ad3268453acfda7f5-1": {
+      "common": "Pine Siskin",
+      "scientific": "Spinus pinus",
+      "unsure": true
+    },
+    "aa04257b3de397e2d2423eeb318e5f3a32575ceeb60fcb0ad3268453acfda7f5-0": {
+      "common": "Red Crossbill",
+      "scientific": "Loxia curvirostra",
+      "unsure": true
+    },
+    "b14b8e0cc4abd5b909a5f249bc66c7d849754e3f6f6a35bd4e9f96eb319b4191-0": {
+      "common": "Surfbird",
+      "scientific": "Calidris virgata",
+      "unsure": true
+    },
+    "9d736a6cc6982a16d0645fd4ee659415f48560288af9fcd4d1ddf6e9d39204ab-1": {
+      "common": "Dunlin",
+      "scientific": "Calidris alpina",
+      "unsure": true
+    },
+    "9d736a6cc6982a16d0645fd4ee659415f48560288af9fcd4d1ddf6e9d39204ab-0": {
+      "common": "Western Sandpiper",
+      "scientific": "Calidris mauri",
+      "unsure": true
+    },
+    "ddf3844d3bb34c1609c146e4b26d1ca9a73a04e7a16640913cea9d5d12cbff6f-4": {
+      "common": "Glossy Ibis",
+      "scientific": "Plegadis falcinellus",
+      "unsure": true,
+      "merlinRequested": true
+    },
+    "ddf3844d3bb34c1609c146e4b26d1ca9a73a04e7a16640913cea9d5d12cbff6f-0": {
+      "common": "White-faced Ibis",
+      "scientific": "Plegadis chihi",
+      "unsure": true,
+      "merlinRequested": true
     }
   }
 }

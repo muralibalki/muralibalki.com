@@ -154,3 +154,5 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
   .mobile-header { flex-wrap: wrap; gap: .75rem; }
   .mobile-header nav { flex-wrap: wrap; }
 }
+
+.bird-gallery .unsure-birds tbody tr { background: #fff2aa; }

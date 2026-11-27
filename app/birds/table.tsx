@@ -3,7 +3,7 @@
 import { speciesKey, type Bird } from "./species";
 import { useEffect, useState } from "react";
 
-type Review = { title: string; description: string; edits: Record<string, { common: string; scientific: string; hidden?: boolean; source?: string }> };
+type Review = { title: string; description: string; edits: Record<string, { common: string; scientific: string; hidden?: boolean; unsure?: boolean; merlinRequested?: boolean; source?: string }> };
 const editor = "http://127.0.0.1:4179";
 
 function photoUrl(bird: Bird, thumbnail = false) {
@@ -51,7 +51,7 @@ export function BirdTable({ birds, initial, sightingNames, collection = false }:
     return {...original, ...edit, key, original, confidence: edit && (edit.source || edit.common !== original.common) ? undefined : original.confidence};
   });
   const species = new Set(reviewed
-    .filter(bird => !bird.hidden && (bird.scientific || bird.common === bird.original.common))
+    .filter(bird => !bird.hidden && !bird.unsure && (bird.scientific || bird.common === bird.original.common))
     .map(bird => speciesKey(bird.common)));
   const unpictured = sightingNames.filter(name => !species.has(speciesKey(name)));
   const rows = reviewed.filter(bird => {
@@ -67,6 +67,40 @@ export function BirdTable({ birds, initial, sightingNames, collection = false }:
       : field === "scientific" ? a.scientific.localeCompare(b.scientific) : a.common.localeCompare(b.common);
     return (direction === "asc" ? by : -by) || a.id.localeCompare(b.id);
   });
+  const mainRows = rows.filter(bird => !bird.unsure);
+  const unsureRows = rows.filter(bird => bird.unsure);
+  function renderTable(items: typeof rows, uncertain: boolean) {
+    return <table className={uncertain ? "unsure-birds" : undefined}><thead><tr><th>Photo</th><th>File name</th><th>Suggested identification</th><th aria-sort={field !== "confidence" ? "none" : direction === "asc" ? "ascending" : "descending"}>
+      <button onClick={() => setOrder(order === "confidence-desc" ? "confidence-asc" : "confidence-desc")}>
+        BirdTrace confidence {field !== "confidence" ? "↕" : direction === "asc" ? "↑" : "↓"}
+      </button>
+    </th></tr></thead>
+      <tbody>{items.map(bird => <tr key={bird.key}>
+        <td><a href={photoUrl(bird)}>
+          <img width="100" loading="lazy" src={photoUrl(bird, true)}
+            alt={`Enlarge photograph of suspected ${bird.common}`} />
+        </a></td>
+        <td><a href={photoUrl(bird)}>{bird.filename || "Open photograph"}</a>
+        </td>
+        <td>{bird.merlinRequested && <small>Merlin review requested</small>}{editing ? <>
+          <input aria-label="Bird name" value={bird.common} onChange={e => change(bird.key, e.target.value, "")} />
+          <input aria-label="Scientific name" value={bird.scientific} onChange={e => change(bird.key, bird.common, e.target.value)} />
+          <small>Suggested: {bird.original.common}</small>
+          <label><input type="checkbox" checked={!!bird.hidden} onChange={e => {
+            setReview({...review, edits: {...review.edits, [bird.key]: {
+              ...review.edits[bird.key], common: bird.common, scientific: bird.scientific, hidden: e.target.checked
+            }}});
+            setStatus("Unsaved edits");
+          }} /> Hide row</label>
+          {review.edits[bird.key] && <button onClick={() => {
+            const edits = {...review.edits}; delete edits[bird.key];
+            setReview({...review, edits}); setStatus("Unsaved edits");
+          }}>Restore suggestion</button>}
+        </> : <>{bird.common}<br/><i>{bird.scientific}</i></>}</td>
+        <td>{bird.confidence == null ? (bird.source || (bird.confirmed ? "User confirmed" : "Edited")) : (100 * bird.confidence).toFixed(1) + "%"}</td>
+      </tr>)}</tbody>
+    </table>;
+  }
   if (!birds.length) return <p>No bird photographs have been cataloged yet.</p>;
   return <section className="bird-gallery">
     <header className="page-header"><h1>{review.title}</h1><p className="bird-species-count"><strong>{species.size + unpictured.length} unique species</strong></p>{unpictured.length > 0 && <p>{species.size} photographed · Seen without a linked photo: {unpictured.join(", ")}</p>}</header>
@@ -94,36 +128,11 @@ export function BirdTable({ birds, initial, sightingNames, collection = false }:
       </select></label>
     </div>
     <p aria-live="polite">{rows.length} matching {rows.length === 1 ? "entry" : "entries"}</p>
-    <table><thead><tr><th>Photo</th><th>File name</th><th>Suggested identification</th><th aria-sort={field !== "confidence" ? "none" : direction === "asc" ? "ascending" : "descending"}>
-      <button onClick={() => setOrder(order === "confidence-desc" ? "confidence-asc" : "confidence-desc")}>
-        BirdTrace confidence {field !== "confidence" ? "↕" : direction === "asc" ? "↑" : "↓"}
-      </button>
-    </th></tr></thead>
-      <tbody>{rows.map(bird => <tr key={bird.key}>
-        <td><a href={photoUrl(bird)}>
-          <img width="100" loading="lazy" src={photoUrl(bird, true)}
-            alt={`Enlarge photograph of suspected ${bird.common}`} />
-        </a></td>
-        <td><a href={photoUrl(bird)}>{bird.filename || "Open photograph"}</a>
-        </td>
-        <td>{editing ? <>
-          <input aria-label="Bird name" value={bird.common} onChange={e => change(bird.key, e.target.value, "")} />
-          <input aria-label="Scientific name" value={bird.scientific} onChange={e => change(bird.key, bird.common, e.target.value)} />
-          <small>Suggested: {bird.original.common}</small>
-          <label><input type="checkbox" checked={!!bird.hidden} onChange={e => {
-            setReview({...review, edits: {...review.edits, [bird.key]: {
-              common: bird.common, scientific: bird.scientific, hidden: e.target.checked
-            }}});
-            setStatus("Unsaved edits");
-          }} /> Hide row</label>
-          {review.edits[bird.key] && <button onClick={() => {
-            const edits = {...review.edits}; delete edits[bird.key];
-            setReview({...review, edits}); setStatus("Unsaved edits");
-          }}>Restore suggestion</button>}
-        </> : <>{bird.common}<br/><i>{bird.scientific}</i></>}</td>
-        <td>{bird.confidence == null ? (bird.source || (bird.confirmed ? "User confirmed" : "Edited")) : (100 * bird.confidence).toFixed(1) + "%"}</td>
-      </tr>)}</tbody>
-    </table>
+    {renderTable(mainRows, false)}
+    {unsureRows.length > 0 && <section><h2>Uncertain identifications</h2>
+      <p>These sightings are excluded from the species total.</p>
+      {renderTable(unsureRows, true)}
+    </section>}
     <p className="bird-methods">{review.description} Species suggestions by <a href="https://huggingface.co/warden123/BirdTrace-FastViT-MA36-10K">BirdTrace FastViT-MA36-10K</a> (CC BY-NC 4.0), with regional ranking by <a href="https://birdnet.cornell.edu/">BirdNET</a>.</p>
   </section>;
 }

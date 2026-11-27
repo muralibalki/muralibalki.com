@@ -5,12 +5,12 @@ import settings from "./review.json";
 
 import { speciesKey, type Bird } from "./species";
 
-type Edit = {common: string; hidden?: boolean; scientific: string};
+type Edit = {common: string; hidden?: boolean; unsure?: boolean; scientific: string};
 const edits: Record<string, Edit> = settings.edits;
 
 function visibleSpecies(bird: Bird) {
   const edit = bird.entry ? edits[bird.entry] : undefined;
-  if (edit?.hidden || (edit && !edit.scientific && edit.common !== bird.common)) return "";
+  if (edit?.hidden || edit?.unsure || (edit && !edit.scientific && edit.common !== bird.common)) return "";
   return speciesKey(edit?.common ?? bird.common);
 }
 
@@ -28,4 +28,5 @@ for (const bird of additional) {
   const previous = representatives.get(name);
   if (!previous || (!previous.confirmed && (bird.confirmed || (bird.confidence ?? 0) > (previous.confidence ?? 0)))) representatives.set(name, bird);
 }
-export const featuredBirds = [...base, ...representatives.values()];
+const uncertain = additional.filter(row => row.entry && edits[row.entry]?.unsure && !edits[row.entry]?.hidden);
+export const featuredBirds = [...base, ...representatives.values(), ...uncertain];
