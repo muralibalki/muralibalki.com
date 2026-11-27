@@ -116,6 +116,7 @@ def main():
                         help="Apply filled reviewed_name entries to the final site review file")
     parser.add_argument("--retry-unresolved", action="store_true",
                         help="Try local plate solving again on previously unresolved photos")
+    parser.add_argument("--all-birds", action="store_true", help="Import into the unlisted bird collection")
     args = parser.parse_args()
     if not 0 <= args.low_confidence <= 1:
         parser.error("--low-confidence must be between 0 and 1")
@@ -129,7 +130,61 @@ def main():
     state.mkdir(parents=True, exist_ok=True)
     with (WORK / "gallery.lock").open("a") as lock:
         fcntl.flock(lock, fcntl.LOCK_EX)
-        run_album(files, images, state, args)
+        if args.all_birds:
+            run_collection(files, state, args)
+        else:
+            run_album(files, images, state, args)
+
+
+def run_collection(files, state, args):
+    base = json.loads((ROOT / "app/birds/catalog.json").read_text())
+    target = ROOT / "app/all-birds/catalog.json"
+    ledger = ROOT / "content/gallery/all-birds-files.json"
+    known = json.loads(ledger.read_text()) if ledger.exists() else {}
+    primary = json.loads((ROOT / "content/gallery/processed.json").read_text())
+    existing = {r["filename"].casefold(): r["id"] for r in base}
+    existing = {**known, **existing}
+    extra = json.loads(target.read_text())
+    new = {}
+    paths = {}
+    seen = set(known.values()) | set(primary)
+    for path in files:
+        name = path.name.casefold()
+        key = existing.get(name) or hashlib.sha256(path.read_bytes()).hexdigest()
+        existing[name] = key
+        paths.setdefault(key, path)
+        if key not in seen:
+            new[key] = path
+            seen.add(key)
+        known[name] = key
+    if new:
+        cache = WORK / "collection-images"
+        cache.mkdir(exist_ok=True)
+        intermediate = WORK / "collection-results.json"
+        if not intermediate.exists():
+            save_json(intermediate, [])
+        update(new, cache, state, intermediate)
+        current = [r for r in json.loads(intermediate.read_text()) if r["id"] in new]
+        extra = [r for r in extra if r["id"] not in new] + [dict(r, archive=True) for r in current]
+    dest = ROOT / "public/all-bird-photos"
+    dest.mkdir(exist_ok=True)
+    for key in {r["id"] for r in extra} & paths.keys():
+        for suffix, size in [("", 1400), ("-thumb", 200)]:
+            output = dest / (key + suffix + ".webp")
+            if output.exists():
+                continue
+            cached = WORK / "collection-images" / (key + suffix + ".jpg")
+            with Image.open(cached if cached.exists() else paths[key]) as photo:
+                image = ImageOps.exif_transpose(photo).convert("RGB")
+                image.thumbnail((size, size), Image.Resampling.LANCZOS)
+                temp = output.with_suffix(".tmp")
+                image.save(temp, format="WEBP", quality=78, exif=b"")
+                temp.replace(output)
+    if new:
+        save_json(target, extra)
+    save_json(ledger, known)
+    refresh_reviews(paths, args)
+    print(f"{len(files)} collection files; {len(new)} new photos; {len(extra)} additional bird rows")
 
 
 def run_album(files, images, state, args):
@@ -176,6 +231,23 @@ def run_album(files, images, state, args):
             save_json(astro_file, list(astro.values()))
         done[key] = status
         save_json(ledger, done)
+    names_file = ROOT / "content/gallery/all-birds-files.json"
+    names = json.loads(names_file.read_text()) if names_file.exists() else {}
+    names.update({p.name.casefold(): key for key, p in paths.items()})
+    save_json(names_file, names)
+    refresh_reviews(paths, args)
+    print(f"{len(paths)} distinct photos; {len(new)} new; {len(remaining)} astronomy checks")
+
+
+def refresh_reviews(paths, args):
+    # The review queue covers the full collection even after a small primary import.
+    birds = {}
+    for catalog in ("all-birds", "birds"):
+        file = ROOT / "app" / catalog / "catalog.json"
+        if file.exists():
+            for row in json.loads(file.read_text()):
+                birds[row["entry"]] = row
+    birds = list(birds.values())
     review_file = ROOT / "app/birds/review.json"
     review = json.loads(review_file.read_text())
     if args.merlin_results:
@@ -190,8 +262,7 @@ def run_album(files, images, state, args):
     queue = WORK / "merlin-review.csv"
     write_species_list(WORK, birds, review["edits"], paths)
     count = write_queue(queue, birds, review["edits"], args.low_confidence)
-    print(f"{len(paths)} distinct photos; {len(new)} new; {len(remaining)} astronomy checks; "
-          f"{count} pending Merlin reviews in {queue}")
+    print(f"{count} pending Merlin reviews in {queue}")
 
 
 def detect(paths):
@@ -214,8 +285,8 @@ def detect(paths):
         return results
 
 
-def update(paths, images, state):
-    target = ROOT / "app/birds/catalog.json"
+def update(paths, images, state, target=None):
+    target = target or ROOT / "app/birds/catalog.json"
     catalog = [r for r in json.loads(target.read_text()) if r["id"] not in paths]
     box_dir = WORK / "speciesnet-5.0.6-boxes"
     box_dir.mkdir(exist_ok=True)

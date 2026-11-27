@@ -114,3 +114,18 @@ description, or bird names and hide unwanted rows. **Save draft** keeps changes
 under `work/bird-gallery/`. **Finalize locally** saves them in
 `app/birds/review.json` for the next site build. The importer keeps this file
 separate from its predictions. Only the local preview connects to the editor.
+
+### All Birds
+
+Import the larger album with:
+
+```sh
+uv run --python 3.11 scripts/bird-gallery.py "$HOME/Downloads/interesting birds" --all-birds
+```
+
+The unlisted `/all-birds` page combines the primary gallery and additional bird
+photos. It is accessible by URL and requests no search indexing. Imports reuse
+prior results by case-insensitive filename, then by image content. The `/birds`
+page keeps its original photos and shows one highest-scoring representative per
+additional species, using finalized names and excluding hidden rows. Unreviewed
+names remain model suggestions. Both albums feed the same Merlin queue.

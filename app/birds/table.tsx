@@ -1,26 +1,30 @@
 "use client";
 
+import { speciesKey, type Bird } from "./species";
 import { useEffect, useState } from "react";
 
 type Review = { title: string; description: string; edits: Record<string, { common: string; scientific: string; hidden?: boolean; source?: string }> };
 const editor = "http://127.0.0.1:4179";
 
-type Bird = { entry?: string; id: string; filename?: string; common: string; scientific: string; confidence?: number };
+function photoUrl(bird: Bird, thumbnail = false) {
+  const suffix = thumbnail ? "-thumb" : "";
+  return bird.archive ? `/all-bird-photos/${bird.id}${suffix}.webp` : `/bird-photos/${bird.id}${suffix}.jpg`;
+}
 
-export function BirdTable({ birds, initial }: { birds: Bird[]; initial: Review }) {
+export function BirdTable({ birds, initial, collection = false }: { birds: Bird[]; initial: Review; collection?: boolean }) {
   const [review, setReview] = useState(initial);
   const [version, setVersion] = useState("");
   const [editing, setEditing] = useState(false);
   const [status, setStatus] = useState("");
   const [busy, setBusy] = useState(false);
   useEffect(() => {
-    if (window.location.origin === "http://127.0.0.1:4178") {
+    if (!collection && window.location.origin === "http://127.0.0.1:4178") {
       fetch(editor).then(r => r.json()).then(data => {
         setVersion(data.version);
         setReview(data.review);
       }).catch(() => {});
     }
-  }, []);
+  }, [collection]);
   async function save(action: "draft" | "finalize") {
     setBusy(true);
     try {
@@ -48,7 +52,7 @@ export function BirdTable({ birds, initial }: { birds: Bird[]; initial: Review }
   });
   const species = new Set(reviewed
     .filter(bird => !bird.hidden && (bird.scientific || bird.common === bird.original.common))
-    .map(bird => bird.common.replace(/ *\(tentative\)$/i, "").trim().toLowerCase()));
+    .map(bird => speciesKey(bird.common)));
   const rows = reviewed.filter(bird => {
     const names = [bird.common, bird.scientific, bird.filename, bird.original.common].join(" ").toLowerCase();
     return (editing || !bird.hidden) && names.includes(query.trim().toLowerCase()) &&
@@ -95,11 +99,11 @@ export function BirdTable({ birds, initial }: { birds: Bird[]; initial: Review }
       </button>
     </th></tr></thead>
       <tbody>{rows.map(bird => <tr key={bird.key}>
-        <td><a href={`/bird-photos/${bird.id}.jpg`}>
-          <img width="100" loading="lazy" src={`/bird-photos/${bird.id}-thumb.jpg`}
+        <td><a href={photoUrl(bird)}>
+          <img width="100" loading="lazy" src={photoUrl(bird, true)}
             alt={`Enlarge photograph of suspected ${bird.common}`} />
         </a></td>
-        <td><a href={`/bird-photos/${bird.id}.jpg`}>{bird.filename || "Open photograph"}</a>
+        <td><a href={photoUrl(bird)}>{bird.filename || "Open photograph"}</a>
         </td>
         <td>{editing ? <>
           <input aria-label="Bird name" value={bird.common} onChange={e => change(bird.key, e.target.value, "")} />

@@ -46,9 +46,10 @@ def write_queue(path, birds, edits, threshold):
             previous = existing.get(entry, {})
             if entry in edits or (bird["confidence"] >= threshold and not previous.get("reviewed_name")):
                 continue
+            folder, ext = ("all-bird-photos", "webp") if bird.get("archive") else ("bird-photos", "jpg")
             writer.writerow(dict(entry=entry, filename=bird["filename"], suggested_name=bird["common"],
                                  visual_confidence=f"{bird['confidence']:.5f}",
-                                 photo_url=f"https://muralibalki.com/bird-photos/{bird['id']}.jpg",
+                                 photo_url=f"https://muralibalki.com/{folder}/{bird['id']}.{ext}",
                                  reviewed_name=previous.get("reviewed_name", ""),
                                  scientific_name=previous.get("scientific_name", "")))
             count += 1
