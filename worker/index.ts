@@ -29,6 +29,11 @@ const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
 
+    if (url.pathname === "/birds.html" || url.pathname === "/all_birds.html") {
+      url.pathname = url.pathname === "/birds.html" ? "/birds" : "/all-birds";
+      return Response.redirect(url.toString(), 308);
+    }
+
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
       return handleImageOptimization(request, {
