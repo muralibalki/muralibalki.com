@@ -1101,6 +1101,83 @@
       "source": "User confirmed",
       "unsure": false,
       "hidden": false
+    },
+    "02c8e81dfc54f7daab64d3dac2d495d2fe11792dd62f672c44439de483daf8ba-visual": {
+      "common": "Golden Eagle",
+      "scientific": "Aquila chrysaetos",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "b2bd7843d8032555a852672bf6b53aa40c6181e29b5e881a6992118f81a64040-visual": {
+      "common": "Sora",
+      "scientific": "Porzana carolina",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "0b7dee9547f971d185c5d01fa65da06a3b4517a72c21f22d72877e526f0089b1-visual": {
+      "common": "Gray Catbird",
+      "scientific": "Dumetella carolinensis",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "9fada1571362970e4a1befd937269be8717d626d92a46132feab64a98eec47b4-visual": {
+      "common": "Spotted Sandpiper",
+      "scientific": "Actitis macularius",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "df2c6b34b62a05ecc5e0025d098b83b353b4baa61d33ba1ada9d558df507884d-visual": {
+      "common": "Northern Yellow Warbler",
+      "scientific": "Setophaga aestiva",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "746d35f6b32d85328900770b5b39ceb73d253c4e3a6f2bd23e3eca9bd5a6d298-visual": {
+      "common": "Nuttall's Woodpecker",
+      "scientific": "Dryobates nuttallii",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "62900a5b1f789aee09042833fce04d6219610a59775dcd69e29d7472c6aa15b6-visual": {
+      "common": "Western Flycatcher",
+      "scientific": "Empidonax difficilis",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "4ec6ddd451ff45295068656065f779fb6a61c70761e8abaef532ed3b0a9f5d30-visual": {
+      "common": "Western Flycatcher",
+      "scientific": "Empidonax difficilis",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "5aeb1008073cc06117046c849e5ca78d68dc629e50e486ee5fa8454613f7a2af-visual": {
+      "common": "Red-crowned Amazon",
+      "scientific": "Amazona viridigenalis",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "7e9dc993fcc5ebb3fa774312a907960c3af3293a77e0700710d966cdf76099b6-visual": {
+      "common": "Red-crowned Amazon",
+      "scientific": "Amazona viridigenalis",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "88b6053ddf65cd9e791b50a0dd6dd669473f3d69cf362c450519201942124c6f-visual": {
+      "common": "Red-crowned Amazon",
+      "scientific": "Amazona viridigenalis",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
     }
   }
 }
