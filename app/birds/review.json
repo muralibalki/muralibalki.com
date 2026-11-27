@@ -1178,6 +1178,73 @@
       "source": "User confirmed",
       "unsure": false,
       "hidden": false
+    },
+    "ebb4775679e922e1010fdc89734dcf323830ebee9228360d81a4e734845d587f-4": {
+      "common": "American Wigeon",
+      "scientific": "Mareca americana",
+      "hidden": true
+    },
+    "ebb4775679e922e1010fdc89734dcf323830ebee9228360d81a4e734845d587f-0": {
+      "common": "Common Crane",
+      "scientific": "Grus grus",
+      "hidden": true
+    },
+    "ebb4775679e922e1010fdc89734dcf323830ebee9228360d81a4e734845d587f-3": {
+      "common": "Green-winged Teal",
+      "scientific": "Anas crecca",
+      "hidden": true
+    },
+    "ebb4775679e922e1010fdc89734dcf323830ebee9228360d81a4e734845d587f-2": {
+      "common": "Northern Pintail",
+      "scientific": "Anas acuta",
+      "hidden": true
+    },
+    "ebb4775679e922e1010fdc89734dcf323830ebee9228360d81a4e734845d587f-1": {
+      "common": "Snow Goose",
+      "scientific": "Anser caerulescens",
+      "hidden": true
+    },
+    "48e4f6e6346aff84536f10b25b465dddf8c22c0716752687fb02ed44f9ffdb2f-0": {
+      "common": "American White Pelican",
+      "scientific": "Pelecanus erythrorhynchos",
+      "hidden": true
+    },
+    "48e4f6e6346aff84536f10b25b465dddf8c22c0716752687fb02ed44f9ffdb2f-8": {
+      "common": "Lesser Scaup",
+      "scientific": "Aythya affinis",
+      "hidden": true
+    },
+    "80bf247d4b3661dcba565e693e12b462687b567e0869725807504ebfcf5dc458-0": {
+      "common": "Eastern Meadowlark",
+      "scientific": "Sturnella magna",
+      "hidden": true
+    },
+    "b2eb0546af5d8acd8776821311df03b509227d7c84637fa35348aeb05f173ea0-0": {
+      "common": "Bald Eagle",
+      "scientific": "Haliaeetus leucocephalus",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "b2eb0546af5d8acd8776821311df03b509227d7c84637fa35348aeb05f173ea0-1": {
+      "common": "Peregrine Falcon",
+      "scientific": "Falco peregrinus",
+      "hidden": true
+    },
+    "44d083720fe75a68956a5680b52fe8cee23e0cb0c0ba964c8f98749dc8fb2824-4": {
+      "common": "American Avocet",
+      "scientific": "Recurvirostra americana",
+      "unsure": true
+    },
+    "44d083720fe75a68956a5680b52fe8cee23e0cb0c0ba964c8f98749dc8fb2824-2": {
+      "common": "Marbled Godwit",
+      "scientific": "Limosa fedoa",
+      "unsure": true
+    },
+    "44d083720fe75a68956a5680b52fe8cee23e0cb0c0ba964c8f98749dc8fb2824-0": {
+      "common": "Willet",
+      "scientific": "",
+      "unsure": true
     }
   }
 }
