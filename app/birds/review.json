@@ -348,7 +348,8 @@
     "901e81fd2da3c4e82ebabda5542ba288859f0e2e73d98044018c160e05f22b87-0": {
       "common": "Hammond's Flycatcher",
       "scientific": "Empidonax hammondii",
-      "unsure": true
+      "source": "User confirmed",
+      "unsure": false
     },
     "fea0169ca67c42df36bf0ebc40592d2ed5da3c159684df8956b13a9103826a21-0": {
       "common": "Rufous Hummingbird",
@@ -437,9 +438,10 @@
       "unsure": true
     },
     "fee0335515963e6752e9e7eca8fc6b15c98a853626c4530c97bbcab197121115-0": {
-      "common": "Medium Egret",
-      "scientific": "Ardea intermedia",
-      "unsure": true
+      "common": "Snowy Egret",
+      "scientific": "Egretta thula",
+      "source": "User confirmed",
+      "unsure": false
     },
     "aa04257b3de397e2d2423eeb318e5f3a32575ceeb60fcb0ad3268453acfda7f5-1": {
       "common": "Pine Siskin",
@@ -1380,6 +1382,18 @@
     "850fe07e2f2a4c9241573c466d8137865904c44a3d9d6f82b000aa3093a1817f-visual": {
       "common": "Western Marsh Wren",
       "scientific": "Cistothorus paludicola",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "b31c14baf71f7c657fd1b64b2a366eda9a33715b134da94e7bc101f3f4762c0a-visual": {
+      "common": "Long-billed Dowitcher",
+      "scientific": "Limnodromus scolopaceus",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "e2b62ba98c55bcc9ac0c64c3df665136c515e6a7f779c556de97e097372e3cdb-visual": {
+      "common": "Greater Yellowlegs",
+      "scientific": "Tringa melanoleuca",
       "source": "User confirmed",
       "unsure": false
     }
