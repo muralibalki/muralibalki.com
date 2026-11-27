@@ -5,54 +5,54 @@ import confirmed from "./confirmed.json";
 import settings from "./review.json";
 import mostlyBirdsPhotos from "../../content/gallery/processed.json";
 
-import { speciesKey, type Bird, type SpeciesCount } from "./species";
+import { applyReview, speciesKey, type Bird, type BirdEdit, type InventoryRow, type SpeciesCount } from "./species";
 
-type Edit = {speciesUnresolved?: boolean; featured?: boolean; common: string; hidden?: boolean; unsure?: boolean; scientific: string; source?: string};
-const edits: Record<string, Edit> = settings.edits;
-
-function visibleSpecies(bird: Bird) {
-  const edit = bird.entry ? edits[bird.entry] : undefined;
-  if (edit?.speciesUnresolved || edit?.hidden || (edit?.unsure ?? bird.unsure) || (edit && !edit.scientific && edit.common !== bird.common)) return "";
-  return speciesKey(edit?.common ?? bird.common);
-}
+const edits: Record<string, BirdEdit> = settings.edits;
+const primaryIds = new Set(Object.keys(mostlyBirdsPhotos));
 
 const basePhotos = new Set(base.map(row => row.id));
 const confirmedPhotos = confirmed.filter(row => row.id) as Bird[];
 const confirmedIds = new Set(confirmedPhotos.map(row => row.id));
 const additional = [...confirmedPhotos, ...(archive as Bird[]).filter(row => !basePhotos.has(row.id) && !confirmedIds.has(row.id))];
-export const allBirds: Bird[] = [...base, ...additional, ...visual];
-const photographed = new Set(allBirds.map(visibleSpecies).filter(Boolean));
+export const birdInventory: InventoryRow[] = [...base, ...additional, ...visual].map(original => {
+  const edit = original.entry ? edits[original.entry] : undefined;
+  const row = applyReview(original, edit);
+  const countedSpecies = row.hidden || row.unsure || row.speciesUnresolved ||
+    (edit && !row.scientific && row.common !== original.common) ? "" : speciesKey(row.common);
+  const primary = primaryIds.has(row.id);
+  return {
+    ...row, countedSpecies,
+    album: primary ? "mostly birds" : "interesting birds",
+    showOnAllBirds: !row.hidden,
+    showOnBirds: primary && Boolean(countedSpecies),
+  };
+});
+
+const photographed = new Set(birdInventory.map(row => row.countedSpecies).filter(Boolean));
 const sightingNames = new Map(confirmed.filter(row => !row.id).map(row => [speciesKey(row.common), row.common]));
 const unpictured = [...sightingNames].filter(([key]) => key && !photographed.has(key)).map(([, name]) => name).sort();
 export const speciesCount: SpeciesCount = { total: photographed.size + unpictured.length, photographed: photographed.size, unpictured };
 
-const primaryIds = new Set(Object.keys(mostlyBirdsPhotos));
-const primaryRows = allBirds.filter(bird => primaryIds.has(bird.id) && visibleSpecies(bird));
-const primarySpecies = new Set(primaryRows.map(visibleSpecies));
-
-function preference(bird: Bird) {
-  const edit = bird.entry ? edits[bird.entry] : undefined;
-  if (bird.featured || edit?.featured) return 3;
-  if (bird.confirmed || edit?.source) return 2;
-  if (bird.source) return 1;
-  return 0;
+function preference(row: InventoryRow) {
+  if (row.featured || row.original.featured) return 3;
+  if (row.confirmed || edits[row.key]?.source) return 2;
+  return row.source ? 1 : 0;
 }
 
-function prefer(candidate: Bird, current: Bird) {
+function prefer(candidate: InventoryRow, current: InventoryRow) {
   const rank = preference(candidate) - preference(current);
   if (rank) return rank > 0;
-  const confidence = (candidate.confidence ?? -1) - (current.confidence ?? -1);
+  const confidence = (candidate.original.confidence ?? -1) - (current.original.confidence ?? -1);
   if (confidence) return confidence > 0;
-  return (candidate.entry ?? candidate.id) < (current.entry ?? current.id);
+  return candidate.key < current.key;
 }
 
-const representatives = new Map<string, Bird>();
-for (const bird of allBirds) {
-  if (primaryIds.has(bird.id)) continue;
-  const name = visibleSpecies(bird);
-  if (!name || primarySpecies.has(name)) continue;
+const primarySpecies = new Set(birdInventory.filter(row => row.showOnBirds).map(row => row.countedSpecies));
+const representatives = new Map<string, InventoryRow>();
+for (const row of birdInventory) {
+  const name = row.countedSpecies;
+  if (row.album === "mostly birds" || !name || primarySpecies.has(name)) continue;
   const previous = representatives.get(name);
-  if (!previous || prefer(bird, previous)) representatives.set(name, bird);
+  if (!previous || prefer(row, previous)) representatives.set(name, row);
 }
-
-export const featuredBirds = [...primaryRows, ...representatives.values()];
+for (const row of representatives.values()) row.showOnBirds = true;

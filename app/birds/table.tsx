@@ -1,9 +1,9 @@
 "use client";
 
-import type { SpeciesCount, Bird } from "./species";
+import { applyReview, type InventoryRow, type BirdEdit, type SpeciesCount, type Bird } from "./species";
 import { useEffect, useState } from "react";
 
-type Review = { title: string; description: string; edits: Record<string, { common: string; scientific: string; hidden?: boolean; unsure?: boolean; merlinRequested?: boolean; source?: string }> };
+type Review = { title: string; description: string; edits: Record<string, BirdEdit> };
 const editor = "http://127.0.0.1:4179";
 
 function photoUrl(bird: Bird, thumbnail = false) {
@@ -11,7 +11,7 @@ function photoUrl(bird: Bird, thumbnail = false) {
   return bird.archive ? `/all-bird-photos/${bird.id}${suffix}.webp` : `/bird-photos/${bird.id}${suffix}.jpg`;
 }
 
-export function BirdTable({ birds, initial, speciesCount, collection = false }: { birds: Bird[]; initial: Review; speciesCount: SpeciesCount; collection?: boolean }) {
+export function BirdTable({ birds, initial, speciesCount, collection = false }: { birds: InventoryRow[]; initial: Review; speciesCount: SpeciesCount; collection?: boolean }) {
   const [review, setReview] = useState(initial);
   const [version, setVersion] = useState("");
   const [editing, setEditing] = useState(false);
@@ -45,11 +45,9 @@ export function BirdTable({ birds, initial, speciesCount, collection = false }: 
   const [order, setOrder] = useState("common-asc");
   const [minimum, setMinimum] = useState("");
   const [field, direction] = order.split("-");
-  const reviewed = birds.map(original => {
-    const key = original.entry ?? original.id + "/" + original.common;
-    const edit = review.edits[key];
-    return {...original, ...edit, key, original, confidence: edit && (edit.source || edit.common !== original.common) ? undefined : original.confidence};
-  });
+  const reviewed = version
+    ? birds.map(row => applyReview(row.original, review.edits[row.key]))
+    : birds;
   const { total, photographed, unpictured } = speciesCount;
   const rows = reviewed.filter(bird => {
     const names = [bird.common, bird.scientific, bird.filename, bird.original.common].join(" ").toLowerCase();

@@ -825,11 +825,10 @@
       "source": "User confirmed"
     },
     "b95a0ec120c7b8540e55d40235be1c336f65ff3a85cb0e95da27a4725bf12ad0-visual": {
-      "common": "Goldfinch (species unresolved)",
-      "scientific": "",
+      "common": "American Goldfinch",
+      "scientific": "Spinus tristis",
       "unsure": false,
-      "source": "User confirmed",
-      "speciesUnresolved": true
+      "source": "User confirmed"
     },
     "1192ae0a0d327588937b5ee62a362bfcc98062c69a6a5525e0780304fac895b6-visual": {
       "common": "Vega Gull",
