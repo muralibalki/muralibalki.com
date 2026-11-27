@@ -1396,6 +1396,24 @@
       "scientific": "Tringa melanoleuca",
       "source": "User confirmed",
       "unsure": false
+    },
+    "0521dfc8325802283f5ab52eeb1140004fcb91674852ae21206db74586fa6ca7-visual": {
+      "common": "Long-billed Dowitcher",
+      "scientific": "Limnodromus scolopaceus",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "477b7a7b2e1256dc4d5a58a0286e4c5543df7aa4f76c94f4ff7814ef602707d6-visual": {
+      "common": "Least Sandpiper",
+      "scientific": "Calidris minutilla",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "05b36d4e8b8c12f2e1b4f13f63eda96bc046a49c24e85f022dfdbede111f6f14-visual": {
+      "common": "Marbled Godwit",
+      "scientific": "Limosa fedoa",
+      "source": "User confirmed",
+      "unsure": false
     }
   }
 }
