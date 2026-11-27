@@ -358,7 +358,7 @@
     "e326918a710b719d870c2a872bad3da3a09e2c26dd9f3894e814d1b443e51c8c-17": {
       "common": "Brown-headed Cowbird",
       "scientific": "Molothrus ater",
-      "unsure": true
+      "hidden": true
     },
     "e326918a710b719d870c2a872bad3da3a09e2c26dd9f3894e814d1b443e51c8c-18": {
       "common": "Hudsonian Godwit",
