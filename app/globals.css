@@ -160,7 +160,8 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
 .main-column > main:has(.photo-gallery) { width: 100%; }
 .photo-gallery { padding: clamp(24px, 4vw, 64px) clamp(14px, 3vw, 48px) 80px; }
 .photo-heading, .photo-controls, .viewer-actions { display: flex; align-items: end; gap: 16px; }
-.photo-heading { justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+.photo-heading nav { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.photo-heading { flex-wrap: wrap; justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 20px; }
 .photo-heading p { margin: 10px 0 0; color: var(--muted); }
 .photo-heading a, .gallery-back a { text-decoration: underline; text-underline-offset: 4px; }
 .photo-controls { flex-wrap: wrap; margin: 20px 0 26px; }

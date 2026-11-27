@@ -36,7 +36,12 @@ export function PhotoGallery({ photos, total }: { photos: GalleryPhoto[]; total:
   function step(delta: number) { setIndex(i => Math.max(0, Math.min(visible.length - 1, i + delta))); }
 
   return <article className="photo-gallery">
-    <header className="photo-heading"><div><h1>Birds</h1><p>{total} unique species</p></div><a href="/bird-list">Bird list ↗</a></header>
+    <header className="photo-heading"><div><h1>Birds</h1><p>{total} unique species</p></div><nav aria-label="Bird gallery links">
+      <a href="/bird-list">Bird list ↗</a>
+      <a href="/all-birds">All Birds ↗</a>
+      <a href="https://photos.google.com/share/AF1QipMiR17gvlGSSvt_CmkU-OGZ5eubbw5HHWz2h5PxJVbwHzeWuoFjK071HwK-yrOKSg?key=MFdOTE5kZkdZUzVoZWxaUVdLdmNEMHExNnhnNm1R">Mostly birds (Google Photos) ↗</a>
+      <a href="https://photos.google.com/share/AF1QipPR3pNkf4FF2MzubNoZHeWBiy0ZXZ5k24vOfEYc8TrIXmgaqviq29rcvcaUTS5tKQ?key=eE9mUWVKSy1RNHFqcjRGYkQ1NHZGUnFwZUNSdldn">Interesting birds (Google Photos) ↗</a>
+    </nav></header>
     <div className="photo-controls">
       <label>Search<input type="search" placeholder="Species or filename" value={query} onChange={e => setQuery(e.target.value)} /></label>
       <label>Order by<select value={order} onChange={e => setOrder(e.target.value)}>
