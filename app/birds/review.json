@@ -1245,6 +1245,23 @@
       "common": "Willet",
       "scientific": "",
       "unsure": true
+    },
+    "1704de0cd4ee0f7b9b9cb8efec204f8e78fe37a0a4c25d3ab1812aa73a1cd3ee-0": {
+      "common": "Red-shouldered Hawk",
+      "scientific": "Buteo lineatus",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "43f6af507607f028953534809edf9909df4b4bf17b505aeb74b549ceed92adbf-0": {
+      "common": "Song Sparrow",
+      "scientific": "Melospiza melodia",
+      "source": "User confirmed",
+      "unsure": false
+    },
+    "1de6d364f479d6d16eeaa51b30b3380b2debdf8060d800b793cf7399672f3554-0": {
+      "common": "Willet",
+      "scientific": "",
+      "unsure": true
     }
   }
 }
