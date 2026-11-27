@@ -351,9 +351,10 @@
       "unsure": true
     },
     "fea0169ca67c42df36bf0ebc40592d2ed5da3c159684df8956b13a9103826a21-0": {
-      "common": "Common Tern",
-      "scientific": "Sterna hirundo",
-      "unsure": true
+      "common": "Rufous Hummingbird",
+      "scientific": "Selasphorus rufus",
+      "unsure": false,
+      "source": "User confirmed"
     },
     "e326918a710b719d870c2a872bad3da3a09e2c26dd9f3894e814d1b443e51c8c-17": {
       "common": "Brown-headed Cowbird",
@@ -443,12 +444,14 @@
     "aa04257b3de397e2d2423eeb318e5f3a32575ceeb60fcb0ad3268453acfda7f5-1": {
       "common": "Pine Siskin",
       "scientific": "Spinus pinus",
-      "unsure": true
+      "unsure": true,
+      "hidden": true
     },
     "aa04257b3de397e2d2423eeb318e5f3a32575ceeb60fcb0ad3268453acfda7f5-0": {
       "common": "Red Crossbill",
       "scientific": "Loxia curvirostra",
-      "unsure": true
+      "unsure": true,
+      "hidden": true
     },
     "b14b8e0cc4abd5b909a5f249bc66c7d849754e3f6f6a35bd4e9f96eb319b4191-0": {
       "common": "Surfbird",
@@ -552,6 +555,442 @@
       "common": "Willet",
       "scientific": "",
       "unsure": true
+    },
+    "513b970a627ab5838f9f7ed8e783df8e01faadfafb5463682b6e4bd49d1711ed-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "74760f7e467582ab74855f246add8c81b67ac35504be17ceaa4c688d20039f2a-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "41940af56798dc7c83dfa43ddc6028c57325ec03c00556ffed7ff526d88cbf2a-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "a2d2f8faad9efd82a2583913789b92c336831a8a95130f09aa412927df8ef3c2-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "e3c26029717bd6d8d7d57994929b51b95ce886525c28e0a29a05858147379642-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "b593e6448221492d94e0829fbf68b8a3131ae09a06e5a4d70a4bcc90fe11bb87-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "fafde9d850f584b2a388f6806691696c3be322c6179f6aa932e584b5dd0f2158-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "d869f78d72633393ce0a7e079f349399b1fd3a0d9b904ddd4e4746ad2614770f-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "480e5fbaf05c60774b8850431d2ea03bb56f81438d1efee5ff639e79fc4098dc-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "dc46e36452ae0baf11c5f65334be7fd425403020a2ac63588e54b27d083e68ea-visual": {
+      "common": "Bonaparte's Gull",
+      "scientific": "Chroicocephalus philadelphia",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "166ce2109ab72eaee4c098425c7da3e8609c7cd1394cfe24d3e0d7ea87807168-visual": {
+      "common": "Bonaparte's Gull",
+      "scientific": "Chroicocephalus philadelphia",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "13746ba973bb0dc18891a80531b8de8a27cf6974d4f124f3c2daff468bb78e7a-visual": {
+      "common": "Bonaparte's Gull",
+      "scientific": "Chroicocephalus philadelphia",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "b0ce9892b24711aacf437c2e5b9a82d08ec83d3cb16448a6862ae8774b8f0743-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "f29c097c5533941473ecd04b275f0ea7085e4d8069bd4714f52a17ab110abbc8-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "f6c9d7bf3b0360ee4e0e9ea12fe7474b4cb1434f5156094eb2a4dd872e72a62b-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "8d3349d7f3406afe6c998a5cf67482a4095bac05306d485c8cd381537de4d426-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "c898df06c3260417b054468aade84c2b6246d9dce353aee8a2e95a1243b649e2-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "57e7535161dfd978268511bf94a70e5d2974be8798590a3b42ecd12dd898ebf4-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "9485ff5bdfe8c8edbdcc6e71dfbb3390f9445a04b3e86dda4cebe55d0883b7a4-visual": {
+      "common": "Bonaparte's Gull",
+      "scientific": "Chroicocephalus philadelphia",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "326d62e54b871371474dae77fc4b62e059671b1c92a366738b0d9aec7b385031-visual": {
+      "common": "Bonaparte's Gull",
+      "scientific": "Chroicocephalus philadelphia",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "0f7425fca5a3be6c1f859361f9d06eef3ca2ea3da0d86de8048073d9bccbee2e-visual": {
+      "common": "Bonaparte's Gull",
+      "scientific": "Chroicocephalus philadelphia",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "0e47cb511f5c33917eae9f7a609d6bc42cc29f3a96ccdae243e8015b950bbb49-visual": {
+      "common": "White-headed Woodpecker",
+      "scientific": "Leuconotopicus albolarvatus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "290d7e70a47cee5eafbc20d2098ffbf34c7eafc9bd887ff8caf4e145e7b676b7-1": {
+      "common": "American Wigeon",
+      "scientific": "Mareca americana",
+      "hidden": true
+    },
+    "e05e36ac8bc742837787b63abc16f8a16b29f2b6284877e3a446ea3f0f2f4f0c-visual": {
+      "common": "Red-shouldered Hawk",
+      "scientific": "Buteo lineatus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "d8d80b3ba8f96755be288b54eb7bdbc782db06b776325ca0ba8cd0ad0c0ac081-0": {
+      "common": "Brown Pelican",
+      "scientific": "Pelecanus occidentalis",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "0cea435869d93690b310581c064ad9cf047befbbe3669dad20bb2953cac30743-0": {
+      "common": "Western Bluebird",
+      "scientific": "Sialia mexicana",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "0cea435869d93690b310581c064ad9cf047befbbe3669dad20bb2953cac30743-1": {
+      "common": "Eastern Bluebird",
+      "scientific": "Sialia sialis",
+      "hidden": true
+    },
+    "81d27977e2e1fa9d9ced4728424f3d11fa670216c0e1d0c8eb0f74e1d7b3d10b-0": {
+      "common": "Western Meadowlark",
+      "scientific": "Sturnella neglecta",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "ae3be7c1600c65c932958bc0868f05b3185cf563b494f9232b91cd5e897c1a76-visual": {
+      "common": "White-throated Sparrow",
+      "scientific": "Zonotrichia albicollis",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "b428e3874c89af12d2633f1fe365b070bbea0e5266f796411fffa5fd7fca02c6-visual": {
+      "common": "Red-tailed Hawk",
+      "scientific": "Buteo jamaicensis",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "32f3a4ac2b2204cc43616f321b97b1c74eb2e6341f1de4c9d16bcac05796d688-visual": {
+      "common": "Rufous Hummingbird",
+      "scientific": "Selasphorus rufus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "1c4553bd7d36f88b1f99c6686cc497d4832714c566e13a087e1a52ec57c26516-visual": {
+      "common": "Northern Harrier",
+      "scientific": "Circus hudsonius",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "af7828fe954b2d917436b86736fdaa9ed1a71e3c1b822a9c8980467bc8c5e1ca-visual": {
+      "common": "Say's Phoebe",
+      "scientific": "Sayornis saya",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "ec3dc6766617e8d2dc25e63f772f53f3ee88378280ec3cbb2d14eeced8e6135f-visual": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "85468ba2cb00af26d86eecde26a0aa67dcdfd6c7c16d6a1b8e3b1189f74765b3-visual": {
+      "common": "Tricolored Blackbird",
+      "scientific": "Agelaius tricolor",
+      "unsure": true,
+      "source": "User suggestion"
+    },
+    "f5cfec68660a1e5ed093e85f0c93a1c48844bc32b311b53ac994a8712d1e9c2b-visual": {
+      "common": "Golden-crowned Sparrow",
+      "scientific": "Zonotrichia atricapilla",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "dd337580537ed0a1078ae79f78c17598ef78115c80a14a1785ba8efa3d3aecda-visual": {
+      "common": "Brown Pelican",
+      "scientific": "Pelecanus occidentalis",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "31c7be70bf723f4a22287164d737c8efeb6549de4aa75ec5e1cc262681a0d3c2-visual": {
+      "common": "Western Bluebird",
+      "scientific": "Sialia mexicana",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "46535550086eff0f674ff860b402a054ba92ebd90debc511171e37114f94e567-visual": {
+      "common": "Belted Kingfisher",
+      "scientific": "Megaceryle alcyon",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "68957dfce5b796446d47a57b87932adc50db993c559e64625550af4f78122300-visual": {
+      "common": "Eurasian Collared-Dove",
+      "scientific": "Streptopelia decaocto",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "1c0e0b4d941beafef145cee16b654206583493ebabbe21f6e9608aa7fd1caa42-visual": {
+      "common": "Northern Mockingbird",
+      "scientific": "Mimus polyglottos",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "2c70c81dfc053ffcee07e012b4e0c278c7fe95811748f640661de7500e57cafb-visual": {
+      "common": "Ash-throated Flycatcher",
+      "scientific": "Myiarchus cinerascens",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "99a2a316eb936ab35166c1031b04766c44b6d128b5a4b18a9dff6f5cc3050e0c-visual": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "daed514d0e64ecbc0a73b82ade7f0c80b24362398ab874c74dff09f8092c3d74-visual": {
+      "common": "Forster's Tern",
+      "scientific": "Sterna forsteri",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "68cb1668b329c26b1a7cf905f171eef871dbf5c914ee31e6062029f8a8aa4a3a-visual": {
+      "common": "White-crowned Sparrow",
+      "scientific": "Zonotrichia leucophrys",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "b95a0ec120c7b8540e55d40235be1c336f65ff3a85cb0e95da27a4725bf12ad0-visual": {
+      "common": "Goldfinch (species unresolved)",
+      "scientific": "",
+      "unsure": false,
+      "source": "User confirmed",
+      "speciesUnresolved": true
+    },
+    "1192ae0a0d327588937b5ee62a362bfcc98062c69a6a5525e0780304fac895b6-visual": {
+      "common": "Vega Gull",
+      "scientific": "Larus vegae",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "35433f3ba9be89c5ec51898204400c9808f9e1dd1509261d339ece3af66e03cb-visual": {
+      "common": "Yellow-rumped Warbler",
+      "scientific": "Setophaga coronata",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "4a4264ace0ee5f70d5640d0e36002e310c491a9151c73479410503c75f7e336e-visual": {
+      "common": "Red-tailed Hawk",
+      "scientific": "Buteo jamaicensis",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "59269166f8d96a8015d3230a8c91c6c25ca79158cdb0cf778ce2193121d5d694-visual": {
+      "common": "Northern Harrier",
+      "scientific": "Circus hudsonius",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "b86174ecee726280245de2669484030685366029bc8a9fb08c06f13b5fb65bd4-visual": {
+      "common": "Black Kite",
+      "scientific": "Milvus migrans",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "c8d6979b8403d828f1eb73868745a262e3e931b90f4174e8c345fc456ec1d5e4-visual": {
+      "common": "Hawk",
+      "scientific": "",
+      "hidden": true
+    },
+    "cf28d44cb4fcec6b9cb8646d9f346141ecb94e3da1ddb392c28911c96d7be50f-visual": {
+      "common": "Hawk",
+      "scientific": "",
+      "hidden": true
+    },
+    "d8d8ec5905890932d8f4a37de36d3e5738a849af71eae5969786e38b3de48500-visual": {
+      "common": "California Gull",
+      "scientific": "Larus californicus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "2031e83ab0b4f2fc21b533399e17ee6495f9d8c99da4db3bbaa4faf51b8fedce-visual": {
+      "common": "Hermit Thrush",
+      "scientific": "Catharus guttatus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "d1444d89f39da125e2caa2f55982326dd9f3dd84bbce3ba22387e03d1ebdb19a-visual": {
+      "common": "Hermit Thrush",
+      "scientific": "Catharus guttatus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "cecbaf9a9b40dedb4a5d1afc9ffbebd9bfb9f7512ce9681a24e16a76e114fb00-visual": {
+      "common": "Hooded Oriole",
+      "scientific": "Icterus cucullatus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "01fbfc9290ac01a10bb2788ffa664f8c02edc141a70f87f7fcc3a905b3ae1360-visual": {
+      "common": "Anna's Hummingbird",
+      "scientific": "Calypte anna",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "0af841a4bfa7a30430f40d2f9ba9f92482f64a81603fed5dc1a68695c5494ee2-visual": {
+      "common": "Rufous Hummingbird",
+      "scientific": "Selasphorus rufus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "36942672390f02dcd1841aa5870cc4597eae4e9822f044c87351980932e07a22-visual": {
+      "common": "Wilson's Warbler",
+      "scientific": "Cardellina pusilla",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "597f9d9a772887e231da0863dbbf90c422f475ba132b0ae6ddd319025b7afe9d-visual": {
+      "common": "Wilson's Warbler",
+      "scientific": "Cardellina pusilla",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "f30dda2098de9e1d2b441a07c706fa199e128e301dd681a7d4a9de7d86cb74e3-visual": {
+      "common": "Northern Yellow Warbler",
+      "scientific": "Setophaga aestiva",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "8918fbf7cbbcff0af6b8a1ed40a48e49a7ce0251272f0800d0d9839868dfee31-visual": {
+      "common": "Oak Titmouse",
+      "scientific": "Baeolophus inornatus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "e32a773eb42c2579e09fcff7e38c49b878929f7d0b6f6d69d17860951973ba1b-visual": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "c6aa0329f583f74e1e3d2d73bd99ddc234025957dd65e5a884270822ca0919ed-visual": {
+      "common": "Western Flycatcher",
+      "scientific": "Empidonax difficilis",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "e7897ca00c5bf806b80b6ed65fa26865b3edb5653b8976f519d0fea1fe033cfd-visual": {
+      "common": "Western Flycatcher",
+      "scientific": "Empidonax difficilis",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "3df4d6ce0d8bac24f0dca862d49976dffcf1dc63e4e362e4cd16a941cd5b38b1-visual": {
+      "common": "Yellow-rumped Warbler",
+      "scientific": "Setophaga coronata",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "8ead1693953e3e4d9af0900d5ad6fc7df1a6e53db6bb9cb897e28d64cc6ccf05-visual": {
+      "common": "Red-winged Blackbird",
+      "scientific": "Agelaius phoeniceus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "7a4d731a45c947329f7dba3cd7b341303bd952c1514ee3a3de1463b6d6882af9-visual": {
+      "common": "Western Flycatcher",
+      "scientific": "Empidonax difficilis",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "1ed05038f6145532bcbe469c99be2852b8fdede3e599eab286fb61f4a8ac5908-visual": {
+      "common": "Rufous Hummingbird",
+      "scientific": "Selasphorus rufus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "d652c2a1757109cd2fd07ecf5337d39d708207ec498a6fe6a43b6d5aebabdeb7-visual": {
+      "common": "Rufous Hummingbird",
+      "scientific": "Selasphorus rufus",
+      "unsure": false,
+      "source": "User confirmed"
+    },
+    "a26cee81e0a4052a962a5b975249511199bf69a4a3d16500f173ce1aeb1d8365-visual": {
+      "common": "Barbet (species unresolved)",
+      "scientific": "",
+      "unsure": false,
+      "source": "User confirmed",
+      "speciesUnresolved": true
+    },
+    "75bb6081b0de11597af169222bb56a8b927aa3490ea470398c96cf12791bd2ee-visual": {
+      "common": "Bushtit",
+      "scientific": "Psaltriparus minimus",
+      "unsure": false,
+      "source": "User confirmed"
     }
   }
 }

@@ -6,12 +6,12 @@ import settings from "./review.json";
 
 import { speciesKey, type Bird, type SpeciesCount } from "./species";
 
-type Edit = {featured?: boolean; common: string; hidden?: boolean; unsure?: boolean; scientific: string; source?: string};
+type Edit = {speciesUnresolved?: boolean; featured?: boolean; common: string; hidden?: boolean; unsure?: boolean; scientific: string; source?: string};
 const edits: Record<string, Edit> = settings.edits;
 
 function visibleSpecies(bird: Bird) {
   const edit = bird.entry ? edits[bird.entry] : undefined;
-  if (edit?.hidden || (edit?.unsure ?? bird.unsure) || (edit && !edit.scientific && edit.common !== bird.common)) return "";
+  if (edit?.speciesUnresolved || edit?.hidden || (edit?.unsure ?? bird.unsure) || (edit && !edit.scientific && edit.common !== bird.common)) return "";
   return speciesKey(edit?.common ?? bird.common);
 }
 
