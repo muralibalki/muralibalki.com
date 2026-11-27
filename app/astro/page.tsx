@@ -4,12 +4,12 @@ import catalog from "./catalog.json";
 export const metadata = { title: "Astrophotography" };
 
 export default function Astro() {
-  return <Frame><article className="content-page">
+  return <Frame><article className="content-page astro-page">
     <PageHeader kicker="PHOTOGRAPHY" title="Astrophotography" />
-    <div className="astro-gallery">{catalog.map(photo =>
+    <div className="astro-gallery">{catalog.map((photo, index) =>
       <figure key={photo.slug}>
         <a href={`/astro-photos/${photo.slug}.jpg`}>
-          <img loading="lazy" src={`/astro-photos/${photo.slug}-thumb.jpg`} alt={photo.title} />
+          <img loading={index < 2 ? "eager" : "lazy"} decoding="async" src={`/astro-photos/${photo.slug}.jpg`} alt={photo.title} />
         </a>
         <figcaption>
           <h2>{photo.title}</h2>

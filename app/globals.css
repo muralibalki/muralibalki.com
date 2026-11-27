@@ -144,9 +144,11 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
 .bird-gallery fieldset textarea { width: 100%; }
 .bird-gallery button { cursor: pointer; }
 
-.astro-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 2rem 1.25rem; }
+.main-column > main:has(.astro-page) { width: 100%; }
+.astro-page { padding: clamp(24px, 4vw, 64px) clamp(14px, 3vw, 48px) 80px; }
+.astro-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 2rem 1.25rem; }
 .astro-gallery figure { margin: 0; min-width: 0; }
-.astro-gallery img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: contain; background: #0c1015; }
+.astro-gallery img { display: block; width: 100%; height: auto; background: #0c1015; }
 .astro-gallery h2 { font-size: 1.15rem; margin: .7rem 0 .2rem; }
 .astro-gallery figcaption a { overflow-wrap: anywhere; }
 .astro-gallery figcaption p { margin: .4rem 0; }
