@@ -3,3 +3,5 @@ export type Bird = {entry?: string; source?: string; unsure?: boolean; id: strin
 export function speciesKey(name: string) {
   return name.replace(/ *\(tentative\)$/i, "").trim().toLowerCase();
 }
+
+export type SpeciesCount = { total: number; photographed: number; unpictured: string[] };

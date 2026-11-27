@@ -1,6 +1,6 @@
 "use client";
 
-import { speciesKey, type Bird } from "./species";
+import type { SpeciesCount, Bird } from "./species";
 import { useEffect, useState } from "react";
 
 type Review = { title: string; description: string; edits: Record<string, { common: string; scientific: string; hidden?: boolean; unsure?: boolean; merlinRequested?: boolean; source?: string }> };
@@ -11,7 +11,7 @@ function photoUrl(bird: Bird, thumbnail = false) {
   return bird.archive ? `/all-bird-photos/${bird.id}${suffix}.webp` : `/bird-photos/${bird.id}${suffix}.jpg`;
 }
 
-export function BirdTable({ birds, initial, sightingNames, collection = false }: { birds: Bird[]; initial: Review; sightingNames: string[]; collection?: boolean }) {
+export function BirdTable({ birds, initial, speciesCount, collection = false }: { birds: Bird[]; initial: Review; speciesCount: SpeciesCount; collection?: boolean }) {
   const [review, setReview] = useState(initial);
   const [version, setVersion] = useState("");
   const [editing, setEditing] = useState(false);
@@ -50,10 +50,7 @@ export function BirdTable({ birds, initial, sightingNames, collection = false }:
     const edit = review.edits[key];
     return {...original, ...edit, key, original, confidence: edit && (edit.source || edit.common !== original.common) ? undefined : original.confidence};
   });
-  const species = new Set(reviewed
-    .filter(bird => !bird.hidden && !bird.unsure && (bird.scientific || bird.common === bird.original.common))
-    .map(bird => speciesKey(bird.common)));
-  const unpictured = sightingNames.filter(name => !species.has(speciesKey(name)));
+  const { total, photographed, unpictured } = speciesCount;
   const rows = reviewed.filter(bird => {
     const names = [bird.common, bird.scientific, bird.filename, bird.original.common].join(" ").toLowerCase();
     return (editing || !bird.hidden) && names.includes(query.trim().toLowerCase()) &&
@@ -104,7 +101,7 @@ export function BirdTable({ birds, initial, sightingNames, collection = false }:
   }
   if (!birds.length) return <p>No bird photographs have been cataloged yet.</p>;
   return <section className="bird-gallery">
-    <header className="page-header"><h1>{review.title}</h1><p className="bird-species-count"><strong>{species.size + unpictured.length} unique species</strong></p>{unsureCount > 0 && <p><a href="#unsure">Unsure identifications ({unsureCount}) ↓</a></p>}{unpictured.length > 0 && <p>{species.size} photographed · Seen without a linked photo: {unpictured.join(", ")}</p>}</header>
+    <header className="page-header"><h1>{review.title}</h1><p className="bird-species-count"><strong>{total} unique species</strong></p>{unsureCount > 0 && <p><a href="#unsure">Unsure identifications ({unsureCount}) ↓</a></p>}{unpictured.length > 0 && <p>{photographed} photographed · Seen without a linked photo: {unpictured.join(", ")}</p>}</header>
     {version && <p><button onClick={() => setEditing(!editing)}>{editing ? "Preview edits" : "Edit locally"}</button></p>}
     {editing && <fieldset disabled={busy}>
       <legend>Local gallery review</legend>
