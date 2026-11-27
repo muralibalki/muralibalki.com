@@ -1081,6 +1081,13 @@
       "scientific": "Passerella iliaca",
       "source": "User confirmed",
       "unsure": false
+    },
+    "0c12764f4a9957bb1335a03240e9bfd00a55e2277fb0a839421177dfbc1abb0c-visual": {
+      "common": "Hairy Woodpecker",
+      "scientific": "Leuconotopicus villosus",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
     }
   }
 }
