@@ -39,11 +39,14 @@ def write_species_list(work, birds, edits, paths):
     for record in entries:
         name = record["name"]
         group = groups.setdefault(name.casefold(), dict(name=name, scientific="", status=set(),
-                                                       countries=set(), candidates=set(), files=set()))
+                                                       countries=set(), candidates=set(), places=set(), files=set()))
         group["scientific"] = group["scientific"] or record.get("scientific", "")
         group["status"].add(record["status"])
         key = record.get("key", "")
         country = record.get("country") or notes.get("photo_countries", {}).get(key)
+        place = record.get("locality") or notes.get("photo_localities", {}).get(key)
+        if place:
+            group["places"].add(place + (" (" + record["filename"] + ")" if record.get("filename") else ""))
         if country:
             group["countries"].add(country)
             if record.get("confirmed") or key in notes.get("confirmed_ids", {}):
@@ -59,10 +62,10 @@ def write_species_list(work, birds, edits, paths):
     with tmp.open("w", newline="", encoding="utf-8") as stream:
         writer = csv.writer(stream)
         writer.writerow(["Species", "Scientific name", "ID evidence", "Confirmed countries",
-                         "Possible countries (photo dates)", "Gallery or source filenames"])
+                         "Possible countries (photo dates)", "Confirmed localities", "Gallery or source filenames"])
         for _, item in sorted(groups.items()):
             writer.writerow([item["name"], item["scientific"], "; ".join(sorted(item["status"])),
                              "; ".join(sorted(item["countries"])), "; ".join(sorted(item["candidates"])),
-                             "; ".join(sorted(item["files"]))])
+                             "; ".join(sorted(item["places"])), "; ".join(sorted(item["files"]))])
     tmp.replace(target)
     print(f"{len(groups)} named species in {target}")
