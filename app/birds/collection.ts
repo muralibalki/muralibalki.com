@@ -20,7 +20,8 @@ export const sightingNames = confirmed.filter(row => !row.id).map(row => row.com
 const confirmedIds = new Set(confirmedPhotos.map(row => row.id));
 const additional = [...confirmedPhotos, ...(archive as Bird[]).filter(row => !basePhotos.has(row.id) && !confirmedIds.has(row.id))];
 export const allBirds: Bird[] = [...base, ...additional];
-const existing = new Set(base.map(visibleSpecies));
+const featuredPhotos = confirmedPhotos.filter(row => row.featured);
+const existing = new Set([...base, ...featuredPhotos].map(visibleSpecies));
 function reviewed(bird: Bird) {
   return Boolean(bird.confirmed || (bird.entry && edits[bird.entry]?.source));
 }
@@ -36,4 +37,4 @@ for (const bird of additional) {
   }
 }
 const uncertain = additional.filter(row => row.entry && edits[row.entry]?.unsure && !edits[row.entry]?.hidden);
-export const featuredBirds = [...base, ...representatives.values(), ...uncertain];
+export const featuredBirds = [...base, ...featuredPhotos, ...representatives.values(), ...uncertain];

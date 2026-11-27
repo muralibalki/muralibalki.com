@@ -471,6 +471,26 @@
       "scientific": "Plegadis chihi",
       "unsure": true,
       "merlinRequested": true
+    },
+    "d564d0f6b0ffe31ccb89755b380f63675add269ca8d14cc2ccb999524bbb4d01-0": {
+      "common": "Wild Turkey",
+      "scientific": "Meleagris gallopavo",
+      "source": "User confirmed"
+    },
+    "418cbecdab64e8a39d5b9f69393698e457f5b6297771bda934a2e02418a7b617-0": {
+      "common": "American Pipit",
+      "scientific": "Anthus rubescens",
+      "unsure": true
+    },
+    "7a981b8565354d4a1162cdacb3b74f5c66d33116860eb615cb7c65b446612ab1-0": {
+      "common": "Oriental Darter",
+      "scientific": "Anhinga melanogaster",
+      "source": "User confirmed"
+    },
+    "27e5563f30aec96be56e3081f42b2b17195f9846ded9bd020c4df0013e3a0855-0": {
+      "common": "Barn Swallow",
+      "scientific": "Hirundo rustica",
+      "source": "User confirmed"
     }
   }
 }
