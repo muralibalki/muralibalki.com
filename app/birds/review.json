@@ -1087,6 +1087,20 @@
       "source": "User confirmed",
       "unsure": false,
       "hidden": false
+    },
+    "637a756bf6116ba127b3f2a07d41291bb2b08b505a7d2bdae42a908cff1fcb9f-visual": {
+      "common": "Sharp-shinned Hawk",
+      "scientific": "Accipiter striatus",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
+    },
+    "2af033cf15ac383453f6b3ce545bab0994c0a1bb7ad9f4d3cf88bba2d43840f5-visual": {
+      "common": "Barred Owl",
+      "scientific": "Strix varia",
+      "source": "User confirmed",
+      "unsure": false,
+      "hidden": false
     }
   }
 }
