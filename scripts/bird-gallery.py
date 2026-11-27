@@ -21,6 +21,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 from pillow_heif import register_heif_opener
 from astro_gallery import solve_photo
+from gallery_photo_metadata import update_photo_metadata
 from gallery_species import write_species_list
 from gallery_review import import_reviews, write_queue
 
@@ -263,6 +264,8 @@ def refresh_reviews(paths, args):
     confirmed_file = ROOT / "app/birds/confirmed.json"
     confirmed = json.loads(confirmed_file.read_text()) if confirmed_file.exists() else []
     visual = json.loads((ROOT / "app/birds/visual.json").read_text())
+    photo_ids = {r["id"] for r in [*birds, *visual, *confirmed] if r.get("id")}
+    update_photo_metadata(ROOT / "app/birds/photo-metadata.json", {k: p for k, p in paths.items() if k in photo_ids})
     write_species_list(WORK, [*birds, *visual], review["edits"], paths, confirmed)
     count = write_queue(queue, birds, review["edits"], args.low_confidence)
     print(f"{count} pending Merlin reviews in {queue}")

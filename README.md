@@ -109,7 +109,7 @@ label. The displayed percentage is the selected species' original visual score.
 Changing the location mixture requires a new classification cache version.
 
 Run `python3 scripts/review-birds.py` alongside the site preview at
-`http://127.0.0.1:4178/birds`. Click **Edit locally** to change the page title,
+`http://127.0.0.1:4178/bird-list`. Click **Edit locally** to change the page title,
 description, or bird names and hide unwanted rows. **Save draft** keeps changes
 under `work/bird-gallery/`. **Finalize locally** saves them in
 `app/birds/review.json` for the next site build. The importer keeps this file

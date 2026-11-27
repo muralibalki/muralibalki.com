@@ -5,8 +5,7 @@ export const metadata = { title: "Astrophotography" };
 
 export default function Astro() {
   return <Frame><article className="content-page">
-    <PageHeader kicker="PHOTOGRAPHY" title="Astrophotography"
-      description="Nebulae, galaxies, the Moon, and wide-field views of the night sky." />
+    <PageHeader kicker="PHOTOGRAPHY" title="Astrophotography" />
     <div className="astro-gallery">{catalog.map(photo =>
       <figure key={photo.slug}>
         <a href={`/astro-photos/${photo.slug}.jpg`}>

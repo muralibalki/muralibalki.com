@@ -156,3 +156,34 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
 }
 
 .bird-gallery .unsure-birds tbody tr { background: #fff2aa; }
+
+.main-column > main:has(.photo-gallery) { width: 100%; }
+.photo-gallery { padding: clamp(24px, 4vw, 64px) clamp(14px, 3vw, 48px) 80px; }
+.photo-heading, .photo-controls, .viewer-actions { display: flex; align-items: end; gap: 16px; }
+.photo-heading { justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+.photo-heading p { margin: 10px 0 0; color: var(--muted); }
+.photo-heading a, .gallery-back a { text-decoration: underline; text-underline-offset: 4px; }
+.photo-controls { flex-wrap: wrap; margin: 20px 0 26px; }
+.photo-controls label { display: grid; gap: 5px; font-size: .85rem; }
+.photo-controls input, .photo-controls select { padding: .55rem .7rem; border: 1px solid var(--muted); background: var(--paper); border-radius: 4px; font: inherit; }
+.photo-wall { --row-height: clamp(185px, 16vw, 275px); display: flex; flex-wrap: wrap; align-items: flex-start; gap: 18px 8px; }
+.photo-wall::after { content: ""; flex: 1000 1 0; }
+.photo-tile { flex: var(--ratio) 1 calc(var(--row-height) * var(--ratio)); min-width: 0; max-width: 100%; text-align: left; background: transparent; cursor: zoom-in; border: 0; padding: 0; }
+.photo-tile img { width: 100%; aspect-ratio: var(--ratio); object-fit: cover; display: block; background: var(--line); }
+.photo-caption { display: block; margin-top: 8px; line-height: 1.25; }
+.photo-caption strong, .photo-caption i { display: block; }
+.photo-caption strong { font: 500 1.12rem/1.2 Georgia, serif; }
+.photo-caption i { margin-top: 2px; font-size: .8rem; color: var(--muted); }
+.photo-viewer { margin: auto; width: min(1080px, 96vw); max-height: 96dvh; border: 0; overflow: auto; background: #171a17; color: #fff; }
+.photo-viewer::backdrop { background: rgb(10 13 11 / 85%); }
+.viewer-body { padding: clamp(12px, 2vw, 26px); }
+.viewer-body > img { width: 100%; height: min(62dvh, 780px); object-fit: contain; }
+.viewer-body .photo-caption i { color: #c5c7c2; }
+.viewer-actions { justify-content: flex-end; margin-bottom: 12px; }
+.viewer-actions button { cursor: pointer; padding: 6px 10px; border: 1px solid #858880; border-radius: 3px; }
+.viewer-actions button:disabled { opacity: .38; }
+.viewer-body dl { display: grid; grid-template-columns: auto 1fr; gap: 3px 14px; font-size: .85rem; margin-top: 12px; }
+.viewer-body dt { color: #bdc0ba; }
+.viewer-body dd { overflow-wrap: anywhere; }
+.viewer-body dd a { text-decoration: underline; }
+@media (max-width: 600px) { .photo-wall { --row-height: 138px; } .photo-controls { gap: 8px; } }

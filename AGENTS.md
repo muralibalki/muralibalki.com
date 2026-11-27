@@ -26,6 +26,7 @@ uv run --python 3.11 scripts/bird-gallery.py "$HOME/Downloads/interesting birds"
 ## Page membership and verification
 
 - **All Birds** (`/all_birds.html`) includes every non-hidden bird entry from either album. Tentative identifications appear in its yellow table.
+- **Birds** is the photo collage. The searchable table at `/bird-list` uses the same public rows. The importer maintains capture dates and original dimensions in `app/birds/photo-metadata.json` for gallery sorting and photo details.
 - **Birds** (`/birds.html`) includes the countable primary-album entries and one representative per additional countable species found only in the larger album. The selection prefers featured photos, then reviewed IDs, then model confidence within the same preference level, with a stable entry-key tie break. Keep unsure and species-unresolved rows archive-only.
 - Both pages use the same deterministic count of distinct eligible species, including any saved sightings without a photo. Never enter a literal species total. Search, sort and confidence filters affect displayed rows only.
 - Build and run the rendered-site tests with `npm test`. On a Mac without GNU `timeout`, run `bash scripts/sites-env.sh -- node_modules/.bin/vinext build` followed by `node --test tests/rendered-html.test.mjs`.
