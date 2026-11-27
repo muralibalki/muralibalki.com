@@ -190,3 +190,5 @@ code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace; background: #
 .viewer-body dd { overflow-wrap: anywhere; }
 .viewer-body dd a { text-decoration: underline; }
 @media (max-width: 600px) { .photo-wall { --row-height: 138px; } .photo-controls { gap: 8px; } }
+.camera-details { margin-top: 14px; }
+.camera-details ul { display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 0; list-style: none; color: #d5d7d2; font-variant-numeric: tabular-nums; }

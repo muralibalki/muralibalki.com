@@ -8,6 +8,20 @@ export type GalleryPhoto = {
   species: { common: string; scientific: string }[];
 };
 
+const exposureFields = ["Aperture", "Shutter speed", "Focal length", "ISO"];
+
+function CameraDetails({ details }: { details: GalleryPhoto["details"] }) {
+  const settings = exposureFields.filter(field => details[field]);
+  if (!details.Camera && !settings.length) return null;
+  return <section className="camera-details" aria-label="Camera settings">
+    {details.Camera && <strong>{details.Camera}</strong>}
+    {settings.length > 0 && <ul>{settings.map(field => <li key={field}>
+      <span className="sr-only">{field === "ISO" ? "" : field + " "}</span>
+      {field === "ISO" ? "ISO " : ""}{details[field]}
+    </li>)}</ul>}
+  </section>;
+}
+
 function Caption({ photo }: { photo: GalleryPhoto }) {
   return <>{photo.species.map(bird => <span className="photo-caption" key={bird.common}>
     <strong>{bird.common}</strong>{bird.scientific && <i>{bird.scientific}</i>}
@@ -68,12 +82,14 @@ export function PhotoGallery({ photos, total }: { photos: GalleryPhoto[]; total:
           <button onClick={() => step(1)} disabled={index === visible.length - 1}>Next →</button>
           <button autoFocus onClick={() => dialog.current?.close()}>Close ×</button></div>
         <img src={active.src} alt={active.species.map(b => b.common).join(", ")} />
-        <Caption photo={active} /><dl>
+        <Caption photo={active} />
+        <CameraDetails details={active.details} />
+        <dl>
           <dt>File</dt><dd><a href={active.src}>{active.filename}</a></dd>
           <dt>Captured</dt><dd>{active.date ?? "Date unavailable"}</dd>
           <dt>Album</dt><dd>{active.album}</dd>
           {active.width && active.height && <><dt>Original dimensions</dt><dd>{active.width} × {active.height} px</dd></>}
-          {Object.entries(active.details).map(([label, value]) => <Fragment key={label}><dt>{label}</dt><dd>{value}</dd></Fragment>)}
+          {Object.entries(active.details).filter(([field]) => field !== "Camera" && !exposureFields.includes(field)).map(([label, value]) => <Fragment key={label}><dt>{label}</dt><dd>{value}</dd></Fragment>)}
         </dl>
       </div>}
     </dialog>
