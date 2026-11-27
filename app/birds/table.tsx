@@ -67,6 +67,7 @@ export function BirdTable({ birds, initial, sightingNames, collection = false }:
       : field === "scientific" ? a.scientific.localeCompare(b.scientific) : a.common.localeCompare(b.common);
     return (direction === "asc" ? by : -by) || a.id.localeCompare(b.id);
   });
+  const unsureCount = reviewed.filter(bird => bird.unsure && !bird.hidden).length;
   const mainRows = rows.filter(bird => !bird.unsure);
   const unsureRows = rows.filter(bird => bird.unsure);
   function renderTable(items: typeof rows, uncertain: boolean) {
@@ -103,7 +104,7 @@ export function BirdTable({ birds, initial, sightingNames, collection = false }:
   }
   if (!birds.length) return <p>No bird photographs have been cataloged yet.</p>;
   return <section className="bird-gallery">
-    <header className="page-header"><h1>{review.title}</h1><p className="bird-species-count"><strong>{species.size + unpictured.length} unique species</strong></p>{unpictured.length > 0 && <p>{species.size} photographed · Seen without a linked photo: {unpictured.join(", ")}</p>}</header>
+    <header className="page-header"><h1>{review.title}</h1><p className="bird-species-count"><strong>{species.size + unpictured.length} unique species</strong></p>{unsureCount > 0 && <p><a href="#unsure">Unsure identifications ({unsureCount}) ↓</a></p>}{unpictured.length > 0 && <p>{species.size} photographed · Seen without a linked photo: {unpictured.join(", ")}</p>}</header>
     {version && <p><button onClick={() => setEditing(!editing)}>{editing ? "Preview edits" : "Edit locally"}</button></p>}
     {editing && <fieldset disabled={busy}>
       <legend>Local gallery review</legend>
@@ -129,9 +130,9 @@ export function BirdTable({ birds, initial, sightingNames, collection = false }:
     </div>
     <p aria-live="polite">{rows.length} matching {rows.length === 1 ? "entry" : "entries"}</p>
     {renderTable(mainRows, false)}
-    {unsureRows.length > 0 && <section><h2>Uncertain identifications</h2>
+    {unsureCount > 0 && <section id="unsure"><h2>Unsure identifications</h2>
       <p>These sightings are excluded from the species total.</p>
-      {renderTable(unsureRows, true)}
+      {unsureRows.length ? renderTable(unsureRows, true) : <p>No unsure identifications match your filters. <button onClick={() => { setQuery(""); setMinimum(""); }}>Clear filters</button></p>}
     </section>}
     <p className="bird-methods">{review.description} Species suggestions by <a href="https://huggingface.co/warden123/BirdTrace-FastViT-MA36-10K">BirdTrace FastViT-MA36-10K</a> (CC BY-NC 4.0), with regional ranking by <a href="https://birdnet.cornell.edu/">BirdNET</a>.</p>
   </section>;
