@@ -23,12 +23,12 @@ def write_species_list(work, birds, edits, paths, confirmed=()):
     entries = []
     for bird in birds:
         edit = edits.get(bird["entry"], {})
-        if edit.get("hidden") or edit.get("unsure"):
+        if edit.get("hidden") or edit.get("unsure", bird.get("unsure")):
             continue
         name = edit.get("common", bird["common"]).strip()
         if "(unconfirmed)" in name.lower() or name.lower() == "unidentified bird":
             continue
-        status = "Reviewed" if edit else "Model suggestion"
+        status = "Reviewed" if edit else bird.get("source", "Model suggestion")
         if name.endswith(" (tentative)"):
             name = name.removesuffix(" (tentative)")
             status = "Tentative"
