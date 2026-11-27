@@ -27,7 +27,7 @@ const unpictured = [...sightingNames].filter(([key]) => key && !photographed.has
 export const speciesCount: SpeciesCount = { total: photographed.size + unpictured.length, photographed: photographed.size, unpictured };
 
 const primaryIds = new Set(Object.keys(mostlyBirdsPhotos));
-const primaryRows = allBirds.filter(bird => primaryIds.has(bird.id));
+const primaryRows = allBirds.filter(bird => primaryIds.has(bird.id) && visibleSpecies(bird));
 const primarySpecies = new Set(primaryRows.map(visibleSpecies));
 
 function preference(bird: Bird) {
