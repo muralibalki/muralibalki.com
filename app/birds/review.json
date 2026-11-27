@@ -410,7 +410,8 @@
       "common": "Long-billed Dowitcher",
       "scientific": "Limnodromus scolopaceus",
       "source": "User confirmed",
-      "hidden": false
+      "hidden": false,
+      "featured": true
     },
     "cff08906e4eb139738815515499cc54c545f76328866f7dd58251e705f6350b5-0": {
       "common": "Marbled Godwit",

@@ -5,7 +5,7 @@ import settings from "./review.json";
 
 import { speciesKey, type Bird } from "./species";
 
-type Edit = {common: string; hidden?: boolean; unsure?: boolean; scientific: string; source?: string};
+type Edit = {featured?: boolean; common: string; hidden?: boolean; unsure?: boolean; scientific: string; source?: string};
 const edits: Record<string, Edit> = settings.edits;
 
 function visibleSpecies(bird: Bird) {
@@ -20,7 +20,7 @@ export const sightingNames = confirmed.filter(row => !row.id).map(row => row.com
 const confirmedIds = new Set(confirmedPhotos.map(row => row.id));
 const additional = [...confirmedPhotos, ...(archive as Bird[]).filter(row => !basePhotos.has(row.id) && !confirmedIds.has(row.id))];
 export const allBirds: Bird[] = [...base, ...additional];
-const featuredPhotos = confirmedPhotos.filter(row => row.featured);
+const featuredPhotos = additional.filter(row => (row.featured || (row.entry && edits[row.entry]?.featured)) && visibleSpecies(row));
 const existing = new Set([...base, ...featuredPhotos].map(visibleSpecies));
 function reviewed(bird: Bird) {
   return Boolean(bird.confirmed || (bird.entry && edits[bird.entry]?.source));
